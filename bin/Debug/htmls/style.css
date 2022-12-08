@@ -1,0 +1,74 @@
+@charset "utf-8";
+/* CSS Document */
+
+.marcogrande {
+	height: 310px;
+	width: 800px;
+	font-family: Calibri, Verdana, Arial, sans-serif;
+	font-size: 14px;
+}
+.marcogrande h1 {
+	font-family: Calibri, Verdana, Arial, sans-serif;
+	font-size: 16px;
+	font-weight:bold;
+	color:#FFF;
+	background-color:#006666;
+	line-height:32px;
+	padding-left: 6px;
+}
+.marcogrande h2 {
+	font-family: Calibri, Verdana, Arial, sans-serif;
+	font-size: 14px;
+	font-weight:bold;
+	color:#006666;
+}
+.submarcoizq {
+	height: 100%;
+	width:40%;
+	float:left;
+	text-align:center;
+	font-family: Calibri, Verdana, Arial, sans-serif;
+}
+.submarcoder{
+	height: 100%;
+	width:60%;
+	margin-top:0px;
+	padding-top:0px;
+	float:right;
+	font-family: Calibri, Verdana, Arial, sans-serif;
+}
+.marcograndeenciclopedia {
+	height: 100%;
+	width: 100%;
+	font-family: Calibri, Verdana, Arial, sans-serif;
+	font-size: 14px;
+}
+.marcograndeenciclopedia h1 {
+	font-family: Calibri, Verdana, Arial, sans-serif;
+	font-size: 16px;
+	font-weight:bold;
+	color:#FFF;
+	background-color:#006666;
+	line-height:32px;
+	padding-left: 6px;
+}
+.marcograndeenciclopedia h2 {
+	font-family: Calibri, Verdana, Arial, sans-serif;
+	font-size: 16px;
+	font-weight:bold;
+	color:#FFF;
+	background-color:#099;
+	line-height:20px;
+	padding-left: 6px;
+}
+.marcograndeenciclopedia h3 {
+	font-family: Calibri, Verdana, Arial, sans-serif;
+	font-size: 14px;
+	font-weight:bold;
+	color:#FFF;
+	background-color:#069;
+	line-height:14px;
+	padding-left: 6px;
+	margin-left:40px;
+	margin-right:140px;
+}

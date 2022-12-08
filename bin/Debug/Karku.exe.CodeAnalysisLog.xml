@@ -1,0 +1,1302 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="c:\program files (x86)\microsoft visual studio 11.0\team tools\static analysis tools\fxcop\Xml\CodeAnalysisReport.xsl"?>
+<FxCopReport Version="11.0">
+ <Targets>
+  <Target Name="C:\Users\algas\Google Drive\Scila7\Scila7\bin\Debug\Karku.exe">
+   <Modules>
+    <Module Name="karku.exe">
+     <Namespaces>
+      <Namespace Name="Scila7">
+       <Types>
+        <Type Name="Actions" Kind="Class" Accessibility="Assembly" ExternallyVisible="False">
+         <Members>
+          <Member Name="#DatosTaxon(System.String,System.String,System.Windows.Forms.DataGridView)" Kind="Method" Static="True" Accessibility="Public" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="Review SQL queries for security vulnerabilities" Category="Microsoft.Security" CheckId="CA2100" Status="Active" Created="2015-07-23 18:48:54Z" FixCategory="DependsOnFix">
+             <Issue Name="WithNonLiterals" Certainty="75" Level="Warning" Path="C:\Users\algas\Google Drive\Scila7\Scila7\scripts" File="Actions.vb" Line="302">The query string passed to 'OleDbDataAdapter.New(String, OleDbConnection)' in 'Actions.DatosTaxon(String, String, DataGridView)' could contain the following variables 'dsCalculos.Tables("TablaCalculos").Rows(i)("Codigo")', 'temparray(0)', 'idtaxon'. If any of these variables could come from user input, consider using a stored procedure or a parameterized SQL query instead of building the query with string concatenations.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#GenerarTextos(System.String,System.String,System.String,System.Windows.Forms.Form,C1.Win.C1TrueDBGrid.C1TrueDBGrid)" Kind="Method" Static="True" Accessibility="Public" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="Review SQL queries for security vulnerabilities" Category="Microsoft.Security" CheckId="CA2100" Status="Active" Created="2015-07-23 18:48:54Z" FixCategory="DependsOnFix">
+             <Issue Name="WithNonLiterals" Certainty="75" Level="Warning" Path="C:\Users\algas\Google Drive\Scila7\Scila7\scripts" File="Actions.vb" Line="30">The query string passed to 'OleDbDataAdapter.New(String, OleDbConnection)' in 'Actions.GenerarTextos(String, String, String, Form, C1TrueDBGrid)' could contain the following variables 'tablaparametros'. If any of these variables could come from user input, consider using a stored procedure or a parameterized SQL query instead of building the query with string concatenations.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="bmps" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#CalcularBMPS(System.String,System.String)" Kind="Method" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="Review SQL queries for security vulnerabilities" Category="Microsoft.Security" CheckId="CA2100" Status="Active" Created="2015-07-23 18:48:54Z" FixCategory="DependsOnFix">
+             <Issue Name="WithNonLiterals" Certainty="75" Level="Warning" Path="C:\Users\algas\Google Drive\Scila7\Scila7\indices" File="bmps.vb" Line="36">The query string passed to 'OleDbDataAdapter.New(String, OleDbConnection)' in 'bmps.CalcularBMPS(String, String)' could contain the following variables 'Conversions.ToString(bmps.idmuestra)'. If any of these variables could come from user input, consider using a stored procedure or a parameterized SQL query instead of building the query with string concatenations.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#GuardarBMPS(System.String,System.String,System.Int32,System.Int32)" Kind="Method" Static="True" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="Review SQL queries for security vulnerabilities" Category="Microsoft.Security" CheckId="CA2100" Status="Active" Created="2015-07-23 18:48:54Z" FixCategory="DependsOnFix">
+             <Issue Name="WithNonLiterals" Certainty="75" Level="Warning" Path="C:\Users\algas\Google Drive\Scila7\Scila7\indices" File="bmps.vb" Line="233">The query string passed to 'OleDbDataAdapter.New(String, OleDbConnection)' in 'bmps.GuardarBMPS(String, String, Integer, Integer)' could contain the following variables 'Conversions.ToString(idmuestra)'. If any of these variables could come from user input, consider using a stored procedure or a parameterized SQL query instead of building the query with string concatenations.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="bmpsDataSet" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="ImplementISerializableCorrectly" Category="Microsoft.Usage" CheckId="CA2240" Status="Active" Created="2015-07-23 18:48:54Z" FixCategory="NonBreaking">
+           <Issue Certainty="60" Level="Error">Add an implementation of GetObjectData to type 'bmpsDataSet'.</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="bmpsDataSet+BMPSDataTable" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="ImplementISerializableCorrectly" Category="Microsoft.Usage" CheckId="CA2240" Status="Active" Created="2015-07-23 18:48:54Z" FixCategory="NonBreaking">
+           <Issue Certainty="60" Level="Error">Add an implementation of GetObjectData to type 'bmpsDataSet.BMPSDataTable'.</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="bmpsDataSet+CaracBMPSDataTable" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="ImplementISerializableCorrectly" Category="Microsoft.Usage" CheckId="CA2240" Status="Active" Created="2015-07-23 18:48:54Z" FixCategory="NonBreaking">
+           <Issue Certainty="60" Level="Error">Add an implementation of GetObjectData to type 'bmpsDataSet.CaracBMPSDataTable'.</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="cauceDataSet" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="ImplementISerializableCorrectly" Category="Microsoft.Usage" CheckId="CA2240" Status="Active" Created="2015-07-23 18:48:54Z" FixCategory="NonBreaking">
+           <Issue Certainty="60" Level="Error">Add an implementation of GetObjectData to type 'cauceDataSet'.</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="cauceDataSet+CaracParametrosDataTable" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="ImplementISerializableCorrectly" Category="Microsoft.Usage" CheckId="CA2240" Status="Active" Created="2015-07-23 18:48:54Z" FixCategory="NonBreaking">
+           <Issue Certainty="60" Level="Error">Add an implementation of GetObjectData to type 'cauceDataSet.CaracParametrosDataTable'.</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="cauceDataSet+ParametrosCauceDataTable" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="ImplementISerializableCorrectly" Category="Microsoft.Usage" CheckId="CA2240" Status="Active" Created="2015-07-23 18:48:54Z" FixCategory="NonBreaking">
+           <Issue Certainty="60" Level="Error">Add an implementation of GetObjectData to type 'cauceDataSet.ParametrosCauceDataTable'.</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="cbr" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#CalcularCBR(System.String,System.String)" Kind="Method" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="Review SQL queries for security vulnerabilities" Category="Microsoft.Security" CheckId="CA2100" Status="Active" Created="2015-07-23 18:48:54Z" FixCategory="DependsOnFix">
+             <Issue Name="WithNonLiterals" Certainty="75" Level="Warning" Path="C:\Users\algas\Google Drive\Scila7\Scila7\indices" File="cbr.vb" Line="27">The query string passed to 'OleDbDataAdapter.New(String, OleDbConnection)' in 'cbr.CalcularCBR(String, String)' could contain the following variables 'idmuestracalcular'. If any of these variables could come from user input, consider using a stored procedure or a parameterized SQL query instead of building the query with string concatenations.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#GuardarCBR(System.String,System.Int32,System.String,System.String)" Kind="Method" Static="True" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="Review SQL queries for security vulnerabilities" Category="Microsoft.Security" CheckId="CA2100" Status="Active" Created="2015-07-23 18:48:54Z" FixCategory="DependsOnFix">
+             <Issue Name="WithNonLiterals" Certainty="75" Level="Warning" Path="C:\Users\algas\Google Drive\Scila7\Scila7\indices" File="cbr.vb" Line="212">The query string passed to 'OleDbDataAdapter.New(String, OleDbConnection)' in 'cbr.GuardarCBR(String, Integer, String, String)' could contain the following variables 'idmuestra'. If any of these variables could come from user input, consider using a stored procedure or a parameterized SQL query instead of building the query with string concatenations.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="cbrDataSet" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="ImplementISerializableCorrectly" Category="Microsoft.Usage" CheckId="CA2240" Status="Active" Created="2015-07-23 18:48:54Z" FixCategory="NonBreaking">
+           <Issue Certainty="60" Level="Error">Add an implementation of GetObjectData to type 'cbrDataSet'.</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="cbrDataSet+CaracCBRDataTable" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="ImplementISerializableCorrectly" Category="Microsoft.Usage" CheckId="CA2240" Status="Active" Created="2015-07-23 18:48:54Z" FixCategory="NonBreaking">
+           <Issue Certainty="60" Level="Error">Add an implementation of GetObjectData to type 'cbrDataSet.CaracCBRDataTable'.</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="cbrDataSet+CBRDataTable" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="ImplementISerializableCorrectly" Category="Microsoft.Usage" CheckId="CA2240" Status="Active" Created="2015-07-23 18:48:54Z" FixCategory="NonBreaking">
+           <Issue Certainty="60" Level="Error">Add an implementation of GetObjectData to type 'cbrDataSet.CBRDataTable'.</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="ClipboardMetafileHelper" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#CloseClipboard()" Kind="Method" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="MovePInvokesToNativeMethodsClass" Category="Microsoft.Design" CheckId="CA1060" Status="Active" Created="2015-07-23 18:48:54Z" FixCategory="Breaking">
+             <Issue Certainty="95" Level="CriticalWarning">Because it is a P/Invoke method, 'ClipboardMetafileHelper.CloseClipboard()' should be defined in a class named NativeMethods, SafeNativeMethods, or UnsafeNativeMethods.</Issue>
+            </Message>
+            <Message TypeName="PInvokesShouldNotBeVisible" Category="Microsoft.Interoperability" CheckId="CA1401" Status="Active" Created="2015-07-23 18:48:54Z" FixCategory="Breaking">
+             <Issue Certainty="50" Level="CriticalError">Change the accessibility of P/Invoke 'ClipboardMetafileHelper.CloseClipboard()' so that it is no longer visible from outside its assembly.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#CopyEnhMetaFile(System.IntPtr,System.IntPtr)" Kind="Method" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="MovePInvokesToNativeMethodsClass" Category="Microsoft.Design" CheckId="CA1060" Status="Active" Created="2015-07-23 18:48:54Z" FixCategory="Breaking">
+             <Issue Certainty="95" Level="CriticalWarning">Because it is a P/Invoke method, 'ClipboardMetafileHelper.CopyEnhMetaFile(IntPtr, IntPtr)' should be defined in a class named NativeMethods, SafeNativeMethods, or UnsafeNativeMethods.</Issue>
+            </Message>
+            <Message TypeName="PInvokesShouldNotBeVisible" Category="Microsoft.Interoperability" CheckId="CA1401" Status="Active" Created="2015-07-23 18:48:54Z" FixCategory="Breaking">
+             <Issue Certainty="50" Level="CriticalError">Change the accessibility of P/Invoke 'ClipboardMetafileHelper.CopyEnhMetaFile(IntPtr, IntPtr)' so that it is no longer visible from outside its assembly.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#DeleteEnhMetaFile(System.IntPtr)" Kind="Method" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="MovePInvokesToNativeMethodsClass" Category="Microsoft.Design" CheckId="CA1060" Status="Active" Created="2015-07-23 18:48:54Z" FixCategory="Breaking">
+             <Issue Certainty="95" Level="CriticalWarning">Because it is a P/Invoke method, 'ClipboardMetafileHelper.DeleteEnhMetaFile(IntPtr)' should be defined in a class named NativeMethods, SafeNativeMethods, or UnsafeNativeMethods.</Issue>
+            </Message>
+            <Message TypeName="PInvokesShouldNotBeVisible" Category="Microsoft.Interoperability" CheckId="CA1401" Status="Active" Created="2015-07-23 18:48:54Z" FixCategory="Breaking">
+             <Issue Certainty="50" Level="CriticalError">Change the accessibility of P/Invoke 'ClipboardMetafileHelper.DeleteEnhMetaFile(IntPtr)' so that it is no longer visible from outside its assembly.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#EmptyClipboard()" Kind="Method" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="MovePInvokesToNativeMethodsClass" Category="Microsoft.Design" CheckId="CA1060" Status="Active" Created="2015-07-23 18:48:54Z" FixCategory="Breaking">
+             <Issue Certainty="95" Level="CriticalWarning">Because it is a P/Invoke method, 'ClipboardMetafileHelper.EmptyClipboard()' should be defined in a class named NativeMethods, SafeNativeMethods, or UnsafeNativeMethods.</Issue>
+            </Message>
+            <Message TypeName="PInvokesShouldNotBeVisible" Category="Microsoft.Interoperability" CheckId="CA1401" Status="Active" Created="2015-07-23 18:48:54Z" FixCategory="Breaking">
+             <Issue Certainty="50" Level="CriticalError">Change the accessibility of P/Invoke 'ClipboardMetafileHelper.EmptyClipboard()' so that it is no longer visible from outside its assembly.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#OpenClipboard(System.IntPtr)" Kind="Method" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="MovePInvokesToNativeMethodsClass" Category="Microsoft.Design" CheckId="CA1060" Status="Active" Created="2015-07-23 18:48:54Z" FixCategory="Breaking">
+             <Issue Certainty="95" Level="CriticalWarning">Because it is a P/Invoke method, 'ClipboardMetafileHelper.OpenClipboard(IntPtr)' should be defined in a class named NativeMethods, SafeNativeMethods, or UnsafeNativeMethods.</Issue>
+            </Message>
+            <Message TypeName="PInvokesShouldNotBeVisible" Category="Microsoft.Interoperability" CheckId="CA1401" Status="Active" Created="2015-07-23 18:48:54Z" FixCategory="Breaking">
+             <Issue Certainty="50" Level="CriticalError">Change the accessibility of P/Invoke 'ClipboardMetafileHelper.OpenClipboard(IntPtr)' so that it is no longer visible from outside its assembly.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#SetClipboardData(System.Int32,System.IntPtr)" Kind="Method" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="MovePInvokesToNativeMethodsClass" Category="Microsoft.Design" CheckId="CA1060" Status="Active" Created="2015-07-23 18:48:54Z" FixCategory="Breaking">
+             <Issue Certainty="95" Level="CriticalWarning">Because it is a P/Invoke method, 'ClipboardMetafileHelper.SetClipboardData(Integer, IntPtr)' should be defined in a class named NativeMethods, SafeNativeMethods, or UnsafeNativeMethods.</Issue>
+            </Message>
+            <Message TypeName="PInvokesShouldNotBeVisible" Category="Microsoft.Interoperability" CheckId="CA1401" Status="Active" Created="2015-07-23 18:48:54Z" FixCategory="Breaking">
+             <Issue Certainty="50" Level="CriticalError">Change the accessibility of P/Invoke 'ClipboardMetafileHelper.SetClipboardData(Integer, IntPtr)' so that it is no longer visible from outside its assembly.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="ConfigDataSet" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="ImplementISerializableCorrectly" Category="Microsoft.Usage" CheckId="CA2240" Status="Active" Created="2015-07-23 18:48:54Z" FixCategory="NonBreaking">
+           <Issue Certainty="60" Level="Error">Add an implementation of GetObjectData to type 'ConfigDataSet'.</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="ConfigDataSet+AdminDataTable" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="ImplementISerializableCorrectly" Category="Microsoft.Usage" CheckId="CA2240" Status="Active" Created="2015-07-23 18:48:54Z" FixCategory="NonBreaking">
+           <Issue Certainty="60" Level="Error">Add an implementation of GetObjectData to type 'ConfigDataSet.AdminDataTable'.</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="ConfigDataSet+CalculosDataTable" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="ImplementISerializableCorrectly" Category="Microsoft.Usage" CheckId="CA2240" Status="Active" Created="2015-07-23 18:48:54Z" FixCategory="NonBreaking">
+           <Issue Certainty="60" Level="Error">Add an implementation of GetObjectData to type 'ConfigDataSet.CalculosDataTable'.</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="ConfigDataSet+ConfigDataTable" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="ImplementISerializableCorrectly" Category="Microsoft.Usage" CheckId="CA2240" Status="Active" Created="2015-07-23 18:48:54Z" FixCategory="NonBreaking">
+           <Issue Certainty="60" Level="Error">Add an implementation of GetObjectData to type 'ConfigDataSet.ConfigDataTable'.</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="ConfigDataSet+ModulosDataTable" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="ImplementISerializableCorrectly" Category="Microsoft.Usage" CheckId="CA2240" Status="Active" Created="2015-07-23 18:48:54Z" FixCategory="NonBreaking">
+           <Issue Certainty="60" Level="Error">Add an implementation of GetObjectData to type 'ConfigDataSet.ModulosDataTable'.</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="ConvertirUnidades" Kind="Class" Accessibility="Assembly" ExternallyVisible="False">
+         <Members>
+          <Member Name="#ConvertirUnidades(System.String,System.String,System.String)" Kind="Method" Static="True" Accessibility="Public" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="Review SQL queries for security vulnerabilities" Category="Microsoft.Security" CheckId="CA2100" Status="Active" Created="2015-07-23 18:48:54Z" FixCategory="DependsOnFix">
+             <Issue Name="WithNonLiterals" Certainty="75" Level="Warning" Path="C:\Users\algas\Google Drive\Scila7\Scila7\scripts" File="ConvertirUnidades.vb" Line="15">The query string passed to 'OleDbDataAdapter.New(String, OleDbConnection)' in 'ConvertirUnidades.ConvertirUnidades(String, String, String)' could contain the following variables 'tabladatos'. If any of these variables could come from user input, consider using a stored procedure or a parameterized SQL query instead of building the query with string concatenations.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="densidad" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#CalcularDENSIDAD(System.String,System.String,System.String)" Kind="Method" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="Do not dispose objects multiple times" Category="Microsoft.Usage" CheckId="CA2202" Status="Active" Created="2015-07-23 18:48:54Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="C:\Users\algas\Google Drive\Scila7\Scila7\indices" File="densidad.vb" Line="25">Object 'Taxonescon' can be disposed more than once in method 'densidad.CalcularDENSIDAD(String, String, String)'. To avoid generating a System.ObjectDisposedException you should not call Dispose more than one time on an object.: Lines: 25, 133</Issue>
+            </Message>
+            <Message TypeName="Review SQL queries for security vulnerabilities" Category="Microsoft.Security" CheckId="CA2100" Status="Active" Created="2015-07-23 18:48:54Z" FixCategory="DependsOnFix">
+             <Issue Name="WithNonLiterals" Certainty="75" Level="Warning" Path="C:\Users\algas\Google Drive\Scila7\Scila7\indices" File="densidad.vb" Line="21">The query string passed to 'OleDbDataAdapter.New(String, OleDbConnection)' in 'densidad.CalcularDENSIDAD(String, String, String)' could contain the following variables 'variablename', 'densidad.idmuestra'. If any of these variables could come from user input, consider using a stored procedure or a parameterized SQL query instead of building the query with string concatenations.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#GuardarDensidad(System.String,System.Int32,System.String,System.String,System.String)" Kind="Method" Static="True" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="Do not dispose objects multiple times" Category="Microsoft.Usage" CheckId="CA2202" Status="Active" Created="2015-07-23 18:48:54Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="C:\Users\algas\Google Drive\Scila7\Scila7\indices" File="densidad.vb" Line="168">Object 'Densidadcon' can be disposed more than once in method 'densidad.GuardarDensidad(String, Integer, String, String, String)'. To avoid generating a System.ObjectDisposedException you should not call Dispose more than one time on an object.: Lines: 168, 180, 195</Issue>
+            </Message>
+            <Message TypeName="Review SQL queries for security vulnerabilities" Category="Microsoft.Security" CheckId="CA2100" Status="Active" Created="2015-07-23 18:48:54Z" FixCategory="DependsOnFix">
+             <Issue Name="WithNonLiterals" Certainty="75" Level="Warning" Path="C:\Users\algas\Google Drive\Scila7\Scila7\indices" File="densidad.vb" Line="152">The query string passed to 'OleDbDataAdapter.New(String, OleDbConnection)' in 'densidad.GuardarDensidad(String, Integer, String, String, String)' could contain the following variables 'idmuestra'. If any of these variables could come from user input, consider using a stored procedure or a parameterized SQL query instead of building the query with string concatenations.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="densidadDataSet" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="ImplementISerializableCorrectly" Category="Microsoft.Usage" CheckId="CA2240" Status="Active" Created="2015-07-23 18:48:54Z" FixCategory="NonBreaking">
+           <Issue Certainty="60" Level="Error">Add an implementation of GetObjectData to type 'densidadDataSet'.</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="densidadDataSet+CaracDensidadDataTable" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="ImplementISerializableCorrectly" Category="Microsoft.Usage" CheckId="CA2240" Status="Active" Created="2015-07-23 18:48:54Z" FixCategory="NonBreaking">
+           <Issue Certainty="60" Level="Error">Add an implementation of GetObjectData to type 'densidadDataSet.CaracDensidadDataTable'.</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="densidadDataSet+DensidadDataTable" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="ImplementISerializableCorrectly" Category="Microsoft.Usage" CheckId="CA2240" Status="Active" Created="2015-07-23 18:48:54Z" FixCategory="NonBreaking">
+           <Issue Certainty="60" Level="Error">Add an implementation of GetObjectData to type 'densidadDataSet.DensidadDataTable'.</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="diatomeasDataSet" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="ImplementISerializableCorrectly" Category="Microsoft.Usage" CheckId="CA2240" Status="Active" Created="2015-07-23 18:48:54Z" FixCategory="NonBreaking">
+           <Issue Certainty="60" Level="Error">Add an implementation of GetObjectData to type 'diatomeasDataSet'.</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="diatomeasDataSet+TaxonesDataTable" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="ImplementISerializableCorrectly" Category="Microsoft.Usage" CheckId="CA2240" Status="Active" Created="2015-07-23 18:48:54Z" FixCategory="NonBreaking">
+           <Issue Certainty="60" Level="Error">Add an implementation of GetObjectData to type 'diatomeasDataSet.TaxonesDataTable'.</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="eutrofizacion_diatomeas" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#CalcularEUTROFIZACIONDIATS(System.String,System.String)" Kind="Method" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="Review SQL queries for security vulnerabilities" Category="Microsoft.Security" CheckId="CA2100" Status="Active" Created="2015-07-23 18:48:54Z" FixCategory="DependsOnFix">
+             <Issue Name="WithNonLiterals" Certainty="75" Level="Warning" Path="C:\Users\algas\Google Drive\Scila7\Scila7\indices" File="eutrofizacion_diatomeas.vb" Line="32">The query string passed to 'OleDbDataAdapter.New(String, OleDbConnection)' in 'eutrofizacion_diatomeas.CalcularEUTROFIZACIONDIATS(String, String)' could contain the following variables 'Conversions.ToString(eutrofizacion_diatomeas.idmuestra)'. If any of these variables could come from user input, consider using a stored procedure or a parameterized SQL query instead of building the query with string concatenations.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#GuardarEUTROFIZACIONDIATS(System.String,System.String,System.Int32,System.Int32)" Kind="Method" Static="True" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="Review SQL queries for security vulnerabilities" Category="Microsoft.Security" CheckId="CA2100" Status="Active" Created="2015-07-23 18:48:54Z" FixCategory="DependsOnFix">
+             <Issue Name="WithNonLiterals" Certainty="75" Level="Warning" Path="C:\Users\algas\Google Drive\Scila7\Scila7\indices" File="eutrofizacion_diatomeas.vb" Line="252">The query string passed to 'OleDbDataAdapter.New(String, OleDbConnection)' in 'eutrofizacion_diatomeas.GuardarEUTROFIZACIONDIATS(String, String, Integer, Integer)' could contain the following variables 'Conversions.ToString(idmuestra)'. If any of these variables could come from user input, consider using a stored procedure or a parameterized SQL query instead of building the query with string concatenations.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="eutrofizaciondiatsDataSet" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="ImplementISerializableCorrectly" Category="Microsoft.Usage" CheckId="CA2240" Status="Active" Created="2015-07-23 18:48:54Z" FixCategory="NonBreaking">
+           <Issue Certainty="60" Level="Error">Add an implementation of GetObjectData to type 'eutrofizaciondiatsDataSet'.</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="eutrofizaciondiatsDataSet+CaracEUTROFIZACIONDataTable" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="ImplementISerializableCorrectly" Category="Microsoft.Usage" CheckId="CA2240" Status="Active" Created="2015-07-23 18:48:54Z" FixCategory="NonBreaking">
+           <Issue Certainty="60" Level="Error">Add an implementation of GetObjectData to type 'eutrofizaciondiatsDataSet.CaracEUTROFIZACIONDataTable'.</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="eutrofizaciondiatsDataSet+EUTROFIZACIONDataTable" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="ImplementISerializableCorrectly" Category="Microsoft.Usage" CheckId="CA2240" Status="Active" Created="2015-07-23 18:48:54Z" FixCategory="NonBreaking">
+           <Issue Certainty="60" Level="Error">Add an implementation of GetObjectData to type 'eutrofizaciondiatsDataSet.EUTROFIZACIONDataTable'.</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="fqDataSet" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="ImplementISerializableCorrectly" Category="Microsoft.Usage" CheckId="CA2240" Status="Active" Created="2015-07-23 18:48:54Z" FixCategory="NonBreaking">
+           <Issue Certainty="60" Level="Error">Add an implementation of GetObjectData to type 'fqDataSet'.</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="fqDataSet+CaracParametrosDataTable" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="ImplementISerializableCorrectly" Category="Microsoft.Usage" CheckId="CA2240" Status="Active" Created="2015-07-23 18:48:54Z" FixCategory="NonBreaking">
+           <Issue Certainty="60" Level="Error">Add an implementation of GetObjectData to type 'fqDataSet.CaracParametrosDataTable'.</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="fqDataSet+ParametrosFQDataTable" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="ImplementISerializableCorrectly" Category="Microsoft.Usage" CheckId="CA2240" Status="Active" Created="2015-07-23 18:48:54Z" FixCategory="NonBreaking">
+           <Issue Certainty="60" Level="Error">Add an implementation of GetObjectData to type 'fqDataSet.ParametrosFQDataTable'.</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="frmAPampeano" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#btnBorrarMuestra_Click(System.Object,System.EventArgs)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="Review SQL queries for security vulnerabilities" Category="Microsoft.Security" CheckId="CA2100" Status="Active" Created="2015-07-23 18:48:54Z" FixCategory="DependsOnFix">
+             <Issue Name="WithNonLiterals" Certainty="75" Level="Warning" Path="C:\Users\algas\Google Drive\Scila7\Scila7\Unused forms" File="frmAPampeano.vb" Line="565">The query string passed to 'OleDbDataAdapter.New(String, OleDbConnection)' in 'frmAPampeano.btnBorrarMuestra_Click(Object, EventArgs)' could contain the following variables 'Conversions.ToString(idmuestraborrar)'. If any of these variables could come from user input, consider using a stored procedure or a parameterized SQL query instead of building the query with string concatenations.</Issue>
+             <Issue Name="WithNonLiterals" Certainty="75" Level="Warning" Path="C:\Users\algas\Google Drive\Scila7\Scila7\Unused forms" File="frmAPampeano.vb" Line="585">The query string passed to 'OleDbDataAdapter.New(String, OleDbConnection)' in 'frmAPampeano.btnBorrarMuestra_Click(Object, EventArgs)' could contain the following variables 'Conversions.ToString(idmuestraborrar)'. If any of these variables could come from user input, consider using a stored procedure or a parameterized SQL query instead of building the query with string concatenations.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#cargarComunidades(System.Int32)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="Review SQL queries for security vulnerabilities" Category="Microsoft.Security" CheckId="CA2100" Status="Active" Created="2015-07-23 18:48:54Z" FixCategory="DependsOnFix">
+             <Issue Name="WithNonLiterals" Certainty="75" Level="Warning" Path="C:\Users\algas\Google Drive\Scila7\Scila7\Unused forms" File="frmAPampeano.vb" Line="258">The query string passed to 'OleDbDataAdapter.New(String, OleDbConnection)' in 'frmAPampeano.cargarComunidades(Integer)' could contain the following variables 'Conversions.ToString(idmuestra)'. If any of these variables could come from user input, consider using a stored procedure or a parameterized SQL query instead of building the query with string concatenations.</Issue>
+             <Issue Name="WithNonLiterals" Certainty="75" Level="Warning" Path="C:\Users\algas\Google Drive\Scila7\Scila7\Unused forms" File="frmAPampeano.vb" Line="282">The query string passed to 'OleDbDataAdapter.New(String, OleDbConnection)' in 'frmAPampeano.cargarComunidades(Integer)' could contain the following variables 'Conversions.ToString(idmuestra)'. If any of these variables could come from user input, consider using a stored procedure or a parameterized SQL query instead of building the query with string concatenations.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="frmConversor" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#btnGuardar_Click(System.Object,System.EventArgs)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="Review SQL queries for security vulnerabilities" Category="Microsoft.Security" CheckId="CA2100" Status="Active" Created="2015-07-23 18:48:54Z" FixCategory="DependsOnFix">
+             <Issue Name="WithNonLiterals" Certainty="75" Level="Warning" Path="C:\Users\algas\Google Drive\Scila7\Scila7" File="frmConversor.vb" Line="284">The query string passed to 'OleDbDataAdapter.New(String, OleDbConnection)' in 'frmConversor.btnGuardar_Click(Object, EventArgs)' could contain the following variables '"SELECT * FROM " &amp; tablaname &amp; " WHERE IdMuestra='" &amp; idmuestractual &amp; "'"'. If any of these variables could come from user input, consider using a stored procedure or a parameterized SQL query instead of building the query with string concatenations.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#cargarVariablesCombo(System.String,System.String,System.Windows.Forms.ComboBox)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="Review SQL queries for security vulnerabilities" Category="Microsoft.Security" CheckId="CA2100" Status="Active" Created="2015-07-23 18:48:54Z" FixCategory="DependsOnFix">
+             <Issue Name="WithNonLiterals" Certainty="75" Level="Warning" Path="C:\Users\algas\Google Drive\Scila7\Scila7" File="frmConversor.vb" Line="113">The query string passed to 'OleDbDataAdapter.New(String, OleDbConnection)' in 'frmConversor.cargarVariablesCombo(String, String, ComboBox)' could contain the following variables 'tablaname'. If any of these variables could come from user input, consider using a stored procedure or a parameterized SQL query instead of building the query with string concatenations.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#cmbVariable_SelectedIndexChanged(System.Object,System.EventArgs)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="Review SQL queries for security vulnerabilities" Category="Microsoft.Security" CheckId="CA2100" Status="Active" Created="2015-07-23 18:48:54Z" FixCategory="DependsOnFix">
+             <Issue Name="WithNonLiterals" Certainty="75" Level="Warning" Path="C:\Users\algas\Google Drive\Scila7\Scila7" File="frmConversor.vb" Line="250">The query string passed to 'OleDbDataAdapter.New(String, OleDbConnection)' in 'frmConversor.cmbVariable_SelectedIndexChanged(Object, EventArgs)' could contain the following variables '"SELECT * FROM " &amp; tablaname &amp; " WHERE IdMuestra='" &amp; idmuestractual &amp; "'"'. If any of these variables could come from user input, consider using a stored procedure or a parameterized SQL query instead of building the query with string concatenations.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="frmDatosSimple" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#btnCargaAvanzada_Click(System.Object,System.EventArgs)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="Review SQL queries for security vulnerabilities" Category="Microsoft.Security" CheckId="CA2100" Status="Active" Created="2015-07-23 18:48:54Z" FixCategory="DependsOnFix">
+             <Issue Name="WithNonLiterals" Certainty="75" Level="Warning" Path="C:\Users\algas\Google Drive\Scila7\Scila7" File="frmDatosSimple.vb" Line="315">The query string passed to 'OleDbDataAdapter.New(String, OleDbConnection)' in 'frmDatosSimple.btnCargaAvanzada_Click(Object, EventArgs)' could contain the following variables 'Me.sql'. If any of these variables could come from user input, consider using a stored procedure or a parameterized SQL query instead of building the query with string concatenations.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#btnGuardarAvanzado_Click(System.Object,System.EventArgs)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="Review SQL queries for security vulnerabilities" Category="Microsoft.Security" CheckId="CA2100" Status="Active" Created="2015-07-23 18:48:54Z" FixCategory="DependsOnFix">
+             <Issue Name="WithNonLiterals" Certainty="75" Level="Warning" Path="C:\Users\algas\Google Drive\Scila7\Scila7" File="frmDatosSimple.vb" Line="478">The query string passed to 'OleDbDataAdapter.New(String, OleDbConnection)' in 'frmDatosSimple.btnGuardarAvanzado_Click(Object, EventArgs)' could contain the following variables 'Me.sql'. If any of these variables could come from user input, consider using a stored procedure or a parameterized SQL query instead of building the query with string concatenations.</Issue>
+             <Issue Name="WithNonLiterals" Certainty="75" Level="Warning" Path="C:\Users\algas\Google Drive\Scila7\Scila7" File="frmDatosSimple.vb" Line="451">The query string passed to 'OleDbDataAdapter.New(String, OleDbConnection)' in 'frmDatosSimple.btnGuardarAvanzado_Click(Object, EventArgs)' could contain the following variables 'Me.tablaname', 'Me.idmuestra'. If any of these variables could come from user input, consider using a stored procedure or a parameterized SQL query instead of building the query with string concatenations.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#cargarDatos()" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="Review SQL queries for security vulnerabilities" Category="Microsoft.Security" CheckId="CA2100" Status="Active" Created="2015-07-23 18:48:54Z" FixCategory="DependsOnFix">
+             <Issue Name="WithNonLiterals" Certainty="75" Level="Warning" Path="C:\Users\algas\Google Drive\Scila7\Scila7" File="frmDatosSimple.vb" Line="60">The query string passed to 'OleDbDataAdapter.New(String, OleDbConnection)' in 'frmDatosSimple.cargarDatos()' could contain the following variables 'Me.sql'. If any of these variables could come from user input, consider using a stored procedure or a parameterized SQL query instead of building the query with string concatenations.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#GuardarDatos(System.String)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="Review SQL queries for security vulnerabilities" Category="Microsoft.Security" CheckId="CA2100" Status="Active" Created="2015-07-23 18:48:54Z" FixCategory="DependsOnFix">
+             <Issue Name="WithNonLiterals" Certainty="75" Level="Warning" Path="C:\Users\algas\Google Drive\Scila7\Scila7" File="frmDatosSimple.vb" Line="216">The query string passed to 'OleDbDataAdapter.New(String, OleDbConnection)' in 'frmDatosSimple.GuardarDatos(String)' could contain the following variables 'Me.tablaname', 'idmuestra'. If any of these variables could come from user input, consider using a stored procedure or a parameterized SQL query instead of building the query with string concatenations.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="frmDatosTaxones" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#CargaMuestra()" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="Review SQL queries for security vulnerabilities" Category="Microsoft.Security" CheckId="CA2100" Status="Active" Created="2015-07-23 18:48:54Z" FixCategory="DependsOnFix">
+             <Issue Name="WithNonLiterals" Certainty="75" Level="Warning" Path="C:\Users\algas\Google Drive\Scila7\Scila7" File="frmDatosTaxones.vb" Line="120">The query string passed to 'OleDbDataAdapter.New(String, OleDbConnection)' in 'frmDatosTaxones.CargaMuestra()' could contain the following variables 'Me.tablataxones', 'Me.idmuestra'. If any of these variables could come from user input, consider using a stored procedure or a parameterized SQL query instead of building the query with string concatenations.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="frmDBDiatomeas" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#cmbIndice_SelectedIndexChanged(System.Object,System.EventArgs)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="Review SQL queries for security vulnerabilities" Category="Microsoft.Security" CheckId="CA2100" Status="Active" Created="2015-07-23 18:48:54Z" FixCategory="DependsOnFix">
+             <Issue Name="WithNonLiterals" Certainty="75" Level="Warning" Path="C:\Users\algas\Google Drive\Scila7\Scila7\Unused forms" File="frmDBDiatomeas.vb" Line="67">The query string passed to 'OleDbDataAdapter.New(String, OleDbConnection)' in 'frmDBDiatomeas.cmbIndice_SelectedIndexChanged(Object, EventArgs)' could contain the following variables 'Me.cmbIndice.SelectedValue', 'idcurrenttaxon'. If any of these variables could come from user input, consider using a stored procedure or a parameterized SQL query instead of building the query with string concatenations.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="frmDBIndices" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#btnAbrir_Click(System.Object,System.EventArgs)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="Review SQL queries for security vulnerabilities" Category="Microsoft.Security" CheckId="CA2100" Status="Active" Created="2015-07-23 18:48:54Z" FixCategory="DependsOnFix">
+             <Issue Name="WithNonLiterals" Certainty="75" Level="Warning" Path="C:\Users\algas\Google Drive\Scila7\Scila7\DBEdit" File="frmDBIndices.vb" Line="60">The query string passed to 'OleDbDataAdapter.New(String, OleDbConnection)' in 'frmDBIndices.btnAbrir_Click(Object, EventArgs)' could contain the following variables 'Me.cmFuente.SelectedValue'. If any of these variables could come from user input, consider using a stored procedure or a parameterized SQL query instead of building the query with string concatenations.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="frmDBParametros" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#btnAbrir_Click(System.Object,System.EventArgs)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="Review SQL queries for security vulnerabilities" Category="Microsoft.Security" CheckId="CA2100" Status="Active" Created="2015-07-23 18:48:54Z" FixCategory="DependsOnFix">
+             <Issue Name="WithNonLiterals" Certainty="75" Level="Warning" Path="C:\Users\algas\Google Drive\Scila7\Scila7\DBEdit" File="frmDBParametros.vb" Line="47">The query string passed to 'OleDbDataAdapter.New(String, OleDbConnection)' in 'frmDBParametros.btnAbrir_Click(Object, EventArgs)' could contain the following variables 'tablename'. If any of these variables could come from user input, consider using a stored procedure or a parameterized SQL query instead of building the query with string concatenations.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="frmDiatomeas" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#frmDiatomeas_Load(System.Object,System.EventArgs)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="Review SQL queries for security vulnerabilities" Category="Microsoft.Security" CheckId="CA2100" Status="Active" Created="2015-07-23 18:48:54Z" FixCategory="DependsOnFix">
+             <Issue Name="WithNonLiterals" Certainty="75" Level="Warning" Path="C:\Users\algas\Google Drive\Scila7\Scila7\Unused forms" File="frmDiatomeas.vb" Line="36">The query string passed to 'OleDbDataAdapter.New(String, OleDbConnection)' in 'frmDiatomeas.frmDiatomeas_Load(Object, EventArgs)' could contain the following variables 'Conversions.ToString(Me.idmuestra)'. If any of these variables could come from user input, consider using a stored procedure or a parameterized SQL query instead of building the query with string concatenations.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#GuardarMuestra()" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="Review SQL queries for security vulnerabilities" Category="Microsoft.Security" CheckId="CA2100" Status="Active" Created="2015-07-23 18:48:54Z" FixCategory="DependsOnFix">
+             <Issue Name="WithNonLiterals" Certainty="75" Level="Warning" Path="C:\Users\algas\Google Drive\Scila7\Scila7\Unused forms" File="frmDiatomeas.vb" Line="236">The query string passed to 'OleDbDataAdapter.New(String, OleDbConnection)' in 'frmDiatomeas.GuardarMuestra()' could contain the following variables 'Conversions.ToString(Me.idmuestra)'. If any of these variables could come from user input, consider using a stored procedure or a parameterized SQL query instead of building the query with string concatenations.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="frmExport" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#CargarDatosSimples(System.Windows.Forms.DataGridView,System.String,System.String,System.String,System.String)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="Review SQL queries for security vulnerabilities" Category="Microsoft.Security" CheckId="CA2100" Status="Active" Created="2015-07-23 18:48:54Z" FixCategory="DependsOnFix">
+             <Issue Name="WithNonLiterals" Certainty="75" Level="Warning" Path="C:\Users\algas\Google Drive\Scila7\Scila7" File="frmExport.vb" Line="380">The query string passed to 'OleDbDataAdapter.New(String, OleDbConnection)' in 'frmExport.CargarDatosSimples(DataGridView, String, String, String, String)' could contain the following variables 'nombretablaenDB', 'Conversions.ToString(Me.idproyecto)'. If any of these variables could come from user input, consider using a stored procedure or a parameterized SQL query instead of building the query with string concatenations.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#CargarIndice(System.Windows.Forms.DataGridView,System.String,System.String,System.String,System.String,System.String)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="Review SQL queries for security vulnerabilities" Category="Microsoft.Security" CheckId="CA2100" Status="Active" Created="2015-07-23 18:48:54Z" FixCategory="DependsOnFix">
+             <Issue Name="WithNonLiterals" Certainty="75" Level="Warning" Path="C:\Users\algas\Google Drive\Scila7\Scila7" File="frmExport.vb" Line="320">The query string passed to 'OleDbDataAdapter.New(String, OleDbConnection)' in 'frmExport.CargarIndice(DataGridView, String, String, String, String, String)' could contain the following variables 'nombretablaenDB', 'Conversions.ToString(Me.idproyecto)'. If any of these variables could come from user input, consider using a stored procedure or a parameterized SQL query instead of building the query with string concatenations.</Issue>
+             <Issue Name="WithNonLiterals" Certainty="75" Level="Warning" Path="C:\Users\algas\Google Drive\Scila7\Scila7" File="frmExport.vb" Line="343">The query string passed to 'OleDbDataAdapter.New(String, OleDbConnection)' in 'frmExport.CargarIndice(DataGridView, String, String, String, String, String)' could contain the following variables 'nombretablaenDB', 'Conversions.ToString(Me.idproyecto)'. If any of these variables could come from user input, consider using a stored procedure or a parameterized SQL query instead of building the query with string concatenations.</Issue>
+             <Issue Name="WithNonLiterals" Certainty="75" Level="Warning" Path="C:\Users\algas\Google Drive\Scila7\Scila7" File="frmExport.vb" Line="300">The query string passed to 'OleDbDataAdapter.New(String, OleDbConnection)' in 'frmExport.CargarIndice(DataGridView, String, String, String, String, String)' could contain the following variables 'pathDB'. If any of these variables could come from user input, consider using a stored procedure or a parameterized SQL query instead of building the query with string concatenations.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#CargarModulo(System.String,System.Windows.Forms.DataGridView)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="Review SQL queries for security vulnerabilities" Category="Microsoft.Security" CheckId="CA2100" Status="Active" Created="2015-07-23 18:48:54Z" FixCategory="DependsOnFix">
+             <Issue Name="WithNonLiterals" Certainty="75" Level="Warning" Path="C:\Users\algas\Google Drive\Scila7\Scila7" File="frmExport.vb" Line="151">The query string passed to 'OleDbDataAdapter.New(String, OleDbConnection)' in 'frmExport.CargarModulo(String, DataGridView)' could contain the following variables 'nombremodulo'. If any of these variables could come from user input, consider using a stored procedure or a parameterized SQL query instead of building the query with string concatenations.</Issue>
+             <Issue Name="WithNonLiterals" Certainty="75" Level="Warning" Path="C:\Users\algas\Google Drive\Scila7\Scila7" File="frmExport.vb" Line="163">The query string passed to 'OleDbDataAdapter.New(String, OleDbConnection)' in 'frmExport.CargarModulo(String, DataGridView)' could contain the following variables 'nombremodulo'. If any of these variables could come from user input, consider using a stored procedure or a parameterized SQL query instead of building the query with string concatenations.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#CargarMuestras(System.Windows.Forms.DataGridView)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="Review SQL queries for security vulnerabilities" Category="Microsoft.Security" CheckId="CA2100" Status="Active" Created="2015-07-23 18:48:54Z" FixCategory="DependsOnFix">
+             <Issue Name="WithNonLiterals" Certainty="75" Level="Warning" Path="C:\Users\algas\Google Drive\Scila7\Scila7" File="frmExport.vb" Line="231">The query string passed to 'OleDbDataAdapter.New(String, OleDbConnection)' in 'frmExport.CargarMuestras(DataGridView)' could contain the following variables 'Conversions.ToString(Me.idproyecto)'. If any of these variables could come from user input, consider using a stored procedure or a parameterized SQL query instead of building the query with string concatenations.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#CargarTaxones(System.Windows.Forms.DataGridView,System.String,System.String)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="Review SQL queries for security vulnerabilities" Category="Microsoft.Security" CheckId="CA2100" Status="Active" Created="2015-07-23 18:48:54Z" FixCategory="DependsOnFix">
+             <Issue Name="WithNonLiterals" Certainty="75" Level="Warning" Path="C:\Users\algas\Google Drive\Scila7\Scila7" File="frmExport.vb" Line="487">The query string passed to 'OleDbDataAdapter.New(String, OleDbConnection)' in 'frmExport.CargarTaxones(DataGridView, String, String)' could contain the following variables 'tablaenDBNombre', 'datagridview(0, i).Value'. If any of these variables could come from user input, consider using a stored procedure or a parameterized SQL query instead of building the query with string concatenations.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="frmImportar" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#cargarColumnasComunidades(System.String,System.String,System.Windows.Forms.DataGridView)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="Do not dispose objects multiple times" Category="Microsoft.Usage" CheckId="CA2202" Status="Active" Created="2015-07-23 18:48:54Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="C:\Users\algas\Google Drive\Scila7\Scila7" File="frmImportar.vb" Line="89">Object 'conTaxones' can be disposed more than once in method 'frmImportar.cargarColumnasComunidades(String, String, DataGridView)'. To avoid generating a System.ObjectDisposedException you should not call Dispose more than one time on an object.: Lines: 89</Issue>
+            </Message>
+            <Message TypeName="Review SQL queries for security vulnerabilities" Category="Microsoft.Security" CheckId="CA2100" Status="Active" Created="2015-07-23 18:48:54Z" FixCategory="DependsOnFix">
+             <Issue Name="WithNonLiterals" Certainty="75" Level="Warning" Path="C:\Users\algas\Google Drive\Scila7\Scila7" File="frmImportar.vb" Line="78">The query string passed to 'OleDbDataAdapter.New(String, OleDbConnection)' in 'frmImportar.cargarColumnasComunidades(String, String, DataGridView)' could contain the following variables 'tabladatos'. If any of these variables could come from user input, consider using a stored procedure or a parameterized SQL query instead of building the query with string concatenations.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#cargarColumnasDatosSimples(System.String,System.String,System.Windows.Forms.DataGridView)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="Do not dispose objects multiple times" Category="Microsoft.Usage" CheckId="CA2202" Status="Active" Created="2015-07-23 18:48:54Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="C:\Users\algas\Google Drive\Scila7\Scila7" File="frmImportar.vb" Line="66">Object 'con' can be disposed more than once in method 'frmImportar.cargarColumnasDatosSimples(String, String, DataGridView)'. To avoid generating a System.ObjectDisposedException you should not call Dispose more than one time on an object.: Lines: 66</Issue>
+            </Message>
+            <Message TypeName="Review SQL queries for security vulnerabilities" Category="Microsoft.Security" CheckId="CA2100" Status="Active" Created="2015-07-23 18:48:54Z" FixCategory="DependsOnFix">
+             <Issue Name="WithNonLiterals" Certainty="75" Level="Warning" Path="C:\Users\algas\Google Drive\Scila7\Scila7" File="frmImportar.vb" Line="54">The query string passed to 'OleDbDataAdapter.New(String, OleDbConnection)' in 'frmImportar.cargarColumnasDatosSimples(String, String, DataGridView)' could contain the following variables 'tabladatos'. If any of these variables could come from user input, consider using a stored procedure or a parameterized SQL query instead of building the query with string concatenations.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#CheckDatosExistentes()" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="Review SQL queries for security vulnerabilities" Category="Microsoft.Security" CheckId="CA2100" Status="Active" Created="2015-07-23 18:48:54Z" FixCategory="DependsOnFix">
+             <Issue Name="WithNonLiterals" Certainty="75" Level="Warning" Path="C:\Users\algas\Google Drive\Scila7\Scila7" File="frmImportar.vb" Line="444">The query string passed to 'OleDbDataAdapter.New(String, OleDbConnection)' in 'frmImportar.CheckDatosExistentes()' could contain the following variables 'Me.codigomodulo', 'New String(5)(3)'. If any of these variables could come from user input, consider using a stored procedure or a parameterized SQL query instead of building the query with string concatenations.</Issue>
+             <Issue Name="WithNonLiterals" Certainty="75" Level="Warning" Path="C:\Users\algas\Google Drive\Scila7\Scila7" File="frmImportar.vb" Line="475">The query string passed to 'OleDbDataAdapter.New(String, OleDbConnection)' in 'frmImportar.CheckDatosExistentes()' could contain the following variables 'Me.codigomodulo', 'New String(5)(3)'. If any of these variables could come from user input, consider using a stored procedure or a parameterized SQL query instead of building the query with string concatenations.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#TraducirResultados()" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="Do not dispose objects multiple times" Category="Microsoft.Usage" CheckId="CA2202" Status="Active" Created="2015-07-23 18:48:54Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="C:\Users\algas\Google Drive\Scila7\Scila7" File="frmImportar.vb" Line="680">Object 'con' can be disposed more than once in method 'frmImportar.TraducirResultados()'. To avoid generating a System.ObjectDisposedException you should not call Dispose more than one time on an object.: Lines: 680</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="frmMacroinvertebrados" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#CargaMuestra()" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="Review SQL queries for security vulnerabilities" Category="Microsoft.Security" CheckId="CA2100" Status="Active" Created="2015-07-23 18:48:54Z" FixCategory="DependsOnFix">
+             <Issue Name="WithNonLiterals" Certainty="75" Level="Warning" Path="C:\Users\algas\Google Drive\Scila7\Scila7\Unused forms" File="frmMacroinvertebrados.vb" Line="74">The query string passed to 'OleDbDataAdapter.New(String, OleDbConnection)' in 'frmMacroinvertebrados.CargaMuestra()' could contain the following variables 'Conversions.ToString(Me.idmuestra)'. If any of these variables could come from user input, consider using a stored procedure or a parameterized SQL query instead of building the query with string concatenations.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#GuardarMuestra()" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="Review SQL queries for security vulnerabilities" Category="Microsoft.Security" CheckId="CA2100" Status="Active" Created="2015-07-23 18:48:54Z" FixCategory="DependsOnFix">
+             <Issue Name="WithNonLiterals" Certainty="75" Level="Warning" Path="C:\Users\algas\Google Drive\Scila7\Scila7\Unused forms" File="frmMacroinvertebrados.vb" Line="238">The query string passed to 'OleDbDataAdapter.New(String, OleDbConnection)' in 'frmMacroinvertebrados.GuardarMuestra()' could contain the following variables 'Conversions.ToString(Me.idmuestra)'. If any of these variables could come from user input, consider using a stored procedure or a parameterized SQL query instead of building the query with string concatenations.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="frmPrincipal" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#borrarProyecto(System.Boolean)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="Review SQL queries for security vulnerabilities" Category="Microsoft.Security" CheckId="CA2100" Status="Active" Created="2015-07-23 18:48:54Z" FixCategory="DependsOnFix">
+             <Issue Name="WithNonLiterals" Certainty="75" Level="Warning" Path="C:\Users\algas\Google Drive\Scila7\Scila7" File="frmPrincipal.vb" Line="463">The query string passed to 'OleDbDataAdapter.New(String, OleDbConnection)' in 'frmPrincipal.borrarProyecto(Boolean)' could contain the following variables 'Me.idproyectoselected'. If any of these variables could come from user input, consider using a stored procedure or a parameterized SQL query instead of building the query with string concatenations.</Issue>
+             <Issue Name="WithNonLiterals" Certainty="75" Level="Warning" Path="C:\Users\algas\Google Drive\Scila7\Scila7" File="frmPrincipal.vb" Line="412">The query string passed to 'OleDbDataAdapter.New(String, OleDbConnection)' in 'frmPrincipal.borrarProyecto(Boolean)' could contain the following variables 'Strings.StrConv(modulocodigo, VbStrConv.ProperCase, 0)', 'Me.idproyectoselected'. If any of these variables could come from user input, consider using a stored procedure or a parameterized SQL query instead of building the query with string concatenations.</Issue>
+             <Issue Name="WithNonLiterals" Certainty="75" Level="Warning" Path="C:\Users\algas\Google Drive\Scila7\Scila7" File="frmPrincipal.vb" Line="434">The query string passed to 'OleDbDataAdapter.New(String, OleDbConnection)' in 'frmPrincipal.borrarProyecto(Boolean)' could contain the following variables 'modulosds.Tables("Tablamodulos").Rows(i)("codigo")', 'Me.idproyectoselected'. If any of these variables could come from user input, consider using a stored procedure or a parameterized SQL query instead of building the query with string concatenations.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#btnCalcularSeleccionados_Click(System.Object,System.EventArgs)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="Review SQL queries for security vulnerabilities" Category="Microsoft.Security" CheckId="CA2100" Status="Active" Created="2015-07-23 18:48:54Z" FixCategory="DependsOnFix">
+             <Issue Name="WithNonLiterals" Certainty="75" Level="Warning" Path="C:\Users\algas\Google Drive\Scila7\Scila7" File="frmPrincipal.vb" Line="1150">The query string passed to 'OleDbDataAdapter.New(String, OleDbConnection)' in 'frmPrincipal.btnCalcularSeleccionados_Click(Object, EventArgs)' could contain the following variables 'newcol.Name'. If any of these variables could come from user input, consider using a stored procedure or a parameterized SQL query instead of building the query with string concatenations.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#CargaPresencias(System.String)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="Review SQL queries for security vulnerabilities" Category="Microsoft.Security" CheckId="CA2100" Status="Active" Created="2015-07-23 18:48:54Z" FixCategory="DependsOnFix">
+             <Issue Name="WithNonLiterals" Certainty="75" Level="Warning" Path="C:\Users\algas\Google Drive\Scila7\Scila7" File="frmPrincipal.vb" Line="889">The query string passed to 'OleDbDataAdapter.New(String, OleDbConnection)' in 'frmPrincipal.CargaPresencias(String)' could contain the following variables 'tile.Name', 'idmuestracargar'. If any of these variables could come from user input, consider using a stored procedure or a parameterized SQL query instead of building the query with string concatenations.</Issue>
+             <Issue Name="WithNonLiterals" Certainty="75" Level="Warning" Path="C:\Users\algas\Google Drive\Scila7\Scila7" File="frmPrincipal.vb" Line="910">The query string passed to 'OleDbDataAdapter.New(String, OleDbConnection)' in 'frmPrincipal.CargaPresencias(String)' could contain the following variables 'tile.Name', 'idmuestracargar'. If any of these variables could come from user input, consider using a stored procedure or a parameterized SQL query instead of building the query with string concatenations.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="frmProyectos" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#btnBorrarProyecto_Click(System.Object,System.EventArgs)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="Review SQL queries for security vulnerabilities" Category="Microsoft.Security" CheckId="CA2100" Status="Active" Created="2015-07-23 18:48:54Z" FixCategory="DependsOnFix">
+             <Issue Name="WithNonLiterals" Certainty="75" Level="Warning" Path="C:\Users\algas\Google Drive\Scila7\Scila7\Unused forms" File="frmProyectos.vb" Line="207">The query string passed to 'OleDbDataAdapter.New(String, OleDbConnection)' in 'frmProyectos.btnBorrarProyecto_Click(Object, EventArgs)' could contain the following variables 'Conversions.ToString(idmuestraborrar)'. If any of these variables could come from user input, consider using a stored procedure or a parameterized SQL query instead of building the query with string concatenations.</Issue>
+             <Issue Name="WithNonLiterals" Certainty="75" Level="Warning" Path="C:\Users\algas\Google Drive\Scila7\Scila7\Unused forms" File="frmProyectos.vb" Line="228">The query string passed to 'OleDbDataAdapter.New(String, OleDbConnection)' in 'frmProyectos.btnBorrarProyecto_Click(Object, EventArgs)' could contain the following variables 'Conversions.ToString(idmuestraborrar)'. If any of these variables could come from user input, consider using a stored procedure or a parameterized SQL query instead of building the query with string concatenations.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="frmResultadosCalcular" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#TraducirCategorias()" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="Review SQL queries for security vulnerabilities" Category="Microsoft.Security" CheckId="CA2100" Status="Active" Created="2015-07-23 18:48:54Z" FixCategory="DependsOnFix">
+             <Issue Name="WithNonLiterals" Certainty="75" Level="Warning" Path="C:\Users\algas\Google Drive\Scila7\Scila7" File="frmResultadosCalcular.vb" Line="80">The query string passed to 'OleDbDataAdapter.New(String, OleDbConnection)' in 'frmResultadosCalcular.TraducirCategorias()' could contain the following variables 'nombrecolentero(0)', 'nombrecolentero(2)'. If any of these variables could come from user input, consider using a stored procedure or a parameterized SQL query instead of building the query with string concatenations.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="habitatDataSet" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="ImplementISerializableCorrectly" Category="Microsoft.Usage" CheckId="CA2240" Status="Active" Created="2015-07-23 18:48:54Z" FixCategory="NonBreaking">
+           <Issue Certainty="60" Level="Error">Add an implementation of GetObjectData to type 'habitatDataSet'.</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="habitatDataSet+CaracParametrosDataTable" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="ImplementISerializableCorrectly" Category="Microsoft.Usage" CheckId="CA2240" Status="Active" Created="2015-07-23 18:48:54Z" FixCategory="NonBreaking">
+           <Issue Certainty="60" Level="Error">Add an implementation of GetObjectData to type 'habitatDataSet.CaracParametrosDataTable'.</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="habitatDataSet+ParametrosHabitatDataTable" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="ImplementISerializableCorrectly" Category="Microsoft.Usage" CheckId="CA2240" Status="Active" Created="2015-07-23 18:48:54Z" FixCategory="NonBreaking">
+           <Issue Certainty="60" Level="Error">Add an implementation of GetObjectData to type 'habitatDataSet.ParametrosHabitatDataTable'.</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="hshannon" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#CalcularHSHANNON(System.String,System.String,System.String)" Kind="Method" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="Do not dispose objects multiple times" Category="Microsoft.Usage" CheckId="CA2202" Status="Active" Created="2015-07-23 18:48:54Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="C:\Users\algas\Google Drive\Scila7\Scila7\indices" File="hshannon.vb" Line="25">Object 'Taxonescon' can be disposed more than once in method 'hshannon.CalcularHSHANNON(String, String, String)'. To avoid generating a System.ObjectDisposedException you should not call Dispose more than one time on an object.: Lines: 25, 217</Issue>
+            </Message>
+            <Message TypeName="Review SQL queries for security vulnerabilities" Category="Microsoft.Security" CheckId="CA2100" Status="Active" Created="2015-07-23 18:48:54Z" FixCategory="DependsOnFix">
+             <Issue Name="WithNonLiterals" Certainty="75" Level="Warning" Path="C:\Users\algas\Google Drive\Scila7\Scila7\indices" File="hshannon.vb" Line="21">The query string passed to 'OleDbDataAdapter.New(String, OleDbConnection)' in 'hshannon.CalcularHSHANNON(String, String, String)' could contain the following variables 'variablename', 'hshannon.idmuestra'. If any of these variables could come from user input, consider using a stored procedure or a parameterized SQL query instead of building the query with string concatenations.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#GuardarHShannon(System.String,System.Int32,System.String,System.String,System.String)" Kind="Method" Static="True" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="Do not dispose objects multiple times" Category="Microsoft.Usage" CheckId="CA2202" Status="Active" Created="2015-07-23 18:48:54Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="C:\Users\algas\Google Drive\Scila7\Scila7\indices" File="hshannon.vb" Line="289">Object 'HShannoncon' can be disposed more than once in method 'hshannon.GuardarHShannon(String, Integer, String, String, String)'. To avoid generating a System.ObjectDisposedException you should not call Dispose more than one time on an object.: Lines: 289</Issue>
+            </Message>
+            <Message TypeName="Review SQL queries for security vulnerabilities" Category="Microsoft.Security" CheckId="CA2100" Status="Active" Created="2015-07-23 18:48:54Z" FixCategory="DependsOnFix">
+             <Issue Name="WithNonLiterals" Certainty="75" Level="Warning" Path="C:\Users\algas\Google Drive\Scila7\Scila7\indices" File="hshannon.vb" Line="246">The query string passed to 'OleDbDataAdapter.New(String, OleDbConnection)' in 'hshannon.GuardarHShannon(String, Integer, String, String, String)' could contain the following variables 'idmuestra'. If any of these variables could come from user input, consider using a stored procedure or a parameterized SQL query instead of building the query with string concatenations.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="hshannonDataSet" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="ImplementISerializableCorrectly" Category="Microsoft.Usage" CheckId="CA2240" Status="Active" Created="2015-07-23 18:48:54Z" FixCategory="NonBreaking">
+           <Issue Certainty="60" Level="Error">Add an implementation of GetObjectData to type 'hshannonDataSet'.</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="hshannonDataSet+CaracHShannonDataTable" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="ImplementISerializableCorrectly" Category="Microsoft.Usage" CheckId="CA2240" Status="Active" Created="2015-07-23 18:48:54Z" FixCategory="NonBreaking">
+           <Issue Certainty="60" Level="Error">Add an implementation of GetObjectData to type 'hshannonDataSet.CaracHShannonDataTable'.</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="hshannonDataSet+HShannonDataTable" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="ImplementISerializableCorrectly" Category="Microsoft.Usage" CheckId="CA2240" Status="Active" Created="2015-07-23 18:48:54Z" FixCategory="NonBreaking">
+           <Issue Certainty="60" Level="Error">Add an implementation of GetObjectData to type 'hshannonDataSet.HShannonDataTable'.</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="ibirp" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#CalcularIBIRP(System.String,System.String)" Kind="Method" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="Review SQL queries for security vulnerabilities" Category="Microsoft.Security" CheckId="CA2100" Status="Active" Created="2015-07-23 18:48:54Z" FixCategory="DependsOnFix">
+             <Issue Name="WithNonLiterals" Certainty="75" Level="Warning" Path="C:\Users\algas\Google Drive\Scila7\Scila7\indices" File="ibirp.vb" Line="27">The query string passed to 'OleDbDataAdapter.New(String, OleDbConnection)' in 'ibirp.CalcularIBIRP(String, String)' could contain the following variables 'idmuestracalcular'. If any of these variables could come from user input, consider using a stored procedure or a parameterized SQL query instead of building the query with string concatenations.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#GuardarIBIRP(System.String,System.Int32,System.String,System.String)" Kind="Method" Static="True" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="Review SQL queries for security vulnerabilities" Category="Microsoft.Security" CheckId="CA2100" Status="Active" Created="2015-07-23 18:48:54Z" FixCategory="DependsOnFix">
+             <Issue Name="WithNonLiterals" Certainty="75" Level="Warning" Path="C:\Users\algas\Google Drive\Scila7\Scila7\indices" File="ibirp.vb" Line="175">The query string passed to 'OleDbDataAdapter.New(String, OleDbConnection)' in 'ibirp.GuardarIBIRP(String, Integer, String, String)' could contain the following variables 'idmuestra'. If any of these variables could come from user input, consider using a stored procedure or a parameterized SQL query instead of building the query with string concatenations.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="ibirpDataSet" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="ImplementISerializableCorrectly" Category="Microsoft.Usage" CheckId="CA2240" Status="Active" Created="2015-07-23 18:48:54Z" FixCategory="NonBreaking">
+           <Issue Certainty="60" Level="Error">Add an implementation of GetObjectData to type 'ibirpDataSet'.</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="ibirpDataSet+CaracIBIRPDataTable" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="ImplementISerializableCorrectly" Category="Microsoft.Usage" CheckId="CA2240" Status="Active" Created="2015-07-23 18:48:54Z" FixCategory="NonBreaking">
+           <Issue Certainty="60" Level="Error">Add an implementation of GetObjectData to type 'ibirpDataSet.CaracIBIRPDataTable'.</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="ibirpDataSet+IBIRPDataTable" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="ImplementISerializableCorrectly" Category="Microsoft.Usage" CheckId="CA2240" Status="Active" Created="2015-07-23 18:48:54Z" FixCategory="NonBreaking">
+           <Issue Certainty="60" Level="Error">Add an implementation of GetObjectData to type 'ibirpDataSet.IBIRPDataTable'.</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="ibpamp" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#CalcularIBPAMP(System.String,System.String)" Kind="Method" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="Review SQL queries for security vulnerabilities" Category="Microsoft.Security" CheckId="CA2100" Status="Active" Created="2015-07-23 18:48:54Z" FixCategory="DependsOnFix">
+             <Issue Name="WithNonLiterals" Certainty="75" Level="Warning" Path="C:\Users\algas\Google Drive\Scila7\Scila7\indices" File="ibpamp.vb" Line="26">The query string passed to 'OleDbDataAdapter.New(String, OleDbConnection)' in 'ibpamp.CalcularIBPAMP(String, String)' could contain the following variables 'Conversions.ToString(ibpamp.idmuestra)'. If any of these variables could come from user input, consider using a stored procedure or a parameterized SQL query instead of building the query with string concatenations.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#GuardarIBPAMP(System.String,System.Int32,System.Int32)" Kind="Method" Static="True" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="Do not dispose objects multiple times" Category="Microsoft.Usage" CheckId="CA2202" Status="Active" Created="2015-07-23 18:48:54Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="C:\Users\algas\Google Drive\Scila7\Scila7\indices" File="ibpamp.vb" Line="572">Object 'IBPAMPcon' can be disposed more than once in method 'ibpamp.GuardarIBPAMP(String, Integer, Integer)'. To avoid generating a System.ObjectDisposedException you should not call Dispose more than one time on an object.: Lines: 572, 582</Issue>
+            </Message>
+            <Message TypeName="Review SQL queries for security vulnerabilities" Category="Microsoft.Security" CheckId="CA2100" Status="Active" Created="2015-07-23 18:48:54Z" FixCategory="DependsOnFix">
+             <Issue Name="WithNonLiterals" Certainty="75" Level="Warning" Path="C:\Users\algas\Google Drive\Scila7\Scila7\indices" File="ibpamp.vb" Line="555">The query string passed to 'OleDbDataAdapter.New(String, OleDbConnection)' in 'ibpamp.GuardarIBPAMP(String, Integer, Integer)' could contain the following variables 'Conversions.ToString(idmuestra)'. If any of these variables could come from user input, consider using a stored procedure or a parameterized SQL query instead of building the query with string concatenations.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="ibpampDataSet" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="ImplementISerializableCorrectly" Category="Microsoft.Usage" CheckId="CA2240" Status="Active" Created="2015-07-23 18:48:54Z" FixCategory="NonBreaking">
+           <Issue Certainty="60" Level="Error">Add an implementation of GetObjectData to type 'ibpampDataSet'.</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="ibpampDataSet+CaracIBPAMPDataTable" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="ImplementISerializableCorrectly" Category="Microsoft.Usage" CheckId="CA2240" Status="Active" Created="2015-07-23 18:48:54Z" FixCategory="NonBreaking">
+           <Issue Certainty="60" Level="Error">Add an implementation of GetObjectData to type 'ibpampDataSet.CaracIBPAMPDataTable'.</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="ibpampDataSet+IBPAMPDataTable" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="ImplementISerializableCorrectly" Category="Microsoft.Usage" CheckId="CA2240" Status="Active" Created="2015-07-23 18:48:54Z" FixCategory="NonBreaking">
+           <Issue Certainty="60" Level="Error">Add an implementation of GetObjectData to type 'ibpampDataSet.IBPAMPDataTable'.</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="ibpampold" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#CalcularIBPAMP(System.String,System.String)" Kind="Method" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="Do not dispose objects multiple times" Category="Microsoft.Usage" CheckId="CA2202" Status="Active" Created="2015-07-23 18:48:54Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="C:\Users\algas\Google Drive\Scila7\Scila7\indices" File="ibpamp OLD.vb" Line="273">Object 'Taxonescon' can be disposed more than once in method 'ibpampold.CalcularIBPAMP(String, String)'. To avoid generating a System.ObjectDisposedException you should not call Dispose more than one time on an object.: Lines: 273</Issue>
+            </Message>
+            <Message TypeName="Review SQL queries for security vulnerabilities" Category="Microsoft.Security" CheckId="CA2100" Status="Active" Created="2015-07-23 18:48:54Z" FixCategory="DependsOnFix">
+             <Issue Name="WithNonLiterals" Certainty="75" Level="Warning" Path="C:\Users\algas\Google Drive\Scila7\Scila7\indices" File="ibpamp OLD.vb" Line="26">The query string passed to 'OleDbDataAdapter.New(String, OleDbConnection)' in 'ibpampold.CalcularIBPAMP(String, String)' could contain the following variables 'Conversions.ToString(ibpampold.idmuestra)'. If any of these variables could come from user input, consider using a stored procedure or a parameterized SQL query instead of building the query with string concatenations.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#GuardarIBPAMP(System.String,System.Int32,System.Int32)" Kind="Method" Static="True" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="Do not dispose objects multiple times" Category="Microsoft.Usage" CheckId="CA2202" Status="Active" Created="2015-07-23 18:48:54Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="C:\Users\algas\Google Drive\Scila7\Scila7\indices" File="ibpamp OLD.vb" Line="568">Object 'IBPAMPcon' can be disposed more than once in method 'ibpampold.GuardarIBPAMP(String, Integer, Integer)'. To avoid generating a System.ObjectDisposedException you should not call Dispose more than one time on an object.: Lines: 568, 578</Issue>
+            </Message>
+            <Message TypeName="Review SQL queries for security vulnerabilities" Category="Microsoft.Security" CheckId="CA2100" Status="Active" Created="2015-07-23 18:48:54Z" FixCategory="DependsOnFix">
+             <Issue Name="WithNonLiterals" Certainty="75" Level="Warning" Path="C:\Users\algas\Google Drive\Scila7\Scila7\indices" File="ibpamp OLD.vb" Line="551">The query string passed to 'OleDbDataAdapter.New(String, OleDbConnection)' in 'ibpampold.GuardarIBPAMP(String, Integer, Integer)' could contain the following variables 'Conversions.ToString(idmuestra)'. If any of these variables could come from user input, consider using a stored procedure or a parameterized SQL query instead of building the query with string concatenations.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="idp" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#CalcularIDP(System.String,System.String)" Kind="Method" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="Review SQL queries for security vulnerabilities" Category="Microsoft.Security" CheckId="CA2100" Status="Active" Created="2015-07-23 18:48:54Z" FixCategory="DependsOnFix">
+             <Issue Name="WithNonLiterals" Certainty="75" Level="Warning" Path="C:\Users\algas\Google Drive\Scila7\Scila7\indices" File="idp.vb" Line="27">The query string passed to 'OleDbDataAdapter.New(String, OleDbConnection)' in 'idp.CalcularIDP(String, String)' could contain the following variables 'idp.idmuestra'. If any of these variables could come from user input, consider using a stored procedure or a parameterized SQL query instead of building the query with string concatenations.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#GuardarIDP(System.String,System.Int32,System.String,System.String)" Kind="Method" Static="True" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="Review SQL queries for security vulnerabilities" Category="Microsoft.Security" CheckId="CA2100" Status="Active" Created="2015-07-23 18:48:54Z" FixCategory="DependsOnFix">
+             <Issue Name="WithNonLiterals" Certainty="75" Level="Warning" Path="C:\Users\algas\Google Drive\Scila7\Scila7\indices" File="idp.vb" Line="247">The query string passed to 'OleDbDataAdapter.New(String, OleDbConnection)' in 'idp.GuardarIDP(String, Integer, String, String)' could contain the following variables 'idmuestra'. If any of these variables could come from user input, consider using a stored procedure or a parameterized SQL query instead of building the query with string concatenations.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="idpDataSet" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="ImplementISerializableCorrectly" Category="Microsoft.Usage" CheckId="CA2240" Status="Active" Created="2015-07-23 18:48:54Z" FixCategory="NonBreaking">
+           <Issue Certainty="60" Level="Error">Add an implementation of GetObjectData to type 'idpDataSet'.</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="idpDataSet+CaracIDPDataTable" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="ImplementISerializableCorrectly" Category="Microsoft.Usage" CheckId="CA2240" Status="Active" Created="2015-07-23 18:48:54Z" FixCategory="NonBreaking">
+           <Issue Certainty="60" Level="Error">Add an implementation of GetObjectData to type 'idpDataSet.CaracIDPDataTable'.</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="idpDataSet+DiatomeasSpDataTable" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="ImplementISerializableCorrectly" Category="Microsoft.Usage" CheckId="CA2240" Status="Active" Created="2015-07-23 18:48:54Z" FixCategory="NonBreaking">
+           <Issue Certainty="60" Level="Error">Add an implementation of GetObjectData to type 'idpDataSet.DiatomeasSpDataTable'.</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="idpDataSet+DiatomeasSpParte2DataTable" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="ImplementISerializableCorrectly" Category="Microsoft.Usage" CheckId="CA2240" Status="Active" Created="2015-07-23 18:48:54Z" FixCategory="NonBreaking">
+           <Issue Certainty="60" Level="Error">Add an implementation of GetObjectData to type 'idpDataSet.DiatomeasSpParte2DataTable'.</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="idpDataSet+IDPDataTable" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="ImplementISerializableCorrectly" Category="Microsoft.Usage" CheckId="CA2240" Status="Active" Created="2015-07-23 18:48:54Z" FixCategory="NonBreaking">
+           <Issue Certainty="60" Level="Error">Add an implementation of GetObjectData to type 'idpDataSet.IDPDataTable'.</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="ihrplata" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#CalcularIHRPLATA(System.String,System.String)" Kind="Method" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="Review SQL queries for security vulnerabilities" Category="Microsoft.Security" CheckId="CA2100" Status="Active" Created="2015-07-23 18:48:54Z" FixCategory="DependsOnFix">
+             <Issue Name="WithNonLiterals" Certainty="75" Level="Warning" Path="C:\Users\algas\Google Drive\Scila7\Scila7\indices" File="ihrplata.vb" Line="27">The query string passed to 'OleDbDataAdapter.New(String, OleDbConnection)' in 'ihrplata.CalcularIHRPLATA(String, String)' could contain the following variables 'idmuestracalcular'. If any of these variables could come from user input, consider using a stored procedure or a parameterized SQL query instead of building the query with string concatenations.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#GuardarIHRPlata(System.String,System.Int32,System.String,System.String)" Kind="Method" Static="True" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="Review SQL queries for security vulnerabilities" Category="Microsoft.Security" CheckId="CA2100" Status="Active" Created="2015-07-23 18:48:54Z" FixCategory="DependsOnFix">
+             <Issue Name="WithNonLiterals" Certainty="75" Level="Warning" Path="C:\Users\algas\Google Drive\Scila7\Scila7\indices" File="ihrplata.vb" Line="173">The query string passed to 'OleDbDataAdapter.New(String, OleDbConnection)' in 'ihrplata.GuardarIHRPlata(String, Integer, String, String)' could contain the following variables 'idmuestra'. If any of these variables could come from user input, consider using a stored procedure or a parameterized SQL query instead of building the query with string concatenations.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="ihrplataDataSet" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="ImplementISerializableCorrectly" Category="Microsoft.Usage" CheckId="CA2240" Status="Active" Created="2015-07-23 18:48:54Z" FixCategory="NonBreaking">
+           <Issue Certainty="60" Level="Error">Add an implementation of GetObjectData to type 'ihrplataDataSet'.</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="ihrplataDataSet+CaracIHRPlataDataTable" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="ImplementISerializableCorrectly" Category="Microsoft.Usage" CheckId="CA2240" Status="Active" Created="2015-07-23 18:48:54Z" FixCategory="NonBreaking">
+           <Issue Certainty="60" Level="Error">Add an implementation of GetObjectData to type 'ihrplataDataSet.CaracIHRPlataDataTable'.</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="ihrplataDataSet+IHRPlataDataTable" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="ImplementISerializableCorrectly" Category="Microsoft.Usage" CheckId="CA2240" Status="Active" Created="2015-07-23 18:48:54Z" FixCategory="NonBreaking">
+           <Issue Certainty="60" Level="Error">Add an implementation of GetObjectData to type 'ihrplataDataSet.IHRPlataDataTable'.</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="imrp" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#CalcularIMRP(System.String,System.String)" Kind="Method" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="Do not dispose objects multiple times" Category="Microsoft.Usage" CheckId="CA2202" Status="Active" Created="2015-07-23 18:48:54Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="C:\Users\algas\Google Drive\Scila7\Scila7\indices" File="imrp.vb" Line="32">Object 'Taxonescon' can be disposed more than once in method 'imrp.CalcularIMRP(String, String)'. To avoid generating a System.ObjectDisposedException you should not call Dispose more than one time on an object.: Lines: 32, 170, 200</Issue>
+            </Message>
+            <Message TypeName="Review SQL queries for security vulnerabilities" Category="Microsoft.Security" CheckId="CA2100" Status="Active" Created="2015-07-23 18:48:54Z" FixCategory="DependsOnFix">
+             <Issue Name="WithNonLiterals" Certainty="75" Level="Warning" Path="C:\Users\algas\Google Drive\Scila7\Scila7\indices" File="imrp.vb" Line="28">The query string passed to 'OleDbDataAdapter.New(String, OleDbConnection)' in 'imrp.CalcularIMRP(String, String)' could contain the following variables 'Conversions.ToString(imrp.idmuestra)'. If any of these variables could come from user input, consider using a stored procedure or a parameterized SQL query instead of building the query with string concatenations.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#GuardarIMRP(System.String,System.Int32,System.Int32,System.Int32)" Kind="Method" Static="True" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="Review SQL queries for security vulnerabilities" Category="Microsoft.Security" CheckId="CA2100" Status="Active" Created="2015-07-23 18:48:54Z" FixCategory="DependsOnFix">
+             <Issue Name="WithNonLiterals" Certainty="75" Level="Warning" Path="C:\Users\algas\Google Drive\Scila7\Scila7\indices" File="imrp.vb" Line="216">The query string passed to 'OleDbDataAdapter.New(String, OleDbConnection)' in 'imrp.GuardarIMRP(String, Integer, Integer, Integer)' could contain the following variables 'Conversions.ToString(idmuestra)'. If any of these variables could come from user input, consider using a stored procedure or a parameterized SQL query instead of building the query with string concatenations.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="imrpDataSet" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="ImplementISerializableCorrectly" Category="Microsoft.Usage" CheckId="CA2240" Status="Active" Created="2015-07-23 18:48:54Z" FixCategory="NonBreaking">
+           <Issue Certainty="60" Level="Error">Add an implementation of GetObjectData to type 'imrpDataSet'.</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="imrpDataSet+CaracIMRPDataTable" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="ImplementISerializableCorrectly" Category="Microsoft.Usage" CheckId="CA2240" Status="Active" Created="2015-07-23 18:48:54Z" FixCategory="NonBreaking">
+           <Issue Certainty="60" Level="Error">Add an implementation of GetObjectData to type 'imrpDataSet.CaracIMRPDataTable'.</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="imrpDataSet+IMRPDataTable" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="ImplementISerializableCorrectly" Category="Microsoft.Usage" CheckId="CA2240" Status="Active" Created="2015-07-23 18:48:54Z" FixCategory="NonBreaking">
+           <Issue Certainty="60" Level="Error">Add an implementation of GetObjectData to type 'imrpDataSet.IMRPDataTable'.</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="IndicesDataSet" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="ImplementISerializableCorrectly" Category="Microsoft.Usage" CheckId="CA2240" Status="Active" Created="2015-07-23 18:48:54Z" FixCategory="NonBreaking">
+           <Issue Certainty="60" Level="Error">Add an implementation of GetObjectData to type 'IndicesDataSet'.</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="IndicesDataSet+MacroInvDataTable" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="ImplementISerializableCorrectly" Category="Microsoft.Usage" CheckId="CA2240" Status="Active" Created="2015-07-23 18:48:54Z" FixCategory="NonBreaking">
+           <Issue Certainty="60" Level="Error">Add an implementation of GetObjectData to type 'IndicesDataSet.MacroInvDataTable'.</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="jpielou" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#CalcularJPIELOU(System.String,System.String,System.String)" Kind="Method" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="Do not dispose objects multiple times" Category="Microsoft.Usage" CheckId="CA2202" Status="Active" Created="2015-07-23 18:48:54Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="C:\Users\algas\Google Drive\Scila7\Scila7\indices" File="jpielou.vb" Line="25">Object 'Taxonescon' can be disposed more than once in method 'jpielou.CalcularJPIELOU(String, String, String)'. To avoid generating a System.ObjectDisposedException you should not call Dispose more than one time on an object.: Lines: 25, 218</Issue>
+            </Message>
+            <Message TypeName="Review SQL queries for security vulnerabilities" Category="Microsoft.Security" CheckId="CA2100" Status="Active" Created="2015-07-23 18:48:54Z" FixCategory="DependsOnFix">
+             <Issue Name="WithNonLiterals" Certainty="75" Level="Warning" Path="C:\Users\algas\Google Drive\Scila7\Scila7\indices" File="jpielou.vb" Line="21">The query string passed to 'OleDbDataAdapter.New(String, OleDbConnection)' in 'jpielou.CalcularJPIELOU(String, String, String)' could contain the following variables 'variablename', 'jpielou.idmuestra'. If any of these variables could come from user input, consider using a stored procedure or a parameterized SQL query instead of building the query with string concatenations.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#GuardarJpielou(System.String,System.Int32,System.String,System.String,System.String)" Kind="Method" Static="True" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="Do not dispose objects multiple times" Category="Microsoft.Usage" CheckId="CA2202" Status="Active" Created="2015-07-23 18:48:54Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="C:\Users\algas\Google Drive\Scila7\Scila7\indices" File="jpielou.vb" Line="290">Object 'JPieloucon' can be disposed more than once in method 'jpielou.GuardarJpielou(String, Integer, String, String, String)'. To avoid generating a System.ObjectDisposedException you should not call Dispose more than one time on an object.: Lines: 290</Issue>
+            </Message>
+            <Message TypeName="Review SQL queries for security vulnerabilities" Category="Microsoft.Security" CheckId="CA2100" Status="Active" Created="2015-07-23 18:48:54Z" FixCategory="DependsOnFix">
+             <Issue Name="WithNonLiterals" Certainty="75" Level="Warning" Path="C:\Users\algas\Google Drive\Scila7\Scila7\indices" File="jpielou.vb" Line="247">The query string passed to 'OleDbDataAdapter.New(String, OleDbConnection)' in 'jpielou.GuardarJpielou(String, Integer, String, String, String)' could contain the following variables 'idmuestra'. If any of these variables could come from user input, consider using a stored procedure or a parameterized SQL query instead of building the query with string concatenations.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="jpielouDataSet" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="ImplementISerializableCorrectly" Category="Microsoft.Usage" CheckId="CA2240" Status="Active" Created="2015-07-23 18:48:54Z" FixCategory="NonBreaking">
+           <Issue Certainty="60" Level="Error">Add an implementation of GetObjectData to type 'jpielouDataSet'.</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="jpielouDataSet+CaracJPielouDataTable" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="ImplementISerializableCorrectly" Category="Microsoft.Usage" CheckId="CA2240" Status="Active" Created="2015-07-23 18:48:54Z" FixCategory="NonBreaking">
+           <Issue Certainty="60" Level="Error">Add an implementation of GetObjectData to type 'jpielouDataSet.CaracJPielouDataTable'.</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="jpielouDataSet+JPielouDataTable" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="ImplementISerializableCorrectly" Category="Microsoft.Usage" CheckId="CA2240" Status="Active" Created="2015-07-23 18:48:54Z" FixCategory="NonBreaking">
+           <Issue Certainty="60" Level="Error">Add an implementation of GetObjectData to type 'jpielouDataSet.JPielouDataTable'.</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="macroinvertebradosDataSet" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="ImplementISerializableCorrectly" Category="Microsoft.Usage" CheckId="CA2240" Status="Active" Created="2015-07-23 18:48:54Z" FixCategory="NonBreaking">
+           <Issue Certainty="60" Level="Error">Add an implementation of GetObjectData to type 'macroinvertebradosDataSet'.</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="macroinvertebradosDataSet+TaxonesDataTable" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="ImplementISerializableCorrectly" Category="Microsoft.Usage" CheckId="CA2240" Status="Active" Created="2015-07-23 18:48:54Z" FixCategory="NonBreaking">
+           <Issue Certainty="60" Level="Error">Add an implementation of GetObjectData to type 'macroinvertebradosDataSet.TaxonesDataTable'.</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="otrosDataSet" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="ImplementISerializableCorrectly" Category="Microsoft.Usage" CheckId="CA2240" Status="Active" Created="2015-07-23 18:48:54Z" FixCategory="NonBreaking">
+           <Issue Certainty="60" Level="Error">Add an implementation of GetObjectData to type 'otrosDataSet'.</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="otrosDataSet+OtrosdatosDataTable" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="ImplementISerializableCorrectly" Category="Microsoft.Usage" CheckId="CA2240" Status="Active" Created="2015-07-23 18:48:54Z" FixCategory="NonBreaking">
+           <Issue Certainty="60" Level="Error">Add an implementation of GetObjectData to type 'otrosDataSet.OtrosdatosDataTable'.</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="pbmwp" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#CalcularPBMWP(System.String,System.String)" Kind="Method" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="Review SQL queries for security vulnerabilities" Category="Microsoft.Security" CheckId="CA2100" Status="Active" Created="2015-07-23 18:48:54Z" FixCategory="DependsOnFix">
+             <Issue Name="WithNonLiterals" Certainty="75" Level="Warning" Path="C:\Users\algas\Google Drive\Scila7\Scila7\indices" File="pbmwp.vb" Line="31">The query string passed to 'OleDbDataAdapter.New(String, OleDbConnection)' in 'pbmwp.CalcularPBMWP(String, String)' could contain the following variables 'Conversions.ToString(pbmwp.idmuestra)'. If any of these variables could come from user input, consider using a stored procedure or a parameterized SQL query instead of building the query with string concatenations.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#Guardarpbmwp(System.String,System.String,System.Int32,System.Int32)" Kind="Method" Static="True" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="Review SQL queries for security vulnerabilities" Category="Microsoft.Security" CheckId="CA2100" Status="Active" Created="2015-07-23 18:48:54Z" FixCategory="DependsOnFix">
+             <Issue Name="WithNonLiterals" Certainty="75" Level="Warning" Path="C:\Users\algas\Google Drive\Scila7\Scila7\indices" File="pbmwp.vb" Line="238">The query string passed to 'OleDbDataAdapter.New(String, OleDbConnection)' in 'pbmwp.Guardarpbmwp(String, String, Integer, Integer)' could contain the following variables 'Conversions.ToString(idmuestra)'. If any of these variables could come from user input, consider using a stored procedure or a parameterized SQL query instead of building the query with string concatenations.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="pbmwpDataSet" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="ImplementISerializableCorrectly" Category="Microsoft.Usage" CheckId="CA2240" Status="Active" Created="2015-07-23 18:48:54Z" FixCategory="NonBreaking">
+           <Issue Certainty="60" Level="Error">Add an implementation of GetObjectData to type 'pbmwpDataSet'.</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="pbmwpDataSet+CaracPBMWPDataTable" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="ImplementISerializableCorrectly" Category="Microsoft.Usage" CheckId="CA2240" Status="Active" Created="2015-07-23 18:48:54Z" FixCategory="NonBreaking">
+           <Issue Certainty="60" Level="Error">Add an implementation of GetObjectData to type 'pbmwpDataSet.CaracPBMWPDataTable'.</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="pbmwpDataSet+PBMWPDataTable" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="ImplementISerializableCorrectly" Category="Microsoft.Usage" CheckId="CA2240" Status="Active" Created="2015-07-23 18:48:54Z" FixCategory="NonBreaking">
+           <Issue Certainty="60" Level="Error">Add an implementation of GetObjectData to type 'pbmwpDataSet.PBMWPDataTable'.</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="qbrp" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#CalcularQBRP(System.String,System.String)" Kind="Method" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="Review SQL queries for security vulnerabilities" Category="Microsoft.Security" CheckId="CA2100" Status="Active" Created="2015-07-23 18:48:54Z" FixCategory="DependsOnFix">
+             <Issue Name="WithNonLiterals" Certainty="75" Level="Warning" Path="C:\Users\algas\Google Drive\Scila7\Scila7\indices" File="qbrp.vb" Line="27">The query string passed to 'OleDbDataAdapter.New(String, OleDbConnection)' in 'qbrp.CalcularQBRP(String, String)' could contain the following variables 'idmuestracalcular'. If any of these variables could come from user input, consider using a stored procedure or a parameterized SQL query instead of building the query with string concatenations.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#GuardarQBRp(System.String,System.Int32,System.String,System.String)" Kind="Method" Static="True" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="Review SQL queries for security vulnerabilities" Category="Microsoft.Security" CheckId="CA2100" Status="Active" Created="2015-07-23 18:48:54Z" FixCategory="DependsOnFix">
+             <Issue Name="WithNonLiterals" Certainty="75" Level="Warning" Path="C:\Users\algas\Google Drive\Scila7\Scila7\indices" File="qbrp.vb" Line="281">The query string passed to 'OleDbDataAdapter.New(String, OleDbConnection)' in 'qbrp.GuardarQBRp(String, Integer, String, String)' could contain the following variables 'idmuestra'. If any of these variables could come from user input, consider using a stored procedure or a parameterized SQL query instead of building the query with string concatenations.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="qbrpDataSet" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="ImplementISerializableCorrectly" Category="Microsoft.Usage" CheckId="CA2240" Status="Active" Created="2015-07-23 18:48:54Z" FixCategory="NonBreaking">
+           <Issue Certainty="60" Level="Error">Add an implementation of GetObjectData to type 'qbrpDataSet'.</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="qbrpDataSet+CaracQBRpDataTable" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="ImplementISerializableCorrectly" Category="Microsoft.Usage" CheckId="CA2240" Status="Active" Created="2015-07-23 18:48:54Z" FixCategory="NonBreaking">
+           <Issue Certainty="60" Level="Error">Add an implementation of GetObjectData to type 'qbrpDataSet.CaracQBRpDataTable'.</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="qbrpDataSet+QBRpDataTable" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="ImplementISerializableCorrectly" Category="Microsoft.Usage" CheckId="CA2240" Status="Active" Created="2015-07-23 18:48:54Z" FixCategory="NonBreaking">
+           <Issue Certainty="60" Level="Error">Add an implementation of GetObjectData to type 'qbrpDataSet.QBRpDataTable'.</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="saprobiedad_diatomeas" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#CalcularSAPROBIEDADDIATS(System.String,System.String)" Kind="Method" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="Review SQL queries for security vulnerabilities" Category="Microsoft.Security" CheckId="CA2100" Status="Active" Created="2015-07-23 18:48:54Z" FixCategory="DependsOnFix">
+             <Issue Name="WithNonLiterals" Certainty="75" Level="Warning" Path="C:\Users\algas\Google Drive\Scila7\Scila7\indices" File="saprobiedad_diatomeas.vb" Line="32">The query string passed to 'OleDbDataAdapter.New(String, OleDbConnection)' in 'saprobiedad_diatomeas.CalcularSAPROBIEDADDIATS(String, String)' could contain the following variables 'Conversions.ToString(saprobiedad_diatomeas.idmuestra)'. If any of these variables could come from user input, consider using a stored procedure or a parameterized SQL query instead of building the query with string concatenations.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#GuardarSAPROBIEDADDIATS(System.String,System.String,System.Int32,System.Int32)" Kind="Method" Static="True" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="Review SQL queries for security vulnerabilities" Category="Microsoft.Security" CheckId="CA2100" Status="Active" Created="2015-07-23 18:48:54Z" FixCategory="DependsOnFix">
+             <Issue Name="WithNonLiterals" Certainty="75" Level="Warning" Path="C:\Users\algas\Google Drive\Scila7\Scila7\indices" File="saprobiedad_diatomeas.vb" Line="252">The query string passed to 'OleDbDataAdapter.New(String, OleDbConnection)' in 'saprobiedad_diatomeas.GuardarSAPROBIEDADDIATS(String, String, Integer, Integer)' could contain the following variables 'Conversions.ToString(idmuestra)'. If any of these variables could come from user input, consider using a stored procedure or a parameterized SQL query instead of building the query with string concatenations.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="saprobiedadDataSet" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="ImplementISerializableCorrectly" Category="Microsoft.Usage" CheckId="CA2240" Status="Active" Created="2015-07-23 18:48:54Z" FixCategory="NonBreaking">
+           <Issue Certainty="60" Level="Error">Add an implementation of GetObjectData to type 'saprobiedadDataSet'.</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="saprobiedadDataSet+CaracSAPROBIEDADDataTable" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="ImplementISerializableCorrectly" Category="Microsoft.Usage" CheckId="CA2240" Status="Active" Created="2015-07-23 18:48:54Z" FixCategory="NonBreaking">
+           <Issue Certainty="60" Level="Error">Add an implementation of GetObjectData to type 'saprobiedadDataSet.CaracSAPROBIEDADDataTable'.</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="saprobiedadDataSet+SAPROBIEDADDataTable" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="ImplementISerializableCorrectly" Category="Microsoft.Usage" CheckId="CA2240" Status="Active" Created="2015-07-23 18:48:54Z" FixCategory="NonBreaking">
+           <Issue Certainty="60" Level="Error">Add an implementation of GetObjectData to type 'saprobiedadDataSet.SAPROBIEDADDataTable'.</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="Scilla10DataSet" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="ImplementISerializableCorrectly" Category="Microsoft.Usage" CheckId="CA2240" Status="Active" Created="2015-07-23 18:48:54Z" FixCategory="NonBreaking">
+           <Issue Certainty="60" Level="Error">Add an implementation of GetObjectData to type 'Scilla10DataSet'.</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="Scilla10DataSet+MuestrasDataTable" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="ImplementISerializableCorrectly" Category="Microsoft.Usage" CheckId="CA2240" Status="Active" Created="2015-07-23 18:48:54Z" FixCategory="NonBreaking">
+           <Issue Certainty="60" Level="Error">Add an implementation of GetObjectData to type 'Scilla10DataSet.MuestrasDataTable'.</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="Scilla10DataSet+ProyectosDataTable" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="ImplementISerializableCorrectly" Category="Microsoft.Usage" CheckId="CA2240" Status="Active" Created="2015-07-23 18:48:54Z" FixCategory="NonBreaking">
+           <Issue Certainty="60" Level="Error">Add an implementation of GetObjectData to type 'Scilla10DataSet.ProyectosDataTable'.</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="sitiosDataSet" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="ImplementISerializableCorrectly" Category="Microsoft.Usage" CheckId="CA2240" Status="Active" Created="2015-07-23 18:48:54Z" FixCategory="NonBreaking">
+           <Issue Certainty="60" Level="Error">Add an implementation of GetObjectData to type 'sitiosDataSet'.</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="sitiosDataSet+SitiosDataTable" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="ImplementISerializableCorrectly" Category="Microsoft.Usage" CheckId="CA2240" Status="Active" Created="2015-07-23 18:48:54Z" FixCategory="NonBreaking">
+           <Issue Certainty="60" Level="Error">Add an implementation of GetObjectData to type 'sitiosDataSet.SitiosDataTable'.</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="sitiosDataSet+SitiosMuestrasDataTable" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="ImplementISerializableCorrectly" Category="Microsoft.Usage" CheckId="CA2240" Status="Active" Created="2015-07-23 18:48:54Z" FixCategory="NonBreaking">
+           <Issue Certainty="60" Level="Error">Add an implementation of GetObjectData to type 'sitiosDataSet.SitiosMuestrasDataTable'.</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="taxonesmuestrasDataSet" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="ImplementISerializableCorrectly" Category="Microsoft.Usage" CheckId="CA2240" Status="Active" Created="2015-07-23 18:48:54Z" FixCategory="NonBreaking">
+           <Issue Certainty="60" Level="Error">Add an implementation of GetObjectData to type 'taxonesmuestrasDataSet'.</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="taxonesmuestrasDataSet+diatsDataTable" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="ImplementISerializableCorrectly" Category="Microsoft.Usage" CheckId="CA2240" Status="Active" Created="2015-07-23 18:48:54Z" FixCategory="NonBreaking">
+           <Issue Certainty="60" Level="Error">Add an implementation of GetObjectData to type 'taxonesmuestrasDataSet.diatsDataTable'.</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="taxonesmuestrasDataSet+macroinvsDataTable" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="ImplementISerializableCorrectly" Category="Microsoft.Usage" CheckId="CA2240" Status="Active" Created="2015-07-23 18:48:54Z" FixCategory="NonBreaking">
+           <Issue Certainty="60" Level="Error">Add an implementation of GetObjectData to type 'taxonesmuestrasDataSet.macroinvsDataTable'.</Issue>
+          </Message>
+         </Messages>
+        </Type>
+       </Types>
+      </Namespace>
+     </Namespaces>
+    </Module>
+   </Modules>
+  </Target>
+ </Targets>
+ <Rules>
+  <Rule TypeName="Do not dispose objects multiple times" Category="Microsoft.Usage" CheckId="CA2202">
+   <Name>Do not dispose objects multiple times</Name>
+   <Description>A correctly implemented Dispose method can be called multiple times without throwing an exception. However, this is not guaranteed and to avoid generating a System.ObjectDisposedException you should not call Dispose more than one time on an object.</Description>
+   <Resolution Name="Default">Object {0} can be disposed more than once in method {1}. To avoid generating a System.ObjectDisposedException you should not call Dispose more than one time on an object.: Lines: 680</Resolution>
+   <Owner>RuleOwner</Owner>
+   <Url>http://msdn.microsoft.com/library/ms182334(VS.100).aspx</Url>
+   <Email />
+   <MessageLevel Certainty="75">Warning</MessageLevel>
+   <File Name="dataflowrules.dll" Version="11.0.0.0" />
+  </Rule>
+  <Rule TypeName="ImplementISerializableCorrectly" Category="Microsoft.Usage" CheckId="CA2240">
+   <Name>Implement ISerializable correctly</Name>
+   <Description>If a type is assignable to ISerializable, it should implement GetObjectData. For unsealed types, the GetObjectData method should be callable and overridable by derived types.</Description>
+   <Resolution Name="Default">Add an implementation of GetObjectData to type {0}.</Resolution>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/ms182342(VS.100).aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="60">Error</MessageLevel>
+   <File Name="usagerules.dll" Version="11.0.0.0" />
+  </Rule>
+  <Rule TypeName="MovePInvokesToNativeMethodsClass" Category="Microsoft.Design" CheckId="CA1060">
+   <Name>Move P/Invokes to NativeMethods class</Name>
+   <Description>This type contains members with the DllImport attribute. Members with the DllImport attribute should be contained in classes named NativeMethods, SafeNativeMethods, or UnsafeNativeMethods.</Description>
+   <Resolution Name="Default">Because it is a P/Invoke method, {0} should be defined in a class named NativeMethods, SafeNativeMethods, or UnsafeNativeMethods.</Resolution>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/ms182161(VS.100).aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="95">CriticalWarning</MessageLevel>
+   <File Name="designrules.dll" Version="11.0.0.0" />
+  </Rule>
+  <Rule TypeName="PInvokesShouldNotBeVisible" Category="Microsoft.Interoperability" CheckId="CA1401">
+   <Name>P/Invokes should not be visible</Name>
+   <Description>Interop layer should not be public. The DllImport attribute should not be applied to publicly accessible members (public or protected).</Description>
+   <Resolution Name="Default">Change the accessibility of P/Invoke {0} so that it is no longer visible from outside its assembly.</Resolution>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/ms182209(VS.100).aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="50">CriticalError</MessageLevel>
+   <File Name="interoperabilityrules.dll" Version="11.0.0.0" />
+  </Rule>
+  <Rule TypeName="Review SQL queries for security vulnerabilities" Category="Microsoft.Security" CheckId="CA2100">
+   <Name>Review SQL queries for security vulnerabilities</Name>
+   <Description>A SQL command string built from user input is vulnerable to SQL injection attacks. Microsoft SQL Server and other database servers support stored procedures and parameterized SQL queries, which reduce the risk of injection attacks.</Description>
+   <Resolution Name="WithNonLiterals">The query string passed to {0} in {1} could contain the following variables {2}. If any of these variables could come from user input, consider using a stored procedure or a parameterized SQL query instead of building the query with string concatenations.</Resolution>
+   <Owner>RuleOwner</Owner>
+   <Url>http://msdn.microsoft.com/library/ms182310(VS.100).aspx</Url>
+   <Email />
+   <MessageLevel Certainty="75">Warning</MessageLevel>
+   <File Name="dataflowrules.dll" Version="11.0.0.0" />
+  </Rule>
+ </Rules>
+ <Localized>
+  <String Key="Category">Category</String>
+  <String Key="Certainty">Certainty</String>
+  <String Key="CollapseAll">Collapse All</String>
+  <String Key="CheckId">Check Id</String>
+  <String Key="Error">Error</String>
+  <String Key="Errors">error(s)</String>
+  <String Key="ExpandAll">Expand All</String>
+  <String Key="Help">Help</String>
+  <String Key="Line">Line</String>
+  <String Key="Messages">message(s)</String>
+  <String Key="LocationNotStoredInPdb">[Location not stored in Pdb]</String>
+  <String Key="Project">Project</String>
+  <String Key="Resolution">Resolution</String>
+  <String Key="Rule">Rule</String>
+  <String Key="RuleFile">Rule File</String>
+  <String Key="RuleDescription">Rule Description</String>
+  <String Key="Source">Source</String>
+  <String Key="Status">Status</String>
+  <String Key="Target">Target</String>
+  <String Key="Warning">Warning</String>
+  <String Key="Warnings">warning(s)</String>
+  <String Key="ReportTitle">Code Analysis Report</String>
+ </Localized>
+</FxCopReport>

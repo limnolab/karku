@@ -1,0 +1,1203 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{ED9866D5-452A-4C64-BF35-D2DFE4D481F7}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>Scila7.My.MyApplication</StartupObject>
+    <RootNamespace>Scila7</RootNamespace>
+    <AssemblyName>Karku</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <OptionExplicit>On</OptionExplicit>
+    <OptionCompare>Binary</OptionCompare>
+    <OptionStrict>Off</OptionStrict>
+    <OptionInfer>On</OptionInfer>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <ApplicationManifest>My Project\app.manifest</ApplicationManifest>
+    <ApplicationIcon>icon.ico</ApplicationIcon>
+    <ManifestCertificateThumbprint>A3597B2D085E43EE8A6566E96CF2D099768688CE</ManifestCertificateThumbprint>
+    <ManifestKeyFile>Scila7_TemporaryKey.pfx</ManifestKeyFile>
+    <GenerateManifests>true</GenerateManifests>
+    <SignManifests>false</SignManifests>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <TargetFrameworkProfile />
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ProductName>Karku</ProductName>
+    <PublisherName>ILPLA</PublisherName>
+    <OpenBrowserOnPublish>false</OpenBrowserOnPublish>
+    <ApplicationRevision>5</ApplicationRevision>
+    <ApplicationVersion>0.8.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <BootstrapperComponentsLocation>Relative</BootstrapperComponentsLocation>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>Karku.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022,42353,42354,42355</NoWarn>
+    <PlatformTarget>x86</PlatformTarget>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>Karku.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022,42353,42354,42355</NoWarn>
+    <PlatformTarget>x86</PlatformTarget>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="C1.C1Report.2, Version=2.6.20141.54717, Culture=neutral, PublicKeyToken=594a0605db190bb9" />
+    <Reference Include="C1.Win.C1Chart.2, Version=2.0.20142.24182, Culture=neutral, PublicKeyToken=a22e16972c085838, processorArchitecture=MSIL" />
+    <Reference Include="C1.Win.C1Command.4, Version=4.0.20141.19617, Culture=neutral, PublicKeyToken=e808566f358766d8, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\Program Files (x86)\ComponentOne\Studio for WinForms\bin\v4\C1.Win.C1Command.4.dll</HintPath>
+    </Reference>
+    <Reference Include="C1.Win.C1FlexGrid.2, Version=2.6.20141.822, Culture=neutral, PublicKeyToken=79882d576c6336da, processorArchitecture=MSIL" />
+    <Reference Include="C1.Win.C1FlexGrid.Classic.2, Version=2.6.20141.822, Culture=neutral, PublicKeyToken=79882d576c6336da, processorArchitecture=MSIL" />
+    <Reference Include="C1.Win.C1GanttView.2, Version=2.0.20141.180, Culture=neutral, PublicKeyToken=79882d576c6336da, processorArchitecture=MSIL" />
+    <Reference Include="C1.Win.C1Gauge.4, Version=4.0.20141.98, Culture=neutral, PublicKeyToken=79882d576c6336da, processorArchitecture=MSIL" />
+    <Reference Include="C1.Win.C1Input.4, Version=4.0.20141.33360, Culture=neutral, PublicKeyToken=7e7ff60f0c214f9a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\Program Files (x86)\ComponentOne\Studio for WinForms\bin\v4\C1.Win.C1Input.4.dll</HintPath>
+    </Reference>
+    <Reference Include="C1.Win.C1InputPanel.2, Version=2.0.20141.179, Culture=neutral, PublicKeyToken=79882d576c6336da, processorArchitecture=MSIL" />
+    <Reference Include="C1.Win.C1List.2, Version=2.1.20141.248, Culture=neutral, PublicKeyToken=6b24f8f981dbd7bc, processorArchitecture=MSIL" />
+    <Reference Include="C1.Win.C1Report.2, Version=2.6.20141.54717, Culture=neutral, PublicKeyToken=41780e2fc605e636, processorArchitecture=MSIL" />
+    <Reference Include="C1.Win.C1SplitContainer.4, Version=4.0.20141.54, Culture=neutral, PublicKeyToken=79882d576c6336da, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\Program Files (x86)\ComponentOne\Studio for WinForms\bin\v4\C1.Win.C1SplitContainer.4.dll</HintPath>
+    </Reference>
+    <Reference Include="C1.Win.C1SplitContainer.4.Design, Version=4.0.20141.54, Culture=neutral, PublicKeyToken=79882d576c6336da, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\Program Files (x86)\ComponentOne\Studio for WinForms\bin\v4\Designer\C1.Win.C1SplitContainer.4.Design.dll</HintPath>
+    </Reference>
+    <Reference Include="C1.Win.C1Themes.4, Version=4.0.20142.52, Culture=neutral, PublicKeyToken=594a0605db190bb9, processorArchitecture=MSIL" />
+    <Reference Include="C1.Win.C1TileControl.4, Version=4.0.20142.93, Culture=neutral, PublicKeyToken=79882d576c6336da, processorArchitecture=MSIL" />
+    <Reference Include="C1.Win.C1TrueDBGrid.4, Version=4.0.20141.61347, Culture=neutral, PublicKeyToken=75ae3fb0e2b1e0da, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\Program Files (x86)\ComponentOne\Studio for WinForms\bin\v4\C1.Win.C1TrueDBGrid.4.dll</HintPath>
+    </Reference>
+    <Reference Include="C1.Win.C1Win7Pack.2, Version=2.0.20141.38, Culture=neutral, PublicKeyToken=79882d576c6336da, processorArchitecture=MSIL" />
+    <Reference Include="GoogleSearchAPI">
+      <HintPath>..\..\GoogleSearchAPI_0.4_alpha\bin\DotNet\GoogleSearchAPI.dll</HintPath>
+    </Reference>
+    <Reference Include="Interop.MapWinGIS, Version=3.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+      <HintPath>.\Interop.MapWinGIS.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.Common, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91" />
+    <Reference Include="Microsoft.ReportViewer.WinForms, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.VisualBasic.PowerPacks.Vs, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Drawing.Design" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ApplicationEvents.vb" />
+    <Compile Include="dbcalculos\cbrDataSet.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>cbrDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="ConfigDataSet.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ConfigDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dbcalculos\densidadDataSet.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>densidadDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dbcalculos\eutrofizaciondiatsDataSet.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>eutrofizaciondiatsDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dbcalculos\hshannonDataSet.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>hshannonDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dbcalculos\ibirpDataSet.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ibirpDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dbcalculos\ihrplataDataSet.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ihrplataDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dbcalculos\jpielouDataSet.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>jpielouDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dbcalculos\saprobiedadDataSet.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>saprobiedadDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DBEdit\frmDBIndices.Designer.vb">
+      <DependentUpon>frmDBIndices.vb</DependentUpon>
+    </Compile>
+    <Compile Include="DBEdit\frmDBIndices.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DBEdit\frmDBParametros.Designer.vb">
+      <DependentUpon>frmDBParametros.vb</DependentUpon>
+    </Compile>
+    <Compile Include="DBEdit\frmDBParametros.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmBuscarEspecie.Designer.vb">
+      <DependentUpon>frmBuscarEspecie.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmBuscarEspecie.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmConversor.Designer.vb">
+      <DependentUpon>frmConversor.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmConversor.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmDatosSimple.Designer.vb">
+      <DependentUpon>frmDatosSimple.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmDatosSimple.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmDatosTaxones.Designer.vb">
+      <DependentUpon>frmDatosTaxones.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmDatosTaxones.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmGraficar.Designer.vb">
+      <DependentUpon>frmGraficar.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmGraficar.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmInterpretacion.Designer.vb">
+      <DependentUpon>frmInterpretacion.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmInterpretacion.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Unused forms\frmInterpretacionOLD.Designer.vb">
+      <DependentUpon>frmInterpretacionOLD.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Unused forms\frmInterpretacionOLD.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMuestrasRapidas.Designer.vb">
+      <DependentUpon>frmMuestrasRapidas.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmMuestrasRapidas.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmOptimosyTols.designer.vb">
+      <DependentUpon>frmOptimosyTols.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmOptimosyTols.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmResultadosCalcular.Designer.vb">
+      <DependentUpon>frmResultadosCalcular.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmResultadosCalcular.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="indices\cbr.vb" />
+    <Compile Include="indices\ibpamp OLD.vb" />
+    <Compile Include="indices\eutrofizacion_diatomeas.vb" />
+    <Compile Include="indices\saprobiedad_diatomeas.vb" />
+    <Compile Include="indices\qbrp.vb" />
+    <Compile Include="indices\pbmwp.vb" />
+    <Compile Include="indices\densidad.vb" />
+    <Compile Include="indices\jpielou.vb" />
+    <Compile Include="indices\hshannon.vb" />
+    <Compile Include="indices\ibirp.vb" />
+    <Compile Include="indices\ihrplata.vb" />
+    <Compile Include="dbcalculos\pbmwpDataSet.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>pbmwpDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dbcalculos\qbrpDataSet.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>qbrpDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="scripts\ClipboardMetafileHelper.vb" />
+    <Compile Include="scripts\Export.vb" />
+    <Compile Include="Unused forms\frmHabitat.Designer.vb">
+      <DependentUpon>frmHabitat.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Unused forms\frmHabitat.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Unused forms\frmDBParametrosOLD.Designer.vb">
+      <DependentUpon>frmDBParametrosOLD.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Unused forms\frmDBParametrosOLD.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmEnciclopedia.Designer.vb">
+      <DependentUpon>frmEnciclopedia.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmEnciclopedia.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Unused forms\frmIDP.Designer.vb">
+      <DependentUpon>frmIDP.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Unused forms\frmIDP.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Unused forms\frmIERPlata1m.Designer.vb">
+      <DependentUpon>frmIERPlata1m.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Unused forms\frmIERPlata1m.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmImportar.Designer.vb">
+      <DependentUpon>frmImportar.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmImportar.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Unused forms\frmMain.Designer.vb">
+      <DependentUpon>frmMain.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Unused forms\frmMain.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Unused forms\frmMuestrasRLP.Designer.vb">
+      <DependentUpon>frmMuestrasRLP.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Unused forms\frmMuestrasRLP.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Unused forms\frmRLP.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Unused forms\frmRLP.Designer.vb">
+      <DependentUpon>frmRLP.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="scripts\ConvertirUnidades.vb" />
+    <Compile Include="scripts\Actions.vb" />
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Scilla10DataSet.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Scilla10DataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Scilla10DataSet.vb">
+      <DependentUpon>Scilla10DataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="SplashScreen.Designer.vb">
+      <DependentUpon>SplashScreen.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SplashScreen.vb">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="DBEdit\frmDBIndices.resx">
+      <DependentUpon>frmDBIndices.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DBEdit\frmDBParametros.resx">
+      <DependentUpon>frmDBParametros.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmBuscarEspecie.resx">
+      <DependentUpon>frmBuscarEspecie.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmConversor.resx">
+      <DependentUpon>frmConversor.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmDatosSimple.resx">
+      <DependentUpon>frmDatosSimple.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmDatosTaxones.resx">
+      <DependentUpon>frmDatosTaxones.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmGraficar.resx">
+      <DependentUpon>frmGraficar.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmInterpretacion.resx">
+      <DependentUpon>frmInterpretacion.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Unused forms\frmInterpretacionOLD.resx">
+      <DependentUpon>frmInterpretacionOLD.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMuestrasRapidas.resx">
+      <DependentUpon>frmMuestrasRapidas.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmOptimosyTols.resx">
+      <DependentUpon>frmOptimosyTols.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmResultadosCalcular.resx">
+      <DependentUpon>frmResultadosCalcular.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="rptFQ.rdlc" />
+    <EmbeddedResource Include="rptMuestras.rdlc" />
+    <EmbeddedResource Include="Unused forms\frmHabitat.resx">
+      <DependentUpon>frmHabitat.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Unused forms\frmDBParametrosOLD.resx">
+      <DependentUpon>frmDBParametrosOLD.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Unused forms\frmFQ.resx">
+      <DependentUpon>frmFQ.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DBEdit\frmConfigModulos.resx">
+      <DependentUpon>frmConfigModulos.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmImportar.resx">
+      <DependentUpon>frmImportar.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPrincipal.resx">
+      <DependentUpon>frmPrincipal.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Unused forms\frmDBDiatomeas.resx">
+      <DependentUpon>frmDBDiatomeas.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Unused forms\frmDBMacroInvertebrados.resx">
+      <DependentUpon>frmDBMacroInvertebrados.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmExport.resx">
+      <DependentUpon>frmExport.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmWorkingDialog.resx">
+      <DependentUpon>frmWorkingDialog.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Unused forms\frmDiatomeas.resx">
+      <DependentUpon>frmDiatomeas.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Unused forms\frmAPampeano.resx">
+      <DependentUpon>frmAPampeano.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Unused forms\frmMacroinvertebrados.resx">
+      <DependentUpon>frmMacroinvertebrados.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DBEdit\frmConfigPerfil.resx">
+      <DependentUpon>frmConfigPerfil.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Unused forms\frmProyectos.resx">
+      <DependentUpon>frmProyectos.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DBEdit\frmSitios.resx">
+      <DependentUpon>frmSitios.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmEnciclopedia.resx">
+      <DependentUpon>frmEnciclopedia.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Unused forms\frmIDP.resx">
+      <DependentUpon>frmIDP.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Unused forms\frmIERPlata1m.resx">
+      <DependentUpon>frmIERPlata1m.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Unused forms\frmMain.resx">
+      <DependentUpon>frmMain.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Unused forms\frmMuestrasRLP.resx">
+      <DependentUpon>frmMuestrasRLP.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Unused forms\frmRLP.resx">
+      <DependentUpon>frmRLP.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\licenses.licx" />
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SplashScreen.resx">
+      <DependentUpon>SplashScreen.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="dbcalculos\cbrDataSet.xsc">
+      <DependentUpon>cbrDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="dbcalculos\cbrDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>cbrDataSet.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="dbcalculos\cbrDataSet.xss">
+      <DependentUpon>cbrDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="ConfigDataSet.xsc">
+      <DependentUpon>ConfigDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="ConfigDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ConfigDataSet.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="ConfigDataSet.xss">
+      <DependentUpon>ConfigDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="dbcalculos\densidadDataSet.xsc">
+      <DependentUpon>densidadDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="dbcalculos\densidadDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>densidadDataSet.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="dbcalculos\densidadDataSet.xss">
+      <DependentUpon>densidadDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="dbcalculos\eutrofizaciondiatsDataSet.xsc">
+      <DependentUpon>eutrofizaciondiatsDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="dbcalculos\eutrofizaciondiatsDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>eutrofizaciondiatsDataSet.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="dbcalculos\eutrofizaciondiatsDataSet.xss">
+      <DependentUpon>eutrofizaciondiatsDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="dbcalculos\hshannonDataSet.xsc">
+      <DependentUpon>hshannonDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="dbcalculos\hshannonDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>hshannonDataSet.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="dbcalculos\hshannonDataSet.xss">
+      <DependentUpon>hshannonDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="dbcalculos\ibirpDataSet.xsc">
+      <DependentUpon>ibirpDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="dbcalculos\ibirpDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ibirpDataSet.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="dbcalculos\ibirpDataSet.xss">
+      <DependentUpon>ibirpDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="dbcalculos\ihrplataDataSet.xsc">
+      <DependentUpon>ihrplataDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="dbcalculos\ihrplataDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ihrplataDataSet.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="dbcalculos\ihrplataDataSet.xss">
+      <DependentUpon>ihrplataDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="dbcalculos\jpielouDataSet.xsc">
+      <DependentUpon>jpielouDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="dbcalculos\jpielouDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>jpielouDataSet.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="dbcalculos\jpielouDataSet.xss">
+      <DependentUpon>jpielouDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="dbcalculos\saprobiedadDataSet.xsc">
+      <DependentUpon>saprobiedadDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="dbcalculos\saprobiedadDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>saprobiedadDataSet.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="dbcalculos\saprobiedadDataSet.xss">
+      <DependentUpon>saprobiedadDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="My Project\app.manifest" />
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="dbcalculos\pbmwpDataSet.xsc">
+      <DependentUpon>pbmwpDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="dbcalculos\pbmwpDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>pbmwpDataSet.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="dbcalculos\pbmwpDataSet.xss">
+      <DependentUpon>pbmwpDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="dbcalculos\qbrpDataSet.xsc">
+      <DependentUpon>qbrpDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="dbcalculos\qbrpDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>qbrpDataSet.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="dbcalculos\qbrpDataSet.xss">
+      <DependentUpon>qbrpDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Scilla10DataSet.xsc">
+      <DependentUpon>Scilla10DataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Scilla10DataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Scilla10DataSet.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Scilla10DataSet.xss">
+      <DependentUpon>Scilla10DataSet.xsd</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="dbcalculos\bmpsDataSet.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>bmpsDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="cauceDataSet.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>cauceDataSet.xsd</DependentUpon>
+    </Compile>
+    <Content Include="dbcalculos\bmps.mdb">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="dbcalculos\cbr.mdb">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Config.mdb">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <None Include="dbcalculos\bmpsDataSet.xsc">
+      <DependentUpon>bmpsDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="dbcalculos\bmpsDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>bmpsDataSet.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="dbcalculos\bmpsDataSet.xss">
+      <DependentUpon>bmpsDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="cauceDataSet.xsc">
+      <DependentUpon>cauceDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="cauceDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>cauceDataSet.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="cauceDataSet.xss">
+      <DependentUpon>cauceDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="diatomeasDataSet.xsc">
+      <DependentUpon>diatomeasDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="diatomeasDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>diatomeasDataSet.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="diatomeasDataSet.xss">
+      <DependentUpon>diatomeasDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="fqDataSet.xsc">
+      <DependentUpon>fqDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="fqDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>fqDataSet.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="fqDataSet.xss">
+      <DependentUpon>fqDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="habitatDataSet.xsc">
+      <DependentUpon>habitatDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="habitatDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>habitatDataSet.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="habitatDataSet.xss">
+      <DependentUpon>habitatDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="dbcalculos\ibpampDataSet.xsc">
+      <DependentUpon>ibpampDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="dbcalculos\ibpampDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ibpampDataSet.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="dbcalculos\ibpampDataSet.xss">
+      <DependentUpon>ibpampDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="dbcalculos\idpDataSet.xsc">
+      <DependentUpon>idpDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="dbcalculos\idpDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>idpDataSet.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="dbcalculos\idpDataSet.xss">
+      <DependentUpon>idpDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="dbcalculos\imrpDataSet.xsc">
+      <DependentUpon>imrpDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="dbcalculos\imrpDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>imrpDataSet.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="dbcalculos\imrpDataSet.xss">
+      <DependentUpon>imrpDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="IndicesDataSet.xsc">
+      <DependentUpon>IndicesDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="IndicesDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>IndicesDataSet.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="IndicesDataSet.xss">
+      <DependentUpon>IndicesDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="macroinvertebradosDataSet.xsc">
+      <DependentUpon>macroinvertebradosDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="macroinvertebradosDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>macroinvertebradosDataSet.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="macroinvertebradosDataSet.xss">
+      <DependentUpon>macroinvertebradosDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="otrosDataSet.xsc">
+      <DependentUpon>otrosDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="otrosDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>otrosDataSet.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="otrosDataSet.xss">
+      <DependentUpon>otrosDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Resources\logoKerku.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <Content Include="cauce.mdb">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="dbcalculos\densidad.mdb">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="dbcalculos\eutrofizaciondiats.mdb">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="dbcalculos\hshannon.mdb">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="dbcalculos\ibirp.mdb">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="dbcalculos\ihrplata.mdb">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="dbcalculos\jpielou.mdb">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="dbcalculos\saprobiedaddiats.mdb">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="diatomeas.mdb">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="factoresconversion.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fq.mdb">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="habitat.mdb">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="dbcalculos\ibpamp.mdb">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="icon.ico" />
+    <Content Include="dbcalculos\idp.mdb">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="dbcalculos\imrp.mdb">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Indices.mdb">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Interop.MapWinGIS.dll" />
+    <Content Include="macroinvertebrados.mdb">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="otros.mdb">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <None Include="Resources\Cancel.png" />
+    <None Include="Resources\Cancel1.png" />
+    <None Include="Resources\Write3.png" />
+    <None Include="Resources\Document.png" />
+    <None Include="Resources\cauce.jpg" />
+    <None Include="Resources\Globe.png" />
+    <None Include="Resources\Habitat.jpg" />
+    <None Include="Resources\FQ.jpg" />
+    <None Include="Resources\comunidades.jpg" />
+    <None Include="Resources\otros.jpg" />
+    <None Include="Resources\Stats 3.png" />
+    <None Include="Resources\Info2.jpg" />
+    <None Include="Resources\Tool.png" />
+    <None Include="Resources\Minus.png" />
+    <None Include="Resources\Plus.png" />
+    <None Include="Resources\Plus1.png" />
+    <None Include="Resources\Tool1.png" />
+    <None Include="Resources\Folder2.png" />
+    <None Include="Resources\Dots.png" />
+    <None Include="Resources\Go In.png" />
+    <None Include="Resources\Refresh.png" />
+    <None Include="Resources\Go In1.png" />
+    <Content Include="dbcalculos\pbmwp.mdb">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="dbcalculos\qbrp.mdb">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <None Include="Resources\Dots Down.png" />
+    <None Include="Resources\Go Out.png" />
+    <None Include="Resources\Stats 31.png" />
+    <None Include="Resources\Back.png" />
+    <None Include="Resources\Back1.png" />
+    <None Include="Resources\add200.png" />
+    <None Include="Resources\add2001.png" />
+    <None Include="Resources\add201.png" />
+    <None Include="Resources\check59.png" />
+    <None Include="Resources\check59W.png" />
+    <None Include="Resources\add2002.png" />
+    <None Include="Resources\exportarrow.png" />
+    <None Include="Resources\importarrow.png" />
+    <None Include="Resources\calculator7.png" />
+    <None Include="Resources\chart59.png" />
+    <None Include="Resources\back64.png" />
+    <None Include="Resources\save.png" />
+    <None Include="Resources\save1.png" />
+    <None Include="Resources\save2.png" />
+    <None Include="Resources\show4.png" />
+    <None Include="Resources\show7.png" />
+    <None Include="Resources\next21.png" />
+    <None Include="Resources\volume56.png" />
+    <None Include="Resources\earth212.png" />
+    <None Include="Resources\csv.png" />
+    <None Include="Resources\xls2.png" />
+    <None Include="Resources\edit-equalizer.png" />
+    <None Include="Resources\explosion.png" />
+    <None Include="Resources\zoom77.png" />
+    <None Include="Resources\dots7.png" />
+    <None Include="Resources\cross106.png" />
+    <None Include="Resources\wheels4.png" />
+    <Content Include="sitios.mdb">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="taxonesmuestras.mdb">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <None Include="logoweb.jpg" />
+    <None Include="Resources\ilpla.gif" />
+    <None Include="Scila7_TemporaryKey.pfx" />
+    <None Include="Resources\ilplachico.jpg" />
+    <None Include="Resources\logoKerku1.jpg" />
+    <None Include="sitiosDataSet.xsc">
+      <DependentUpon>sitiosDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="sitiosDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>sitiosDataSet.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="sitiosDataSet.xss">
+      <DependentUpon>sitiosDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="taxonesmuestrasDataSet.xsc">
+      <DependentUpon>taxonesmuestrasDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="taxonesmuestrasDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>taxonesmuestrasDataSet.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="taxonesmuestrasDataSet.xss">
+      <DependentUpon>taxonesmuestrasDataSet.xsd</DependentUpon>
+    </None>
+    <Compile Include="clsWorkingDialog.vb" />
+    <Compile Include="Unused forms\frmFQ.Designer.vb">
+      <DependentUpon>frmFQ.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Unused forms\frmFQ.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DBEdit\frmConfigModulos.Designer.vb">
+      <DependentUpon>frmConfigModulos.vb</DependentUpon>
+    </Compile>
+    <Compile Include="DBEdit\frmConfigModulos.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPrincipal.Designer.vb">
+      <DependentUpon>frmPrincipal.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmPrincipal.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Unused forms\frmDBDiatomeas.Designer.vb">
+      <DependentUpon>frmDBDiatomeas.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Unused forms\frmDBDiatomeas.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Unused forms\frmDBMacroInvertebrados.Designer.vb">
+      <DependentUpon>frmDBMacroInvertebrados.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Unused forms\frmDBMacroInvertebrados.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmExport.Designer.vb">
+      <DependentUpon>frmExport.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmExport.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Unused forms\frmDiatomeas.Designer.vb">
+      <DependentUpon>frmDiatomeas.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Unused forms\frmDiatomeas.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="diatomeasDataSet.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>diatomeasDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Unused forms\frmAPampeano.Designer.vb">
+      <DependentUpon>frmAPampeano.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Unused forms\frmAPampeano.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fqDataSet.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>fqDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Unused forms\frmMacroinvertebrados.Designer.vb">
+      <DependentUpon>frmMacroinvertebrados.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Unused forms\frmMacroinvertebrados.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DBEdit\frmConfigPerfil.Designer.vb">
+      <DependentUpon>frmConfigPerfil.vb</DependentUpon>
+    </Compile>
+    <Compile Include="DBEdit\frmConfigPerfil.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Unused forms\frmProyectos.Designer.vb">
+      <DependentUpon>frmProyectos.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Unused forms\frmProyectos.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DBEdit\frmSitios.Designer.vb">
+      <DependentUpon>frmSitios.vb</DependentUpon>
+    </Compile>
+    <Compile Include="DBEdit\frmSitios.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmWorkingDialog.Designer.vb">
+      <DependentUpon>frmWorkingDialog.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmWorkingDialog.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="habitatDataSet.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>habitatDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dbcalculos\ibpampDataSet.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ibpampDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dbcalculos\ibpampDataSet.vb">
+      <DependentUpon>ibpampDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dbcalculos\idpDataSet.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>idpDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dbcalculos\imrpDataSet.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>imrpDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dbcalculos\imrpDataSet.vb">
+      <DependentUpon>imrpDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="IndicesDataSet.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>IndicesDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="IndicesDataSet.vb">
+      <DependentUpon>IndicesDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="scripts\ArbolMacroinv.vb" />
+    <Compile Include="indices\bmps.vb" />
+    <Compile Include="indices\idp.vb" />
+    <Compile Include="indices\ibpamp.vb" />
+    <Compile Include="indices\imrp.vb" />
+    <Compile Include="macroinvertebradosDataSet.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>macroinvertebradosDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="macroinvertebradosDataSet.vb">
+      <DependentUpon>macroinvertebradosDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="otrosDataSet.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>otrosDataSet.xsd</DependentUpon>
+    </Compile>
+    <Content Include="Scilla10.mdb">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Compile Include="sitiosDataSet.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>sitiosDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="taxonesmuestrasDataSet.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>taxonesmuestrasDataSet.xsd</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.2.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 2.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.ReportViewer.8.0">
+      <Visible>False</Visible>
+      <ProductName>Microsoft Visual Studio 2008 Report Viewer</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.VSTORuntime.3.0">
+      <Visible>False</Visible>
+      <ProductName>Visual Studio Tools for the Office system 3.0 Runtime</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="htmls\" />
+    <Folder Include="images\icons\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{967B4E0D-AD0C-4609-AB67-0FA40C0206D8}" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="MapWinGIS">
+      <Guid>{C368D713-CC5F-40ED-9F53-F84FE197B96A}</Guid>
+      <VersionMajor>4</VersionMajor>
+      <VersionMinor>8</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="Microsoft.Office.Interop.Excel">
+      <Guid>{00020813-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>6</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+    <COMReference Include="stdole">
+      <Guid>{00020430-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>2</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <PropertyGroup>
+    <PostBuildEvent>xcopy "$(ProjectDir)images\*.*" "$(TargetDir)images\\" /E /I /F /Y /D</PostBuildEvent>
+  </PropertyGroup>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

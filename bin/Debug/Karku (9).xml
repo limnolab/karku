@@ -1,0 +1,1952 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+Karku
+</name>
+</assembly>
+<members>
+<member name="T:Scila7.ihrplataDataSet.CaracIHRPlataDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Scila7.ihrplataDataSet.IHRPlataDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Scila7.ihrplataDataSet.CaracIHRPlataRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Scila7.ihrplataDataSet.IHRPlataRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Scila7.ihrplataDataSet.CaracIHRPlataRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Scila7.ihrplataDataSet.IHRPlataRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Scila7.ihrplataDataSet">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:Scila7.ihrplataDataSetTableAdapters.CaracIHRPlataTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Scila7.ihrplataDataSetTableAdapters.IHRPlataTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:Scila7.ihrplataDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(Scila7.ihrplataDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:Scila7.ihrplataDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(Scila7.ihrplataDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:Scila7.ihrplataDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(Scila7.ihrplataDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:Scila7.ihrplataDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:Scila7.ihrplataDataSetTableAdapters.TableAdapterManager.UpdateAll(Scila7.ihrplataDataSet)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:Scila7.ihrplataDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:Scila7.ihrplataDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:Scila7.ihrplataDataSetTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="P:Scila7.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:Scila7.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="P:Scila7.My.Resources.Resources.add200">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Scila7.My.Resources.Resources.add2001">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Scila7.My.Resources.Resources.add2002">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Scila7.My.Resources.Resources.add201">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Scila7.My.Resources.Resources.Back">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Scila7.My.Resources.Resources.Back1">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Scila7.My.Resources.Resources.back64">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Scila7.My.Resources.Resources.calculator7">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Scila7.My.Resources.Resources.Cancel">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Scila7.My.Resources.Resources.Cancel1">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Scila7.My.Resources.Resources.cauce1">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Scila7.My.Resources.Resources.chart59">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Scila7.My.Resources.Resources.check59">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Scila7.My.Resources.Resources.check59W">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Scila7.My.Resources.Resources.comunidades">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Scila7.My.Resources.Resources.cross106">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Scila7.My.Resources.Resources.csv">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Scila7.My.Resources.Resources.Document">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Scila7.My.Resources.Resources.Dots">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Scila7.My.Resources.Resources.Dots_Down">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Scila7.My.Resources.Resources.dots7">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Scila7.My.Resources.Resources.earth212">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Scila7.My.Resources.Resources.edit_equalizer">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Scila7.My.Resources.Resources.explosion">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Scila7.My.Resources.Resources.exportarrow">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Scila7.My.Resources.Resources.Folder2">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Scila7.My.Resources.Resources.FQ">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Scila7.My.Resources.Resources.Globe">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Scila7.My.Resources.Resources.Go_In">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Scila7.My.Resources.Resources.Go_In1">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Scila7.My.Resources.Resources.Go_Out">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Scila7.My.Resources.Resources.Habitat">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Scila7.My.Resources.Resources.ilpla">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Scila7.My.Resources.Resources.ilplachico">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Scila7.My.Resources.Resources.importarrow">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Scila7.My.Resources.Resources.Info2">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Scila7.My.Resources.Resources.Interpretacion">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Scila7.My.Resources.Resources.logoKerku">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Scila7.My.Resources.Resources.logoKerku1">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Scila7.My.Resources.Resources.logoweb">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Scila7.My.Resources.Resources.Minus">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Scila7.My.Resources.Resources.next21">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Scila7.My.Resources.Resources.otros">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Scila7.My.Resources.Resources.Plus">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Scila7.My.Resources.Resources.Plus1">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Scila7.My.Resources.Resources.Refresh">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Scila7.My.Resources.Resources.save">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Scila7.My.Resources.Resources.show4">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Scila7.My.Resources.Resources.show7">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Scila7.My.Resources.Resources.Stats_3">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Scila7.My.Resources.Resources.Stats_31">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Scila7.My.Resources.Resources.Tool">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Scila7.My.Resources.Resources.Tool1">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Scila7.My.Resources.Resources.volume56">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Scila7.My.Resources.Resources.Write3">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Scila7.My.Resources.Resources.xls2">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Scila7.My.Resources.Resources.zoom77">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="T:Scila7.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member><member name="T:Scila7.saprobiedadDataSet.CaracSAPROBIEDADDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Scila7.saprobiedadDataSet.SAPROBIEDADDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Scila7.saprobiedadDataSet.CaracSAPROBIEDADRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Scila7.saprobiedadDataSet.SAPROBIEDADRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Scila7.saprobiedadDataSet.CaracSAPROBIEDADRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Scila7.saprobiedadDataSet.SAPROBIEDADRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Scila7.saprobiedadDataSet">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:Scila7.saprobiedadDataSetTableAdapters.CaracSAPROBIEDADTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Scila7.saprobiedadDataSetTableAdapters.SAPROBIEDADTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:Scila7.saprobiedadDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(Scila7.saprobiedadDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:Scila7.saprobiedadDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(Scila7.saprobiedadDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:Scila7.saprobiedadDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(Scila7.saprobiedadDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:Scila7.saprobiedadDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:Scila7.saprobiedadDataSetTableAdapters.TableAdapterManager.UpdateAll(Scila7.saprobiedadDataSet)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:Scila7.saprobiedadDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:Scila7.saprobiedadDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:Scila7.saprobiedadDataSetTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:Scila7.sitiosDataSet.SitiosDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Scila7.sitiosDataSet.SitiosMuestrasDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Scila7.sitiosDataSet.SitiosRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Scila7.sitiosDataSet.SitiosMuestrasRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Scila7.sitiosDataSet.SitiosRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Scila7.sitiosDataSet.SitiosMuestrasRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Scila7.sitiosDataSet">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:Scila7.sitiosDataSetTableAdapters.SitiosTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Scila7.sitiosDataSetTableAdapters.SitiosMuestrasTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:Scila7.sitiosDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(Scila7.sitiosDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:Scila7.sitiosDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(Scila7.sitiosDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:Scila7.sitiosDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(Scila7.sitiosDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:Scila7.sitiosDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:Scila7.sitiosDataSetTableAdapters.TableAdapterManager.UpdateAll(Scila7.sitiosDataSet)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:Scila7.sitiosDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:Scila7.sitiosDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:Scila7.sitiosDataSetTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:Scila7.Scilla10DataSet.MuestrasDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Scila7.Scilla10DataSet.ProyectosDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Scila7.Scilla10DataSet.MuestrasRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Scila7.Scilla10DataSet.ProyectosRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Scila7.Scilla10DataSet.MuestrasRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Scila7.Scilla10DataSet.ProyectosRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Scila7.Scilla10DataSet">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:Scila7.Scilla10DataSetTableAdapters.MuestrasTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Scila7.Scilla10DataSetTableAdapters.ProyectosTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:Scila7.Scilla10DataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(Scila7.Scilla10DataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:Scila7.Scilla10DataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(Scila7.Scilla10DataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:Scila7.Scilla10DataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(Scila7.Scilla10DataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:Scila7.Scilla10DataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:Scila7.Scilla10DataSetTableAdapters.TableAdapterManager.UpdateAll(Scila7.Scilla10DataSet)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:Scila7.Scilla10DataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:Scila7.Scilla10DataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:Scila7.Scilla10DataSetTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:Scila7.habitatDataSet.CaracParametrosDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Scila7.habitatDataSet.ParametrosHabitatDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Scila7.habitatDataSet.CaracParametrosRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Scila7.habitatDataSet.ParametrosHabitatRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Scila7.habitatDataSet.CaracParametrosRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Scila7.habitatDataSet.ParametrosHabitatRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Scila7.habitatDataSet">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:Scila7.habitatDataSetTableAdapters.CaracParametrosTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Scila7.habitatDataSetTableAdapters.ParametrosHabitatTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:Scila7.habitatDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(Scila7.habitatDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:Scila7.habitatDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(Scila7.habitatDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:Scila7.habitatDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(Scila7.habitatDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:Scila7.habitatDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:Scila7.habitatDataSetTableAdapters.TableAdapterManager.UpdateAll(Scila7.habitatDataSet)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:Scila7.habitatDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:Scila7.habitatDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:Scila7.habitatDataSetTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:Scila7.ConfigDataSet.AdminDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Scila7.ConfigDataSet.ConfigDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Scila7.ConfigDataSet.ModulosDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Scila7.ConfigDataSet.CalculosDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Scila7.ConfigDataSet.AdminRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Scila7.ConfigDataSet.ConfigRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Scila7.ConfigDataSet.ModulosRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Scila7.ConfigDataSet.CalculosRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Scila7.ConfigDataSet.AdminRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Scila7.ConfigDataSet.ConfigRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Scila7.ConfigDataSet.ModulosRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Scila7.ConfigDataSet.CalculosRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Scila7.ConfigDataSet">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:Scila7.ConfigDataSetTableAdapters.AdminTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Scila7.ConfigDataSetTableAdapters.ConfigTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Scila7.ConfigDataSetTableAdapters.ModulosTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Scila7.ConfigDataSetTableAdapters.CalculosTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:Scila7.ConfigDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(Scila7.ConfigDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:Scila7.ConfigDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(Scila7.ConfigDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:Scila7.ConfigDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(Scila7.ConfigDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:Scila7.ConfigDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:Scila7.ConfigDataSetTableAdapters.TableAdapterManager.UpdateAll(Scila7.ConfigDataSet)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:Scila7.ConfigDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:Scila7.ConfigDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:Scila7.ConfigDataSetTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:Scila7.ibirpDataSet.CaracIBIRPDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Scila7.ibirpDataSet.IBIRPDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Scila7.ibirpDataSet.CaracIBIRPRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Scila7.ibirpDataSet.IBIRPRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Scila7.ibirpDataSet.CaracIBIRPRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Scila7.ibirpDataSet.IBIRPRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Scila7.ibirpDataSet">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:Scila7.ibirpDataSetTableAdapters.CaracIBIRPTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Scila7.ibirpDataSetTableAdapters.IBIRPTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:Scila7.ibirpDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(Scila7.ibirpDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:Scila7.ibirpDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(Scila7.ibirpDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:Scila7.ibirpDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(Scila7.ibirpDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:Scila7.ibirpDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:Scila7.ibirpDataSetTableAdapters.TableAdapterManager.UpdateAll(Scila7.ibirpDataSet)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:Scila7.ibirpDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:Scila7.ibirpDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:Scila7.ibirpDataSetTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:Scila7.diatomeasDataSet.TaxonesDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Scila7.diatomeasDataSet.TaxonesRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Scila7.diatomeasDataSet.TaxonesRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Scila7.diatomeasDataSet">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:Scila7.diatomeasDataSetTableAdapters.TaxonesTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:Scila7.diatomeasDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(Scila7.diatomeasDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:Scila7.diatomeasDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(Scila7.diatomeasDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:Scila7.diatomeasDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(Scila7.diatomeasDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:Scila7.diatomeasDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:Scila7.diatomeasDataSetTableAdapters.TableAdapterManager.UpdateAll(Scila7.diatomeasDataSet)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:Scila7.diatomeasDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:Scila7.diatomeasDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:Scila7.diatomeasDataSetTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:Scila7.densidadDataSet.CaracDensidadDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Scila7.densidadDataSet.DensidadDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Scila7.densidadDataSet.CaracDensidadRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Scila7.densidadDataSet.DensidadRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Scila7.densidadDataSet.CaracDensidadRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Scila7.densidadDataSet.DensidadRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Scila7.densidadDataSet">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:Scila7.densidadDataSetTableAdapters.CaracDensidadTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Scila7.densidadDataSetTableAdapters.DensidadTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:Scila7.densidadDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(Scila7.densidadDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:Scila7.densidadDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(Scila7.densidadDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:Scila7.densidadDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(Scila7.densidadDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:Scila7.densidadDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:Scila7.densidadDataSetTableAdapters.TableAdapterManager.UpdateAll(Scila7.densidadDataSet)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:Scila7.densidadDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:Scila7.densidadDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:Scila7.densidadDataSetTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:Scila7.taxonesmuestrasDataSet.diatsDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Scila7.taxonesmuestrasDataSet.macroinvsDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Scila7.taxonesmuestrasDataSet.diatsRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Scila7.taxonesmuestrasDataSet.macroinvsRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Scila7.taxonesmuestrasDataSet.diatsRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Scila7.taxonesmuestrasDataSet.macroinvsRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Scila7.taxonesmuestrasDataSet">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:Scila7.taxonesmuestrasDataSetTableAdapters.diatsTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Scila7.taxonesmuestrasDataSetTableAdapters.macroinvsTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:Scila7.taxonesmuestrasDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(Scila7.taxonesmuestrasDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:Scila7.taxonesmuestrasDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(Scila7.taxonesmuestrasDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:Scila7.taxonesmuestrasDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(Scila7.taxonesmuestrasDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:Scila7.taxonesmuestrasDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:Scila7.taxonesmuestrasDataSetTableAdapters.TableAdapterManager.UpdateAll(Scila7.taxonesmuestrasDataSet)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:Scila7.taxonesmuestrasDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:Scila7.taxonesmuestrasDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:Scila7.taxonesmuestrasDataSetTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:Scila7.eutrofizaciondiatsDataSet.CaracEUTROFIZACIONDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Scila7.eutrofizaciondiatsDataSet.EUTROFIZACIONDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Scila7.eutrofizaciondiatsDataSet.CaracEUTROFIZACIONRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Scila7.eutrofizaciondiatsDataSet.EUTROFIZACIONRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Scila7.eutrofizaciondiatsDataSet.CaracEUTROFIZACIONRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Scila7.eutrofizaciondiatsDataSet.EUTROFIZACIONRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Scila7.eutrofizaciondiatsDataSet">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:Scila7.eutrofizaciondiatsDataSetTableAdapters.CaracEUTROFIZACIONTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Scila7.eutrofizaciondiatsDataSetTableAdapters.EUTROFIZACIONTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:Scila7.eutrofizaciondiatsDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(Scila7.eutrofizaciondiatsDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:Scila7.eutrofizaciondiatsDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(Scila7.eutrofizaciondiatsDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:Scila7.eutrofizaciondiatsDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(Scila7.eutrofizaciondiatsDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:Scila7.eutrofizaciondiatsDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:Scila7.eutrofizaciondiatsDataSetTableAdapters.TableAdapterManager.UpdateAll(Scila7.eutrofizaciondiatsDataSet)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:Scila7.eutrofizaciondiatsDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:Scila7.eutrofizaciondiatsDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:Scila7.eutrofizaciondiatsDataSetTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:Scila7.pbmwpDataSet.CaracPBMWPDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Scila7.pbmwpDataSet.PBMWPDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Scila7.pbmwpDataSet.CaracPBMWPRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Scila7.pbmwpDataSet.PBMWPRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Scila7.pbmwpDataSet.CaracPBMWPRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Scila7.pbmwpDataSet.PBMWPRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Scila7.pbmwpDataSet">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:Scila7.pbmwpDataSetTableAdapters.CaracPBMWPTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Scila7.pbmwpDataSetTableAdapters.PBMWPTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:Scila7.pbmwpDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(Scila7.pbmwpDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:Scila7.pbmwpDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(Scila7.pbmwpDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:Scila7.pbmwpDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(Scila7.pbmwpDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:Scila7.pbmwpDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:Scila7.pbmwpDataSetTableAdapters.TableAdapterManager.UpdateAll(Scila7.pbmwpDataSet)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:Scila7.pbmwpDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:Scila7.pbmwpDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:Scila7.pbmwpDataSetTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:Scila7.cauceDataSet.ParametrosCauceDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Scila7.cauceDataSet.CaracParametrosDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Scila7.cauceDataSet.ParametrosCauceRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Scila7.cauceDataSet.CaracParametrosRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Scila7.cauceDataSet.ParametrosCauceRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Scila7.cauceDataSet.CaracParametrosRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Scila7.cauceDataSet">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:Scila7.cauceDataSetTableAdapters.ParametrosCauceTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Scila7.cauceDataSetTableAdapters.CaracParametrosTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:Scila7.cauceDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(Scila7.cauceDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:Scila7.cauceDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(Scila7.cauceDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:Scila7.cauceDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(Scila7.cauceDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:Scila7.cauceDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:Scila7.cauceDataSetTableAdapters.TableAdapterManager.UpdateAll(Scila7.cauceDataSet)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:Scila7.cauceDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:Scila7.cauceDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:Scila7.cauceDataSetTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:Scila7.IndicesDataSet.MacroInvDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Scila7.IndicesDataSet.MacroInvRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Scila7.IndicesDataSet.MacroInvRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Scila7.IndicesDataSet">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:Scila7.IndicesDataSetTableAdapters.MacroInvTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:Scila7.IndicesDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(Scila7.IndicesDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:Scila7.IndicesDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(Scila7.IndicesDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:Scila7.IndicesDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(Scila7.IndicesDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:Scila7.IndicesDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:Scila7.IndicesDataSetTableAdapters.TableAdapterManager.UpdateAll(Scila7.IndicesDataSet)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:Scila7.IndicesDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:Scila7.IndicesDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:Scila7.IndicesDataSetTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:Scila7.otrosDataSet.OtrosdatosDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Scila7.otrosDataSet.OtrosdatosRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Scila7.otrosDataSet.OtrosdatosRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Scila7.otrosDataSet">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:Scila7.otrosDataSetTableAdapters.OtrosdatosTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:Scila7.otrosDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(Scila7.otrosDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:Scila7.otrosDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(Scila7.otrosDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:Scila7.otrosDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(Scila7.otrosDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:Scila7.otrosDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:Scila7.otrosDataSetTableAdapters.TableAdapterManager.UpdateAll(Scila7.otrosDataSet)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:Scila7.otrosDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:Scila7.otrosDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:Scila7.otrosDataSetTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:Scila7.hshannonDataSet.CaracHShannonDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Scila7.hshannonDataSet.HShannonDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Scila7.hshannonDataSet.CaracHShannonRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Scila7.hshannonDataSet.HShannonRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Scila7.hshannonDataSet.CaracHShannonRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Scila7.hshannonDataSet.HShannonRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Scila7.hshannonDataSet">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:Scila7.hshannonDataSetTableAdapters.CaracHShannonTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Scila7.hshannonDataSetTableAdapters.HShannonTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:Scila7.hshannonDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(Scila7.hshannonDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:Scila7.hshannonDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(Scila7.hshannonDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:Scila7.hshannonDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(Scila7.hshannonDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:Scila7.hshannonDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:Scila7.hshannonDataSetTableAdapters.TableAdapterManager.UpdateAll(Scila7.hshannonDataSet)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:Scila7.hshannonDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:Scila7.hshannonDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:Scila7.hshannonDataSetTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:Scila7.bmpsDataSet.BMPSDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Scila7.bmpsDataSet.CaracBMPSDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Scila7.bmpsDataSet.BMPSRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Scila7.bmpsDataSet.CaracBMPSRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Scila7.bmpsDataSet.BMPSRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Scila7.bmpsDataSet.CaracBMPSRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Scila7.bmpsDataSet">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:Scila7.bmpsDataSetTableAdapters.BMPSTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Scila7.bmpsDataSetTableAdapters.CaracBMPSTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:Scila7.bmpsDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(Scila7.bmpsDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:Scila7.bmpsDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(Scila7.bmpsDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:Scila7.bmpsDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(Scila7.bmpsDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:Scila7.bmpsDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:Scila7.bmpsDataSetTableAdapters.TableAdapterManager.UpdateAll(Scila7.bmpsDataSet)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:Scila7.bmpsDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:Scila7.bmpsDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:Scila7.bmpsDataSetTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:Scila7.ibpampDataSet.IBPAMPDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Scila7.ibpampDataSet.CaracIBPAMPDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Scila7.ibpampDataSet.IBPAMPRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Scila7.ibpampDataSet.CaracIBPAMPRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Scila7.ibpampDataSet.IBPAMPRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Scila7.ibpampDataSet.CaracIBPAMPRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Scila7.ibpampDataSet">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:Scila7.ibpampDataSetTableAdapters.IBPAMPTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Scila7.ibpampDataSetTableAdapters.CaracIBPAMPTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:Scila7.ibpampDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(Scila7.ibpampDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:Scila7.ibpampDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(Scila7.ibpampDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:Scila7.ibpampDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(Scila7.ibpampDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:Scila7.ibpampDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:Scila7.ibpampDataSetTableAdapters.TableAdapterManager.UpdateAll(Scila7.ibpampDataSet)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:Scila7.ibpampDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:Scila7.ibpampDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:Scila7.ibpampDataSetTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:Scila7.cbrDataSet.CaracCBRDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Scila7.cbrDataSet.CBRDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Scila7.cbrDataSet.CaracCBRRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Scila7.cbrDataSet.CBRRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Scila7.cbrDataSet.CaracCBRRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Scila7.cbrDataSet.CBRRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Scila7.cbrDataSet">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:Scila7.cbrDataSetTableAdapters.CaracCBRTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Scila7.cbrDataSetTableAdapters.CBRTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:Scila7.cbrDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(Scila7.cbrDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:Scila7.cbrDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(Scila7.cbrDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:Scila7.cbrDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(Scila7.cbrDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:Scila7.cbrDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:Scila7.cbrDataSetTableAdapters.TableAdapterManager.UpdateAll(Scila7.cbrDataSet)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:Scila7.cbrDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:Scila7.cbrDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:Scila7.cbrDataSetTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:Scila7.qbrpDataSet.CaracQBRpDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Scila7.qbrpDataSet.QBRpDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Scila7.qbrpDataSet.CaracQBRpRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Scila7.qbrpDataSet.QBRpRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Scila7.qbrpDataSet.CaracQBRpRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Scila7.qbrpDataSet.QBRpRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Scila7.qbrpDataSet">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:Scila7.qbrpDataSetTableAdapters.CaracQBRpTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Scila7.qbrpDataSetTableAdapters.QBRpTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:Scila7.qbrpDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(Scila7.qbrpDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:Scila7.qbrpDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(Scila7.qbrpDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:Scila7.qbrpDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(Scila7.qbrpDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:Scila7.qbrpDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:Scila7.qbrpDataSetTableAdapters.TableAdapterManager.UpdateAll(Scila7.qbrpDataSet)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:Scila7.qbrpDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:Scila7.qbrpDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:Scila7.qbrpDataSetTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:Scila7.imrpDataSet.IMRPDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Scila7.imrpDataSet.CaracIMRPDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Scila7.imrpDataSet.IMRPRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Scila7.imrpDataSet.CaracIMRPRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Scila7.imrpDataSet.IMRPRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Scila7.imrpDataSet.CaracIMRPRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Scila7.imrpDataSet">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:Scila7.imrpDataSetTableAdapters.IMRPTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Scila7.imrpDataSetTableAdapters.CaracIMRPTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:Scila7.imrpDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(Scila7.imrpDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:Scila7.imrpDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(Scila7.imrpDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:Scila7.imrpDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(Scila7.imrpDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:Scila7.imrpDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:Scila7.imrpDataSetTableAdapters.TableAdapterManager.UpdateAll(Scila7.imrpDataSet)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:Scila7.imrpDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:Scila7.imrpDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:Scila7.imrpDataSetTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:Scila7.fqDataSet.ParametrosFQDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Scila7.fqDataSet.CaracParametrosDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Scila7.fqDataSet.ParametrosFQRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Scila7.fqDataSet.CaracParametrosRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Scila7.fqDataSet.ParametrosFQRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Scila7.fqDataSet.CaracParametrosRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Scila7.fqDataSet">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:Scila7.fqDataSetTableAdapters.ParametrosFQTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Scila7.fqDataSetTableAdapters.CaracParametrosTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:Scila7.fqDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(Scila7.fqDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:Scila7.fqDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(Scila7.fqDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:Scila7.fqDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(Scila7.fqDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:Scila7.fqDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:Scila7.fqDataSetTableAdapters.TableAdapterManager.UpdateAll(Scila7.fqDataSet)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:Scila7.fqDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:Scila7.fqDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:Scila7.fqDataSetTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:Scila7.idpDataSet.CaracIDPDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Scila7.idpDataSet.DiatomeasSpDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Scila7.idpDataSet.DiatomeasSpParte2DataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Scila7.idpDataSet.IDPDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Scila7.idpDataSet.CaracIDPRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Scila7.idpDataSet.DiatomeasSpRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Scila7.idpDataSet.DiatomeasSpParte2Row">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Scila7.idpDataSet.IDPRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Scila7.idpDataSet.CaracIDPRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Scila7.idpDataSet.DiatomeasSpRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Scila7.idpDataSet.DiatomeasSpParte2RowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Scila7.idpDataSet.IDPRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Scila7.idpDataSet">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:Scila7.idpDataSetTableAdapters.CaracIDPTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Scila7.idpDataSetTableAdapters.DiatomeasSpTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Scila7.idpDataSetTableAdapters.DiatomeasSpParte2TableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Scila7.idpDataSetTableAdapters.IDPTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:Scila7.idpDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(Scila7.idpDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:Scila7.idpDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(Scila7.idpDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:Scila7.idpDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(Scila7.idpDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:Scila7.idpDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:Scila7.idpDataSetTableAdapters.TableAdapterManager.UpdateAll(Scila7.idpDataSet)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:Scila7.idpDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:Scila7.idpDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:Scila7.idpDataSetTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:Scila7.macroinvertebradosDataSet.TaxonesDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Scila7.macroinvertebradosDataSet.TaxonesRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Scila7.macroinvertebradosDataSet.TaxonesRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Scila7.macroinvertebradosDataSet">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:Scila7.macroinvertebradosDataSetTableAdapters.TaxonesTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:Scila7.macroinvertebradosDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(Scila7.macroinvertebradosDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:Scila7.macroinvertebradosDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(Scila7.macroinvertebradosDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:Scila7.macroinvertebradosDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(Scila7.macroinvertebradosDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:Scila7.macroinvertebradosDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:Scila7.macroinvertebradosDataSetTableAdapters.TableAdapterManager.UpdateAll(Scila7.macroinvertebradosDataSet)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:Scila7.macroinvertebradosDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:Scila7.macroinvertebradosDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:Scila7.macroinvertebradosDataSetTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:Scila7.jpielouDataSet.CaracJPielouDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Scila7.jpielouDataSet.JPielouDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Scila7.jpielouDataSet.CaracJPielouRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Scila7.jpielouDataSet.JPielouRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Scila7.jpielouDataSet.CaracJPielouRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Scila7.jpielouDataSet.JPielouRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Scila7.jpielouDataSet">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:Scila7.jpielouDataSetTableAdapters.CaracJPielouTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Scila7.jpielouDataSetTableAdapters.JPielouTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:Scila7.jpielouDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(Scila7.jpielouDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:Scila7.jpielouDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(Scila7.jpielouDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:Scila7.jpielouDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(Scila7.jpielouDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:Scila7.jpielouDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:Scila7.jpielouDataSetTableAdapters.TableAdapterManager.UpdateAll(Scila7.jpielouDataSet)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:Scila7.jpielouDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:Scila7.jpielouDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:Scila7.jpielouDataSetTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+</members>
+</doc>

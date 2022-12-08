@@ -1,0 +1,961 @@
+C:\Users\Juaco\Documents\Visual Studio 2008\Projects\Scila7\Scila7\bin\Debug\Resources\logoKerku.jpg
+C:\Users\Juaco\Documents\Visual Studio 2008\Projects\Scila7\Scila7\bin\Debug\Karku.exe.config
+C:\Users\Juaco\Documents\Visual Studio 2008\Projects\Scila7\Scila7\bin\Debug\Karku.exe.manifest
+C:\Users\Juaco\Documents\Visual Studio 2008\Projects\Scila7\Scila7\bin\Debug\Karku.application
+C:\Users\Juaco\Documents\Visual Studio 2008\Projects\Scila7\Scila7\bin\Debug\Karku.exe
+C:\Users\Juaco\Documents\Visual Studio 2008\Projects\Scila7\Scila7\bin\Debug\Karku.pdb
+C:\Users\Juaco\Documents\Visual Studio 2008\Projects\Scila7\Scila7\bin\Debug\Karku.xml
+C:\Users\Juaco\Documents\Visual Studio 2008\Projects\Scila7\Scila7\bin\Debug\C1.Win.C1Command.2.dll
+C:\Users\Juaco\Documents\Visual Studio 2008\Projects\Scila7\Scila7\bin\Debug\C1.Win.C1Input.2.dll
+C:\Users\Juaco\Documents\Visual Studio 2008\Projects\Scila7\Scila7\bin\Debug\C1.Win.C1TrueDBGrid.2.dll
+C:\Users\Juaco\Documents\Visual Studio 2008\Projects\Scila7\Scila7\bin\Debug\C1.Win.C1Command.2.xml
+C:\Users\Juaco\Documents\Visual Studio 2008\Projects\Scila7\Scila7\bin\Debug\C1.Win.C1Input.2.xml
+C:\Users\Juaco\Documents\Visual Studio 2008\Projects\Scila7\Scila7\bin\Debug\C1.Win.C1TrueDBGrid.2.xml
+C:\Users\Juaco\Documents\Visual Studio 2008\Projects\Scila7\Scila7\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Juaco\Documents\Visual Studio 2008\Projects\Scila7\Scila7\obj\Debug\Scila7.frmEnciclopedia.resources
+C:\Users\Juaco\Documents\Visual Studio 2008\Projects\Scila7\Scila7\obj\Debug\Scila7.frmIDP.resources
+C:\Users\Juaco\Documents\Visual Studio 2008\Projects\Scila7\Scila7\obj\Debug\Scila7.frmIDP1m.resources
+C:\Users\Juaco\Documents\Visual Studio 2008\Projects\Scila7\Scila7\obj\Debug\Scila7.frmIERPlata1m.resources
+C:\Users\Juaco\Documents\Visual Studio 2008\Projects\Scila7\Scila7\obj\Debug\Scila7.frmMain.resources
+C:\Users\Juaco\Documents\Visual Studio 2008\Projects\Scila7\Scila7\obj\Debug\Scila7.frmMuestrasRLP.resources
+C:\Users\Juaco\Documents\Visual Studio 2008\Projects\Scila7\Scila7\obj\Debug\Scila7.frmRLP.resources
+C:\Users\Juaco\Documents\Visual Studio 2008\Projects\Scila7\Scila7\obj\Debug\Scila7.Resources.resources
+C:\Users\Juaco\Documents\Visual Studio 2008\Projects\Scila7\Scila7\obj\Debug\Scila7.SplashScreen.resources
+C:\Users\Juaco\Documents\Visual Studio 2008\Projects\Scila7\Scila7\obj\Debug\Scila7.vbproj.GenerateResource.Cache
+C:\Users\Juaco\Documents\Visual Studio 2008\Projects\Scila7\Scila7\obj\Debug\Karku.exe.licenses
+C:\Users\Juaco\Documents\Visual Studio 2008\Projects\Scila7\Scila7\obj\Debug\Karku.exe.manifest
+C:\Users\Juaco\Documents\Visual Studio 2008\Projects\Scila7\Scila7\obj\Debug\Karku.application
+C:\Users\Juaco\Documents\Visual Studio 2008\Projects\Scila7\Scila7\obj\Debug\Karku.exe
+C:\Users\Juaco\Documents\Visual Studio 2008\Projects\Scila7\Scila7\obj\Debug\Karku.xml
+C:\Users\Juaco\Documents\Visual Studio 2008\Projects\Scila7\Scila7\obj\Debug\Karku.pdb
+C:\Users\Juaco\Documents\Visual Studio 2008\Projects\Scila7\Scila7\obj\Debug\Scila7.frmSitios.resources
+C:\Users\Juaco\Documents\Visual Studio 2008\Projects\Scila7\Scila7\obj\Debug\Scila7.frmProyectos.resources
+C:\Users\Juaco\Documents\Visual Studio 2008\Projects\Scila7\Scila7\obj\Debug\Scila7.frmAPampeano.resources
+C:\Users\Juaco\Documents\Visual Studio 2008\Projects\Scila7\Scila7\obj\Debug\Scila7.frmMacroinvertebrados.resources
+C:\Users\Juaco\Documents\Visual Studio 2008\Projects\Scila7\Scila7\obj\Debug\Scila7.frmDiatomeas.resources
+C:\Users\Juaco\Documents\Visual Studio 2008\Projects\Scila7\Scila7\bin\Debug\Scilla10.mdb
+C:\Users\Juaco\Documents\Visual Studio 2008\Projects\Scila7\Scila7\bin\Debug\Config.mdb
+C:\Users\Juaco\Documents\Visual Studio 2008\Projects\Scila7\Scila7\bin\Debug\cauce.mdb
+C:\Users\Juaco\Documents\Visual Studio 2008\Projects\Scila7\Scila7\bin\Debug\diatomeas.mdb
+C:\Users\Juaco\Documents\Visual Studio 2008\Projects\Scila7\Scila7\bin\Debug\fq.mdb
+C:\Users\Juaco\Documents\Visual Studio 2008\Projects\Scila7\Scila7\bin\Debug\habitat.mdb
+C:\Users\Juaco\Documents\Visual Studio 2008\Projects\Scila7\Scila7\bin\Debug\ibpamp.mdb
+C:\Users\Juaco\Documents\Visual Studio 2008\Projects\Scila7\Scila7\bin\Debug\idp.mdb
+C:\Users\Juaco\Documents\Visual Studio 2008\Projects\Scila7\Scila7\bin\Debug\imrp.mdb
+C:\Users\Juaco\Documents\Visual Studio 2008\Projects\Scila7\Scila7\bin\Debug\Indices.mdb
+C:\Users\Juaco\Documents\Visual Studio 2008\Projects\Scila7\Scila7\bin\Debug\macroinvertebrados.mdb
+C:\Users\Juaco\Documents\Visual Studio 2008\Projects\Scila7\Scila7\bin\Debug\otros.mdb
+C:\Users\Juaco\Documents\Visual Studio 2008\Projects\Scila7\Scila7\bin\Debug\sitios.mdb
+C:\Users\Juaco\Documents\Visual Studio 2008\Projects\Scila7\Scila7\bin\Debug\taxonesmuestras.mdb
+C:\Users\Juaco\Documents\Visual Studio 2008\Projects\Scila7\Scila7\obj\Debug\Scila7.frmDBMacroInvertebrados.resources
+C:\Users\Juaco\Documents\Visual Studio 2008\Projects\Scila7\Scila7\obj\Debug\Scila7.frmDBDiatomeas.resources
+C:\Users\Juaco\Documents\Visual Studio 2008\Projects\Scila7\Scila7\obj\Debug\Scila7.frmWorkingDialog.resources
+C:\Users\Juaco\Documents\Visual Studio 2008\Projects\Scila7\Scila7\obj\Debug\Scila7.frmExport.resources
+C:\Users\Juaco\Documents\Visual Studio 2008\Projects\Scila7\Scila7\obj\Debug\Scila7.vbproj.ResolveComReference.cache
+C:\Users\Juaco\Documents\Visual Studio 2008\Projects\Scila7\Scila7\bin\Debug\Interop.MapWinGIS.dll
+C:\Users\Juaco\Documents\Visual Studio 2008\Projects\Scila7\Scila7\bin\Debug\C1.Win.C1Sizer.2.dll
+C:\Users\Juaco\Documents\Visual Studio 2008\Projects\Scila7\Scila7\bin\Debug\C1.Win.C1Sizer.2.xml
+C:\Users\Juaco\Documents\Visual Studio 2008\Projects\Scila7\Scila7\bin\Debug\bmps.mdb
+C:\Users\Juaco\Documents\Visual Studio 2008\Projects\Scila7\Scila7\obj\Debug\Scila7.frmPrincipal.resources
+C:\Users\Juaco\Documents\Visual Studio 2008\Projects\Scila7\Scila7\obj\Debug\Scila7.frmConfigModulos.resources
+C:\Users\Juaco\Documents\Visual Studio 2008\Projects\Scila7\Scila7\obj\Debug\Scila7.frmConfigPerfil.resources
+Z:\Backup LAPTOP JUACO\11.3.14\Visual Studio 2008\Projects\Scila7\Scila7\bin\Debug\Karku.exe.config
+Z:\Backup LAPTOP JUACO\11.3.14\Visual Studio 2008\Projects\Scila7\Scila7\obj\Debug\Scila7.vbproj.ResolveComReference.cache
+Z:\Backup LAPTOP JUACO\11.3.14\Visual Studio 2008\Projects\Scila7\Scila7\obj\Debug\Karku.exe
+Z:\Backup LAPTOP JUACO\11.3.14\Visual Studio 2008\Projects\Scila7\Scila7\obj\Debug\Karku.xml
+Z:\Backup LAPTOP JUACO\11.3.14\Visual Studio 2008\Projects\Scila7\Scila7\obj\Debug\Karku.pdb
+Z:\Backup LAPTOP JUACO\11.3.14\Visual Studio 2008\Projects\Scila7\Scila7\bin\Debug\Config.mdb
+Z:\Backup LAPTOP JUACO\11.3.14\Visual Studio 2008\Projects\Scila7\Scila7\bin\Debug\cauce.mdb
+Z:\Backup LAPTOP JUACO\11.3.14\Visual Studio 2008\Projects\Scila7\Scila7\bin\Debug\diatomeas.mdb
+Z:\Backup LAPTOP JUACO\11.3.14\Visual Studio 2008\Projects\Scila7\Scila7\bin\Debug\fq.mdb
+Z:\Backup LAPTOP JUACO\11.3.14\Visual Studio 2008\Projects\Scila7\Scila7\bin\Debug\habitat.mdb
+Z:\Backup LAPTOP JUACO\11.3.14\Visual Studio 2008\Projects\Scila7\Scila7\bin\Debug\ibpamp.mdb
+Z:\Backup LAPTOP JUACO\11.3.14\Visual Studio 2008\Projects\Scila7\Scila7\bin\Debug\idp.mdb
+Z:\Backup LAPTOP JUACO\11.3.14\Visual Studio 2008\Projects\Scila7\Scila7\bin\Debug\imrp.mdb
+Z:\Backup LAPTOP JUACO\11.3.14\Visual Studio 2008\Projects\Scila7\Scila7\bin\Debug\Indices.mdb
+Z:\Backup LAPTOP JUACO\11.3.14\Visual Studio 2008\Projects\Scila7\Scila7\bin\Debug\macroinvertebrados.mdb
+Z:\Backup LAPTOP JUACO\11.3.14\Visual Studio 2008\Projects\Scila7\Scila7\bin\Debug\otros.mdb
+Z:\Backup LAPTOP JUACO\11.3.14\Visual Studio 2008\Projects\Scila7\Scila7\bin\Debug\sitios.mdb
+Z:\Backup LAPTOP JUACO\11.3.14\Visual Studio 2008\Projects\Scila7\Scila7\bin\Debug\taxonesmuestras.mdb
+Z:\Backup LAPTOP JUACO\11.3.14\Visual Studio 2008\Projects\Scila7\Scila7\bin\Debug\Scilla10.mdb
+Z:\Backup LAPTOP JUACO\11.3.14\Visual Studio 2008\Projects\Scila7\Scila7\bin\Debug\Resources\logoKerku.jpg
+Z:\Backup LAPTOP JUACO\11.3.14\Visual Studio 2008\Projects\Scila7\Scila7\bin\Debug\bmps.mdb
+Z:\Backup LAPTOP JUACO\11.3.14\Visual Studio 2008\Projects\Scila7\Scila7\bin\Debug\Karku.exe.manifest
+Z:\Backup LAPTOP JUACO\11.3.14\Visual Studio 2008\Projects\Scila7\Scila7\bin\Debug\Karku.application
+Z:\Backup LAPTOP JUACO\11.3.14\Visual Studio 2008\Projects\Scila7\Scila7\bin\Debug\Karku.exe
+Z:\Backup LAPTOP JUACO\11.3.14\Visual Studio 2008\Projects\Scila7\Scila7\bin\Debug\Karku.pdb
+Z:\Backup LAPTOP JUACO\11.3.14\Visual Studio 2008\Projects\Scila7\Scila7\bin\Debug\Karku.xml
+Z:\Backup LAPTOP JUACO\11.3.14\Visual Studio 2008\Projects\Scila7\Scila7\bin\Debug\C1.Win.C1Command.2.dll
+Z:\Backup LAPTOP JUACO\11.3.14\Visual Studio 2008\Projects\Scila7\Scila7\bin\Debug\C1.Win.C1Input.2.dll
+Z:\Backup LAPTOP JUACO\11.3.14\Visual Studio 2008\Projects\Scila7\Scila7\bin\Debug\C1.Win.C1Sizer.2.dll
+Z:\Backup LAPTOP JUACO\11.3.14\Visual Studio 2008\Projects\Scila7\Scila7\bin\Debug\C1.Win.C1TrueDBGrid.2.dll
+Z:\Backup LAPTOP JUACO\11.3.14\Visual Studio 2008\Projects\Scila7\Scila7\bin\Debug\Interop.MapWinGIS.dll
+Z:\Backup LAPTOP JUACO\11.3.14\Visual Studio 2008\Projects\Scila7\Scila7\bin\Debug\C1.Win.C1Sizer.2.xml
+Z:\Backup LAPTOP JUACO\11.3.14\Visual Studio 2008\Projects\Scila7\Scila7\bin\Debug\C1.Win.C1Input.2.xml
+Z:\Backup LAPTOP JUACO\11.3.14\Visual Studio 2008\Projects\Scila7\Scila7\bin\Debug\C1.Win.C1TrueDBGrid.2.xml
+Z:\Backup LAPTOP JUACO\11.3.14\Visual Studio 2008\Projects\Scila7\Scila7\bin\Debug\C1.Win.C1Command.2.xml
+Z:\Backup LAPTOP JUACO\11.3.14\Visual Studio 2008\Projects\Scila7\Scila7\obj\Debug\ResolveAssemblyReference.cache
+Z:\Backup LAPTOP JUACO\11.3.14\Visual Studio 2008\Projects\Scila7\Scila7\obj\Debug\Scila7.frmConfigModulos.resources
+Z:\Backup LAPTOP JUACO\11.3.14\Visual Studio 2008\Projects\Scila7\Scila7\obj\Debug\Scila7.frmPrincipal.resources
+Z:\Backup LAPTOP JUACO\11.3.14\Visual Studio 2008\Projects\Scila7\Scila7\obj\Debug\Scila7.frmDBDiatomeas.resources
+Z:\Backup LAPTOP JUACO\11.3.14\Visual Studio 2008\Projects\Scila7\Scila7\obj\Debug\Scila7.frmDBMacroInvertebrados.resources
+Z:\Backup LAPTOP JUACO\11.3.14\Visual Studio 2008\Projects\Scila7\Scila7\obj\Debug\Scila7.frmExport.resources
+Z:\Backup LAPTOP JUACO\11.3.14\Visual Studio 2008\Projects\Scila7\Scila7\obj\Debug\Scila7.frmWorkingDialog.resources
+Z:\Backup LAPTOP JUACO\11.3.14\Visual Studio 2008\Projects\Scila7\Scila7\obj\Debug\Scila7.frmDiatomeas.resources
+Z:\Backup LAPTOP JUACO\11.3.14\Visual Studio 2008\Projects\Scila7\Scila7\obj\Debug\Scila7.frmAPampeano.resources
+Z:\Backup LAPTOP JUACO\11.3.14\Visual Studio 2008\Projects\Scila7\Scila7\obj\Debug\Scila7.frmMacroinvertebrados.resources
+Z:\Backup LAPTOP JUACO\11.3.14\Visual Studio 2008\Projects\Scila7\Scila7\obj\Debug\Scila7.frmConfigPerfil.resources
+Z:\Backup LAPTOP JUACO\11.3.14\Visual Studio 2008\Projects\Scila7\Scila7\obj\Debug\Scila7.frmProyectos.resources
+Z:\Backup LAPTOP JUACO\11.3.14\Visual Studio 2008\Projects\Scila7\Scila7\obj\Debug\Scila7.frmSitios.resources
+Z:\Backup LAPTOP JUACO\11.3.14\Visual Studio 2008\Projects\Scila7\Scila7\obj\Debug\Scila7.frmEnciclopedia.resources
+Z:\Backup LAPTOP JUACO\11.3.14\Visual Studio 2008\Projects\Scila7\Scila7\obj\Debug\Scila7.frmIDP.resources
+Z:\Backup LAPTOP JUACO\11.3.14\Visual Studio 2008\Projects\Scila7\Scila7\obj\Debug\Scila7.frmIDP1m.resources
+Z:\Backup LAPTOP JUACO\11.3.14\Visual Studio 2008\Projects\Scila7\Scila7\obj\Debug\Scila7.frmIERPlata1m.resources
+Z:\Backup LAPTOP JUACO\11.3.14\Visual Studio 2008\Projects\Scila7\Scila7\obj\Debug\Scila7.frmMain.resources
+Z:\Backup LAPTOP JUACO\11.3.14\Visual Studio 2008\Projects\Scila7\Scila7\obj\Debug\Scila7.frmMuestrasRLP.resources
+Z:\Backup LAPTOP JUACO\11.3.14\Visual Studio 2008\Projects\Scila7\Scila7\obj\Debug\Scila7.frmRLP.resources
+Z:\Backup LAPTOP JUACO\11.3.14\Visual Studio 2008\Projects\Scila7\Scila7\obj\Debug\Scila7.Resources.resources
+Z:\Backup LAPTOP JUACO\11.3.14\Visual Studio 2008\Projects\Scila7\Scila7\obj\Debug\Scila7.SplashScreen.resources
+Z:\Backup LAPTOP JUACO\11.3.14\Visual Studio 2008\Projects\Scila7\Scila7\obj\Debug\Scila7.vbproj.GenerateResource.Cache
+Z:\Backup LAPTOP JUACO\11.3.14\Visual Studio 2008\Projects\Scila7\Scila7\obj\Debug\Karku.exe.licenses
+Z:\Backup LAPTOP JUACO\11.3.14\Visual Studio 2008\Projects\Scila7\Scila7\obj\Debug\Karku.exe.manifest
+Z:\Backup LAPTOP JUACO\11.3.14\Visual Studio 2008\Projects\Scila7\Scila7\obj\Debug\Karku.application
+C:\Users\algas\Desktop\Scila7\Scila7\bin\Debug\Karku.exe.config
+C:\Users\algas\Desktop\Scila7\Scila7\obj\Debug\Scila7.vbproj.ResolveComReference.cache
+C:\Users\algas\Desktop\Scila7\Scila7\obj\Debug\Karku.exe
+C:\Users\algas\Desktop\Scila7\Scila7\obj\Debug\Karku.xml
+C:\Users\algas\Desktop\Scila7\Scila7\obj\Debug\Karku.pdb
+C:\Users\algas\Desktop\Scila7\Scila7\bin\Debug\Config.mdb
+C:\Users\algas\Desktop\Scila7\Scila7\bin\Debug\cauce.mdb
+C:\Users\algas\Desktop\Scila7\Scila7\bin\Debug\diatomeas.mdb
+C:\Users\algas\Desktop\Scila7\Scila7\bin\Debug\fq.mdb
+C:\Users\algas\Desktop\Scila7\Scila7\bin\Debug\habitat.mdb
+C:\Users\algas\Desktop\Scila7\Scila7\bin\Debug\Indices.mdb
+C:\Users\algas\Desktop\Scila7\Scila7\bin\Debug\macroinvertebrados.mdb
+C:\Users\algas\Desktop\Scila7\Scila7\bin\Debug\otros.mdb
+C:\Users\algas\Desktop\Scila7\Scila7\bin\Debug\sitios.mdb
+C:\Users\algas\Desktop\Scila7\Scila7\bin\Debug\taxonesmuestras.mdb
+C:\Users\algas\Desktop\Scila7\Scila7\bin\Debug\Scilla10.mdb
+C:\Users\algas\Desktop\Scila7\Scila7\bin\Debug\Resources\logoKerku.jpg
+C:\Users\algas\Desktop\Scila7\Scila7\bin\Debug\Karku.exe.manifest
+C:\Users\algas\Desktop\Scila7\Scila7\bin\Debug\Karku.application
+C:\Users\algas\Desktop\Scila7\Scila7\bin\Debug\Karku.exe
+C:\Users\algas\Desktop\Scila7\Scila7\bin\Debug\Karku.pdb
+C:\Users\algas\Desktop\Scila7\Scila7\bin\Debug\Karku.xml
+C:\Users\algas\Desktop\Scila7\Scila7\obj\Debug\Scila7.frmConfigModulos.resources
+C:\Users\algas\Desktop\Scila7\Scila7\obj\Debug\Scila7.frmPrincipal.resources
+C:\Users\algas\Desktop\Scila7\Scila7\obj\Debug\Scila7.frmDBDiatomeas.resources
+C:\Users\algas\Desktop\Scila7\Scila7\obj\Debug\Scila7.frmDBMacroInvertebrados.resources
+C:\Users\algas\Desktop\Scila7\Scila7\obj\Debug\Scila7.frmExport.resources
+C:\Users\algas\Desktop\Scila7\Scila7\obj\Debug\Scila7.frmWorkingDialog.resources
+C:\Users\algas\Desktop\Scila7\Scila7\obj\Debug\Scila7.frmDiatomeas.resources
+C:\Users\algas\Desktop\Scila7\Scila7\obj\Debug\Scila7.frmAPampeano.resources
+C:\Users\algas\Desktop\Scila7\Scila7\obj\Debug\Scila7.frmMacroinvertebrados.resources
+C:\Users\algas\Desktop\Scila7\Scila7\obj\Debug\Scila7.frmConfigPerfil.resources
+C:\Users\algas\Desktop\Scila7\Scila7\obj\Debug\Scila7.frmProyectos.resources
+C:\Users\algas\Desktop\Scila7\Scila7\obj\Debug\Scila7.frmSitios.resources
+C:\Users\algas\Desktop\Scila7\Scila7\obj\Debug\Scila7.frmEnciclopedia.resources
+C:\Users\algas\Desktop\Scila7\Scila7\obj\Debug\Scila7.frmIDP.resources
+C:\Users\algas\Desktop\Scila7\Scila7\obj\Debug\Scila7.frmIERPlata1m.resources
+C:\Users\algas\Desktop\Scila7\Scila7\obj\Debug\Scila7.frmMain.resources
+C:\Users\algas\Desktop\Scila7\Scila7\obj\Debug\Scila7.frmMuestrasRLP.resources
+C:\Users\algas\Desktop\Scila7\Scila7\obj\Debug\Scila7.frmRLP.resources
+C:\Users\algas\Desktop\Scila7\Scila7\obj\Debug\Scila7.Resources.resources
+C:\Users\algas\Desktop\Scila7\Scila7\obj\Debug\Scila7.SplashScreen.resources
+C:\Users\algas\Desktop\Scila7\Scila7\obj\Debug\Scila7.vbproj.GenerateResource.Cache
+C:\Users\algas\Desktop\Scila7\Scila7\obj\Debug\Karku.exe.licenses
+C:\Users\algas\Desktop\Scila7\Scila7\obj\Debug\Karku.exe.manifest
+C:\Users\algas\Desktop\Scila7\Scila7\obj\Debug\Karku.application
+C:\Users\Juaco\Dropbox\Scila7\Scila7\bin\Debug\Karku.exe.config
+C:\Users\Juaco\Dropbox\Scila7\Scila7\obj\Debug\Scila7.vbproj.ResolveComReference.cache
+C:\Users\Juaco\Dropbox\Scila7\Scila7\obj\Debug\Karku.xml
+C:\Users\Juaco\Dropbox\Scila7\Scila7\obj\Debug\Karku.pdb
+C:\Users\Juaco\Dropbox\Scila7\Scila7\bin\Debug\Config.mdb
+C:\Users\Juaco\Dropbox\Scila7\Scila7\bin\Debug\cauce.mdb
+C:\Users\Juaco\Dropbox\Scila7\Scila7\bin\Debug\diatomeas.mdb
+C:\Users\Juaco\Dropbox\Scila7\Scila7\bin\Debug\fq.mdb
+C:\Users\Juaco\Dropbox\Scila7\Scila7\bin\Debug\habitat.mdb
+C:\Users\Juaco\Dropbox\Scila7\Scila7\bin\Debug\ibpamp.mdb
+C:\Users\Juaco\Dropbox\Scila7\Scila7\bin\Debug\idp.mdb
+C:\Users\Juaco\Dropbox\Scila7\Scila7\bin\Debug\imrp.mdb
+C:\Users\Juaco\Dropbox\Scila7\Scila7\bin\Debug\Indices.mdb
+C:\Users\Juaco\Dropbox\Scila7\Scila7\bin\Debug\macroinvertebrados.mdb
+C:\Users\Juaco\Dropbox\Scila7\Scila7\bin\Debug\otros.mdb
+C:\Users\Juaco\Dropbox\Scila7\Scila7\bin\Debug\sitios.mdb
+C:\Users\Juaco\Dropbox\Scila7\Scila7\bin\Debug\taxonesmuestras.mdb
+C:\Users\Juaco\Dropbox\Scila7\Scila7\bin\Debug\Scilla10.mdb
+C:\Users\Juaco\Dropbox\Scila7\Scila7\bin\Debug\Resources\logoKerku.jpg
+C:\Users\Juaco\Dropbox\Scila7\Scila7\bin\Debug\bmps.mdb
+C:\Users\Juaco\Dropbox\Scila7\Scila7\bin\Debug\Karku.exe.manifest
+C:\Users\Juaco\Dropbox\Scila7\Scila7\bin\Debug\Karku.application
+C:\Users\Juaco\Dropbox\Scila7\Scila7\bin\Debug\Karku.exe
+C:\Users\Juaco\Dropbox\Scila7\Scila7\bin\Debug\Karku.pdb
+C:\Users\Juaco\Dropbox\Scila7\Scila7\bin\Debug\Karku.xml
+C:\Users\Juaco\Dropbox\Scila7\Scila7\bin\Debug\Interop.MapWinGIS.dll
+C:\Users\Juaco\Dropbox\Scila7\Scila7\bin\Debug\C1.Win.C1Sizer.2.xml
+C:\Users\Juaco\Dropbox\Scila7\Scila7\obj\Debug\Scila7.frmConfigModulos.resources
+C:\Users\Juaco\Dropbox\Scila7\Scila7\obj\Debug\Scila7.frmPrincipal.resources
+C:\Users\Juaco\Dropbox\Scila7\Scila7\obj\Debug\Scila7.frmDBDiatomeas.resources
+C:\Users\Juaco\Dropbox\Scila7\Scila7\obj\Debug\Scila7.frmDBMacroInvertebrados.resources
+C:\Users\Juaco\Dropbox\Scila7\Scila7\obj\Debug\Scila7.frmExport.resources
+C:\Users\Juaco\Dropbox\Scila7\Scila7\obj\Debug\Scila7.frmWorkingDialog.resources
+C:\Users\Juaco\Dropbox\Scila7\Scila7\obj\Debug\Scila7.frmDiatomeas.resources
+C:\Users\Juaco\Dropbox\Scila7\Scila7\obj\Debug\Scila7.frmAPampeano.resources
+C:\Users\Juaco\Dropbox\Scila7\Scila7\obj\Debug\Scila7.frmMacroinvertebrados.resources
+C:\Users\Juaco\Dropbox\Scila7\Scila7\obj\Debug\Scila7.frmConfigPerfil.resources
+C:\Users\Juaco\Dropbox\Scila7\Scila7\obj\Debug\Scila7.frmProyectos.resources
+C:\Users\Juaco\Dropbox\Scila7\Scila7\obj\Debug\Scila7.frmSitios.resources
+C:\Users\Juaco\Dropbox\Scila7\Scila7\obj\Debug\Scila7.frmEnciclopedia.resources
+C:\Users\Juaco\Dropbox\Scila7\Scila7\obj\Debug\Scila7.frmIDP.resources
+C:\Users\Juaco\Dropbox\Scila7\Scila7\obj\Debug\Scila7.frmIDP1m.resources
+C:\Users\Juaco\Dropbox\Scila7\Scila7\obj\Debug\Scila7.frmIERPlata1m.resources
+C:\Users\Juaco\Dropbox\Scila7\Scila7\obj\Debug\Scila7.frmMain.resources
+C:\Users\Juaco\Dropbox\Scila7\Scila7\obj\Debug\Scila7.frmMuestrasRLP.resources
+C:\Users\Juaco\Dropbox\Scila7\Scila7\obj\Debug\Scila7.frmRLP.resources
+C:\Users\Juaco\Dropbox\Scila7\Scila7\obj\Debug\Scila7.Resources.resources
+C:\Users\Juaco\Dropbox\Scila7\Scila7\obj\Debug\Scila7.SplashScreen.resources
+C:\Users\Juaco\Dropbox\Scila7\Scila7\obj\Debug\Scila7.vbproj.GenerateResource.Cache
+C:\Users\Juaco\Dropbox\Scila7\Scila7\obj\Debug\Karku.exe.licenses
+C:\Users\Juaco\Dropbox\Scila7\Scila7\obj\Debug\Karku.exe.manifest
+C:\Users\Juaco\Dropbox\Scila7\Scila7\obj\Debug\Karku.application
+C:\Users\Juaco\Dropbox\Scila7\Scila7\obj\Debug\Karku.exe
+C:\Users\Juaco\Dropbox\Scila7\Scila7\bin\Debug\C1.Win.C1TileControl.2.dll
+C:\Users\Juaco\Dropbox\Scila7\Scila7\bin\Debug\C1.Win.C1TileControl.2.xml
+C:\Users\Juaco\Dropbox\Scila7\Scila7\bin\Debug\C1.Win.C1List.2.dll
+C:\Users\Juaco\Dropbox\Scila7\Scila7\bin\Debug\C1.Win.C1List.2.xml
+C:\Users\Juaco\Dropbox\Scila7\Scila7\bin\Debug\C1.C1Report.2.dll
+C:\Users\Juaco\Dropbox\Scila7\Scila7\bin\Debug\C1.Win.C1InputPanel.2.dll
+C:\Users\Juaco\Dropbox\Scila7\Scila7\bin\Debug\C1.Win.C1Report.2.dll
+C:\Users\Juaco\Dropbox\Scila7\Scila7\bin\Debug\C1.Win.C1Report.2.xml
+C:\Users\Juaco\Dropbox\Scila7\Scila7\bin\Debug\C1.Win.C1InputPanel.2.xml
+C:\Users\Juaco\Dropbox\Scila7\Scila7\bin\Debug\C1.C1Report.2.xml
+C:\Users\Juaco\Dropbox\Scila7\Scila7\bin\Debug\C1.Win.C1GanttView.2.dll
+C:\Users\Juaco\Dropbox\Scila7\Scila7\bin\Debug\C1.Win.C1Gauge.2.dll
+C:\Users\Juaco\Dropbox\Scila7\Scila7\bin\Debug\C1.Win.C1Gauge.2.xml
+C:\Users\Juaco\Dropbox\Scila7\Scila7\bin\Debug\C1.Win.C1GanttView.2.xml
+C:\Users\Juaco\Dropbox\Scila7\Scila7\obj\Debug\Scila7.frmFQ.resources
+C:\Users\Juaco\Dropbox\Scila7\Scila7\bin\Debug\C1.Win.C1FlexGrid.2.dll
+C:\Users\Juaco\Dropbox\Scila7\Scila7\bin\Debug\C1.Win.C1FlexGrid.2.xml
+C:\Users\Juaco\Dropbox\Scila7\Scila7\bin\Debug\C1.Win.C1FlexGrid.Classic.2.dll
+C:\Users\Juaco\Dropbox\Scila7\Scila7\obj\Debug\Scila7.frmFQNew.resources
+C:\Users\Juaco\Dropbox\Scila7\Scila7\obj\Debug\Scila7.frmHabitat.resources
+C:\Users\algas\Dropbox\Scila7\Scila7\bin\Debug\Karku.exe.config
+C:\Users\algas\Dropbox\Scila7\Scila7\obj\Debug\Scila7.vbproj.ResolveComReference.cache
+C:\Users\algas\Dropbox\Scila7\Scila7\obj\Debug\Karku.exe
+C:\Users\algas\Dropbox\Scila7\Scila7\obj\Debug\Karku.xml
+C:\Users\algas\Dropbox\Scila7\Scila7\obj\Debug\Karku.pdb
+C:\Users\algas\Dropbox\Scila7\Scila7\obj\Debug\Scila7.vbprojResolveAssemblyReference.cache
+C:\Users\algas\Dropbox\Scila7\Scila7\obj\Debug\Scila7.frmHabitat.resources
+C:\Users\algas\Dropbox\Scila7\Scila7\obj\Debug\Scila7.frmFQNew.resources
+C:\Users\algas\Dropbox\Scila7\Scila7\obj\Debug\Scila7.frmFQ.resources
+C:\Users\algas\Dropbox\Scila7\Scila7\obj\Debug\Scila7.frmConfigModulos.resources
+C:\Users\algas\Dropbox\Scila7\Scila7\obj\Debug\Scila7.frmPrincipal.resources
+C:\Users\algas\Dropbox\Scila7\Scila7\obj\Debug\Scila7.frmDBDiatomeas.resources
+C:\Users\algas\Dropbox\Scila7\Scila7\obj\Debug\Scila7.frmDBMacroInvertebrados.resources
+C:\Users\algas\Dropbox\Scila7\Scila7\obj\Debug\Scila7.frmExport.resources
+C:\Users\algas\Dropbox\Scila7\Scila7\obj\Debug\Scila7.frmWorkingDialog.resources
+C:\Users\algas\Dropbox\Scila7\Scila7\obj\Debug\Scila7.frmDiatomeas.resources
+C:\Users\algas\Dropbox\Scila7\Scila7\obj\Debug\Scila7.frmAPampeano.resources
+C:\Users\algas\Dropbox\Scila7\Scila7\obj\Debug\Scila7.frmMacroinvertebrados.resources
+C:\Users\algas\Dropbox\Scila7\Scila7\obj\Debug\Scila7.frmConfigPerfil.resources
+C:\Users\algas\Dropbox\Scila7\Scila7\obj\Debug\Scila7.frmProyectos.resources
+C:\Users\algas\Dropbox\Scila7\Scila7\obj\Debug\Scila7.frmSitios.resources
+C:\Users\algas\Dropbox\Scila7\Scila7\obj\Debug\Scila7.frmEnciclopedia.resources
+C:\Users\algas\Dropbox\Scila7\Scila7\obj\Debug\Scila7.frmIDP.resources
+C:\Users\algas\Dropbox\Scila7\Scila7\obj\Debug\Scila7.frmIDP1m.resources
+C:\Users\algas\Dropbox\Scila7\Scila7\obj\Debug\Scila7.frmIERPlata1m.resources
+C:\Users\algas\Dropbox\Scila7\Scila7\obj\Debug\Scila7.frmMain.resources
+C:\Users\algas\Dropbox\Scila7\Scila7\obj\Debug\Scila7.frmMuestrasRLP.resources
+C:\Users\algas\Dropbox\Scila7\Scila7\obj\Debug\Scila7.frmRLP.resources
+C:\Users\algas\Dropbox\Scila7\Scila7\obj\Debug\Scila7.Resources.resources
+C:\Users\algas\Dropbox\Scila7\Scila7\obj\Debug\Scila7.SplashScreen.resources
+C:\Users\algas\Dropbox\Scila7\Scila7\obj\Debug\Scila7.vbproj.GenerateResource.Cache
+C:\Users\algas\Dropbox\Scila7\Scila7\obj\Debug\Karku.exe.licenses
+C:\Users\algas\Dropbox\Scila7\Scila7\bin\Debug\Config.mdb
+C:\Users\algas\Dropbox\Scila7\Scila7\bin\Debug\cauce.mdb
+C:\Users\algas\Dropbox\Scila7\Scila7\bin\Debug\diatomeas.mdb
+C:\Users\algas\Dropbox\Scila7\Scila7\bin\Debug\fq.mdb
+C:\Users\algas\Dropbox\Scila7\Scila7\bin\Debug\habitat.mdb
+C:\Users\algas\Dropbox\Scila7\Scila7\bin\Debug\ibpamp.mdb
+C:\Users\algas\Dropbox\Scila7\Scila7\bin\Debug\idp.mdb
+C:\Users\algas\Dropbox\Scila7\Scila7\bin\Debug\imrp.mdb
+C:\Users\algas\Dropbox\Scila7\Scila7\bin\Debug\Indices.mdb
+C:\Users\algas\Dropbox\Scila7\Scila7\bin\Debug\macroinvertebrados.mdb
+C:\Users\algas\Dropbox\Scila7\Scila7\bin\Debug\otros.mdb
+C:\Users\algas\Dropbox\Scila7\Scila7\bin\Debug\sitios.mdb
+C:\Users\algas\Dropbox\Scila7\Scila7\bin\Debug\taxonesmuestras.mdb
+C:\Users\algas\Dropbox\Scila7\Scila7\bin\Debug\Scilla10.mdb
+C:\Users\algas\Dropbox\Scila7\Scila7\bin\Debug\Resources\logoKerku.jpg
+C:\Users\algas\Dropbox\Scila7\Scila7\bin\Debug\bmps.mdb
+C:\Users\algas\Dropbox\Scila7\Scila7\bin\Debug\Karku.exe.manifest
+C:\Users\algas\Dropbox\Scila7\Scila7\bin\Debug\Karku.application
+C:\Users\algas\Dropbox\Scila7\Scila7\bin\Debug\Karku.exe
+C:\Users\algas\Dropbox\Scila7\Scila7\bin\Debug\Karku.pdb
+C:\Users\algas\Dropbox\Scila7\Scila7\bin\Debug\Karku.xml
+C:\Users\algas\Dropbox\Scila7\Scila7\bin\Debug\Interop.MapWinGIS.dll
+C:\Users\algas\Dropbox\Scila7\Scila7\bin\Debug\C1.C1Report.2.xml
+C:\Users\algas\Dropbox\Scila7\Scila7\bin\Debug\C1.Win.C1FlexGrid.2.xml
+C:\Users\algas\Dropbox\Scila7\Scila7\bin\Debug\C1.Win.C1GanttView.2.xml
+C:\Users\algas\Dropbox\Scila7\Scila7\bin\Debug\C1.Win.C1Gauge.2.xml
+C:\Users\algas\Dropbox\Scila7\Scila7\bin\Debug\C1.Win.C1InputPanel.2.xml
+C:\Users\algas\Dropbox\Scila7\Scila7\bin\Debug\C1.Win.C1List.2.xml
+C:\Users\algas\Dropbox\Scila7\Scila7\bin\Debug\C1.Win.C1Report.2.xml
+C:\Users\algas\Dropbox\Scila7\Scila7\bin\Debug\C1.Win.C1TileControl.2.xml
+C:\Users\algas\Dropbox\Scila7\Scila7\obj\Debug\Karku.exe.manifest
+C:\Users\algas\Dropbox\Scila7\Scila7\obj\Debug\Karku.application
+C:\Users\Juaco\Dropbox\Scila7\Scila7\obj\Debug\Scila7.vbprojResolveAssemblyReference.cache
+C:\Users\Juaco\Dropbox\Scila7\Scila7\bin\Debug\C1.Win.C1Command.4.dll
+C:\Users\Juaco\Dropbox\Scila7\Scila7\bin\Debug\C1.Win.C1Input.4.dll
+C:\Users\Juaco\Dropbox\Scila7\Scila7\bin\Debug\C1.Win.C1SplitContainer.4.Design.dll
+C:\Users\Juaco\Dropbox\Scila7\Scila7\bin\Debug\C1.Win.C1SplitContainer.4.dll
+C:\Users\Juaco\Dropbox\Scila7\Scila7\bin\Debug\C1.Win.C1TrueDBGrid.4.dll
+C:\Users\Juaco\Dropbox\Scila7\Scila7\bin\Debug\C1.Win.C1Command.4.xml
+C:\Users\Juaco\Dropbox\Scila7\Scila7\bin\Debug\C1.Win.C1Input.4.xml
+C:\Users\Juaco\Dropbox\Scila7\Scila7\bin\Debug\C1.Win.C1SplitContainer.4.xml
+C:\Users\Juaco\Dropbox\Scila7\Scila7\bin\Debug\C1.Win.C1TrueDBGrid.4.xml
+C:\Users\Juaco\Dropbox\Scila7\Scila7\bin\Debug\C1.Win.C1Win7Pack.2.dll
+C:\Users\Juaco\Dropbox\Scila7\Scila7\bin\Debug\C1.Win.C1Win7Pack.2.xml
+C:\Users\algas\Dropbox\Scila7\Scila7\bin\Debug\C1.Win.C1Command.4.xml
+C:\Users\algas\Dropbox\Scila7\Scila7\bin\Debug\C1.Win.C1Input.4.xml
+C:\Users\algas\Dropbox\Scila7\Scila7\bin\Debug\C1.Win.C1SplitContainer.4.xml
+C:\Users\algas\Dropbox\Scila7\Scila7\bin\Debug\C1.Win.C1TrueDBGrid.4.xml
+C:\Users\algas\Dropbox\Scila7\Scila7\bin\Debug\C1.Win.C1Win7Pack.2.xml
+C:\Users\algas\Dropbox\Scila7\Scila7\bin\Debug\C1.Win.C1Command.4.dll
+C:\Users\algas\Dropbox\Scila7\Scila7\bin\Debug\C1.Win.C1Input.4.dll
+C:\Users\algas\Dropbox\Scila7\Scila7\bin\Debug\C1.Win.C1SplitContainer.4.Design.dll
+C:\Users\algas\Dropbox\Scila7\Scila7\bin\Debug\C1.Win.C1SplitContainer.4.dll
+C:\Users\algas\Dropbox\Scila7\Scila7\bin\Debug\C1.Win.C1TrueDBGrid.4.dll
+C:\Users\algas\Dropbox\Scila7\Scila7\bin\Debug\C1.Win.C1Sizer.4.dll
+C:\Users\algas\Dropbox\Scila7\Scila7\bin\Debug\C1.Win.C1Sizer.4.xml
+C:\Users\algas\Dropbox\Scila7\Scila7\obj\Debug\Scila7.frmImportar.resources
+C:\Users\algas\Desktop\FTPBox\Scila7\Scila7\bin\Debug\Karku.exe.config
+C:\Users\algas\Desktop\FTPBox\Scila7\Scila7\obj\Debug\Scila7.vbproj.ResolveComReference.cache
+C:\Users\algas\Desktop\FTPBox\Scila7\Scila7\obj\Debug\Karku.exe
+C:\Users\algas\Desktop\FTPBox\Scila7\Scila7\obj\Debug\Karku.xml
+C:\Users\algas\Desktop\FTPBox\Scila7\Scila7\obj\Debug\Karku.pdb
+C:\Users\algas\Desktop\FTPBox\Scila7\Scila7\bin\Debug\Config.mdb
+C:\Users\algas\Desktop\FTPBox\Scila7\Scila7\bin\Debug\cauce.mdb
+C:\Users\algas\Desktop\FTPBox\Scila7\Scila7\bin\Debug\diatomeas.mdb
+C:\Users\algas\Desktop\FTPBox\Scila7\Scila7\bin\Debug\fq.mdb
+C:\Users\algas\Desktop\FTPBox\Scila7\Scila7\bin\Debug\habitat.mdb
+C:\Users\algas\Desktop\FTPBox\Scila7\Scila7\bin\Debug\ibpamp.mdb
+C:\Users\algas\Desktop\FTPBox\Scila7\Scila7\bin\Debug\idp.mdb
+C:\Users\algas\Desktop\FTPBox\Scila7\Scila7\bin\Debug\imrp.mdb
+C:\Users\algas\Desktop\FTPBox\Scila7\Scila7\bin\Debug\Indices.mdb
+C:\Users\algas\Desktop\FTPBox\Scila7\Scila7\bin\Debug\macroinvertebrados.mdb
+C:\Users\algas\Desktop\FTPBox\Scila7\Scila7\bin\Debug\otros.mdb
+C:\Users\algas\Desktop\FTPBox\Scila7\Scila7\bin\Debug\sitios.mdb
+C:\Users\algas\Desktop\FTPBox\Scila7\Scila7\bin\Debug\taxonesmuestras.mdb
+C:\Users\algas\Desktop\FTPBox\Scila7\Scila7\bin\Debug\Scilla10.mdb
+C:\Users\algas\Desktop\FTPBox\Scila7\Scila7\bin\Debug\Resources\logoKerku.jpg
+C:\Users\algas\Desktop\FTPBox\Scila7\Scila7\bin\Debug\bmps.mdb
+C:\Users\algas\Desktop\FTPBox\Scila7\Scila7\bin\Debug\Karku.exe.manifest
+C:\Users\algas\Desktop\FTPBox\Scila7\Scila7\bin\Debug\Karku.application
+C:\Users\algas\Desktop\FTPBox\Scila7\Scila7\bin\Debug\Karku.exe
+C:\Users\algas\Desktop\FTPBox\Scila7\Scila7\bin\Debug\Karku.pdb
+C:\Users\algas\Desktop\FTPBox\Scila7\Scila7\bin\Debug\Karku.xml
+C:\Users\algas\Desktop\FTPBox\Scila7\Scila7\bin\Debug\C1.Win.C1Command.4.dll
+C:\Users\algas\Desktop\FTPBox\Scila7\Scila7\bin\Debug\C1.Win.C1Input.4.dll
+C:\Users\algas\Desktop\FTPBox\Scila7\Scila7\bin\Debug\C1.Win.C1Sizer.4.dll
+C:\Users\algas\Desktop\FTPBox\Scila7\Scila7\bin\Debug\C1.Win.C1SplitContainer.4.Design.dll
+C:\Users\algas\Desktop\FTPBox\Scila7\Scila7\bin\Debug\C1.Win.C1SplitContainer.4.dll
+C:\Users\algas\Desktop\FTPBox\Scila7\Scila7\bin\Debug\C1.Win.C1TrueDBGrid.4.dll
+C:\Users\algas\Desktop\FTPBox\Scila7\Scila7\bin\Debug\Interop.MapWinGIS.dll
+C:\Users\algas\Desktop\FTPBox\Scila7\Scila7\bin\Debug\C1.C1Report.2.xml
+C:\Users\algas\Desktop\FTPBox\Scila7\Scila7\bin\Debug\C1.Win.C1Command.4.xml
+C:\Users\algas\Desktop\FTPBox\Scila7\Scila7\bin\Debug\C1.Win.C1FlexGrid.2.xml
+C:\Users\algas\Desktop\FTPBox\Scila7\Scila7\bin\Debug\C1.Win.C1GanttView.2.xml
+C:\Users\algas\Desktop\FTPBox\Scila7\Scila7\bin\Debug\C1.Win.C1Gauge.2.xml
+C:\Users\algas\Desktop\FTPBox\Scila7\Scila7\bin\Debug\C1.Win.C1Input.4.xml
+C:\Users\algas\Desktop\FTPBox\Scila7\Scila7\bin\Debug\C1.Win.C1InputPanel.2.xml
+C:\Users\algas\Desktop\FTPBox\Scila7\Scila7\bin\Debug\C1.Win.C1List.2.xml
+C:\Users\algas\Desktop\FTPBox\Scila7\Scila7\bin\Debug\C1.Win.C1Report.2.xml
+C:\Users\algas\Desktop\FTPBox\Scila7\Scila7\bin\Debug\C1.Win.C1Sizer.4.xml
+C:\Users\algas\Desktop\FTPBox\Scila7\Scila7\bin\Debug\C1.Win.C1SplitContainer.4.xml
+C:\Users\algas\Desktop\FTPBox\Scila7\Scila7\bin\Debug\C1.Win.C1TileControl.2.xml
+C:\Users\algas\Desktop\FTPBox\Scila7\Scila7\bin\Debug\C1.Win.C1TrueDBGrid.4.xml
+C:\Users\algas\Desktop\FTPBox\Scila7\Scila7\bin\Debug\C1.Win.C1Win7Pack.2.xml
+C:\Users\algas\Desktop\FTPBox\Scila7\Scila7\obj\Debug\Scila7.vbprojResolveAssemblyReference.cache
+C:\Users\algas\Desktop\FTPBox\Scila7\Scila7\obj\Debug\Scila7.frmHabitat.resources
+C:\Users\algas\Desktop\FTPBox\Scila7\Scila7\obj\Debug\Scila7.frmFQNew.resources
+C:\Users\algas\Desktop\FTPBox\Scila7\Scila7\obj\Debug\Scila7.frmFQ.resources
+C:\Users\algas\Desktop\FTPBox\Scila7\Scila7\obj\Debug\Scila7.frmConfigModulos.resources
+C:\Users\algas\Desktop\FTPBox\Scila7\Scila7\obj\Debug\Scila7.frmImportar.resources
+C:\Users\algas\Desktop\FTPBox\Scila7\Scila7\obj\Debug\Scila7.frmPrincipal.resources
+C:\Users\algas\Desktop\FTPBox\Scila7\Scila7\obj\Debug\Scila7.frmDBDiatomeas.resources
+C:\Users\algas\Desktop\FTPBox\Scila7\Scila7\obj\Debug\Scila7.frmDBMacroInvertebrados.resources
+C:\Users\algas\Desktop\FTPBox\Scila7\Scila7\obj\Debug\Scila7.frmExport.resources
+C:\Users\algas\Desktop\FTPBox\Scila7\Scila7\obj\Debug\Scila7.frmWorkingDialog.resources
+C:\Users\algas\Desktop\FTPBox\Scila7\Scila7\obj\Debug\Scila7.frmDiatomeas.resources
+C:\Users\algas\Desktop\FTPBox\Scila7\Scila7\obj\Debug\Scila7.frmAPampeano.resources
+C:\Users\algas\Desktop\FTPBox\Scila7\Scila7\obj\Debug\Scila7.frmMacroinvertebrados.resources
+C:\Users\algas\Desktop\FTPBox\Scila7\Scila7\obj\Debug\Scila7.frmConfigPerfil.resources
+C:\Users\algas\Desktop\FTPBox\Scila7\Scila7\obj\Debug\Scila7.frmProyectos.resources
+C:\Users\algas\Desktop\FTPBox\Scila7\Scila7\obj\Debug\Scila7.frmSitios.resources
+C:\Users\algas\Desktop\FTPBox\Scila7\Scila7\obj\Debug\Scila7.frmEnciclopedia.resources
+C:\Users\algas\Desktop\FTPBox\Scila7\Scila7\obj\Debug\Scila7.frmIDP.resources
+C:\Users\algas\Desktop\FTPBox\Scila7\Scila7\obj\Debug\Scila7.frmIDP1m.resources
+C:\Users\algas\Desktop\FTPBox\Scila7\Scila7\obj\Debug\Scila7.frmIERPlata1m.resources
+C:\Users\algas\Desktop\FTPBox\Scila7\Scila7\obj\Debug\Scila7.frmMain.resources
+C:\Users\algas\Desktop\FTPBox\Scila7\Scila7\obj\Debug\Scila7.frmMuestrasRLP.resources
+C:\Users\algas\Desktop\FTPBox\Scila7\Scila7\obj\Debug\Scila7.frmRLP.resources
+C:\Users\algas\Desktop\FTPBox\Scila7\Scila7\obj\Debug\Scila7.Resources.resources
+C:\Users\algas\Desktop\FTPBox\Scila7\Scila7\obj\Debug\Scila7.SplashScreen.resources
+C:\Users\algas\Desktop\FTPBox\Scila7\Scila7\obj\Debug\Scila7.vbproj.GenerateResource.Cache
+C:\Users\algas\Desktop\FTPBox\Scila7\Scila7\obj\Debug\Karku.exe.licenses
+C:\Users\algas\Desktop\FTPBox\Scila7\Scila7\obj\Debug\Karku.exe.manifest
+C:\Users\algas\Desktop\FTPBox\Scila7\Scila7\obj\Debug\Karku.application
+D:\Juaco\Compartida\Scila7\Scila7\bin\Debug\Karku.exe.config
+D:\Juaco\Compartida\Scila7\Scila7\obj\Debug\Scila7.vbproj.ResolveComReference.cache
+D:\Juaco\Compartida\Scila7\Scila7\obj\Debug\Karku.exe
+D:\Juaco\Compartida\Scila7\Scila7\obj\Debug\Karku.xml
+D:\Juaco\Compartida\Scila7\Scila7\obj\Debug\Karku.pdb
+D:\Juaco\Compartida\Scila7\Scila7\bin\Debug\Config.mdb
+D:\Juaco\Compartida\Scila7\Scila7\bin\Debug\cauce.mdb
+D:\Juaco\Compartida\Scila7\Scila7\bin\Debug\diatomeas.mdb
+D:\Juaco\Compartida\Scila7\Scila7\bin\Debug\fq.mdb
+D:\Juaco\Compartida\Scila7\Scila7\bin\Debug\habitat.mdb
+D:\Juaco\Compartida\Scila7\Scila7\bin\Debug\ibpamp.mdb
+D:\Juaco\Compartida\Scila7\Scila7\bin\Debug\idp.mdb
+D:\Juaco\Compartida\Scila7\Scila7\bin\Debug\imrp.mdb
+D:\Juaco\Compartida\Scila7\Scila7\bin\Debug\Indices.mdb
+D:\Juaco\Compartida\Scila7\Scila7\bin\Debug\macroinvertebrados.mdb
+D:\Juaco\Compartida\Scila7\Scila7\bin\Debug\otros.mdb
+D:\Juaco\Compartida\Scila7\Scila7\bin\Debug\sitios.mdb
+D:\Juaco\Compartida\Scila7\Scila7\bin\Debug\taxonesmuestras.mdb
+D:\Juaco\Compartida\Scila7\Scila7\bin\Debug\Scilla10.mdb
+D:\Juaco\Compartida\Scila7\Scila7\bin\Debug\Resources\logoKerku.jpg
+D:\Juaco\Compartida\Scila7\Scila7\bin\Debug\bmps.mdb
+D:\Juaco\Compartida\Scila7\Scila7\bin\Debug\Karku.exe.manifest
+D:\Juaco\Compartida\Scila7\Scila7\bin\Debug\Karku.application
+D:\Juaco\Compartida\Scila7\Scila7\bin\Debug\Karku.exe
+D:\Juaco\Compartida\Scila7\Scila7\bin\Debug\Karku.pdb
+D:\Juaco\Compartida\Scila7\Scila7\bin\Debug\Karku.xml
+D:\Juaco\Compartida\Scila7\Scila7\bin\Debug\C1.C1Report.2.dll
+D:\Juaco\Compartida\Scila7\Scila7\bin\Debug\C1.Win.C1Command.4.dll
+D:\Juaco\Compartida\Scila7\Scila7\bin\Debug\C1.Win.C1FlexGrid.2.dll
+D:\Juaco\Compartida\Scila7\Scila7\bin\Debug\C1.Win.C1FlexGrid.Classic.2.dll
+D:\Juaco\Compartida\Scila7\Scila7\bin\Debug\C1.Win.C1GanttView.2.dll
+D:\Juaco\Compartida\Scila7\Scila7\bin\Debug\C1.Win.C1Gauge.2.dll
+D:\Juaco\Compartida\Scila7\Scila7\bin\Debug\C1.Win.C1Input.4.dll
+D:\Juaco\Compartida\Scila7\Scila7\bin\Debug\C1.Win.C1InputPanel.2.dll
+D:\Juaco\Compartida\Scila7\Scila7\bin\Debug\C1.Win.C1List.2.dll
+D:\Juaco\Compartida\Scila7\Scila7\bin\Debug\C1.Win.C1Report.2.dll
+D:\Juaco\Compartida\Scila7\Scila7\bin\Debug\C1.Win.C1SplitContainer.4.Design.dll
+D:\Juaco\Compartida\Scila7\Scila7\bin\Debug\C1.Win.C1SplitContainer.4.dll
+D:\Juaco\Compartida\Scila7\Scila7\bin\Debug\C1.Win.C1TileControl.2.dll
+D:\Juaco\Compartida\Scila7\Scila7\bin\Debug\C1.Win.C1TrueDBGrid.4.dll
+D:\Juaco\Compartida\Scila7\Scila7\bin\Debug\C1.Win.C1Win7Pack.2.dll
+D:\Juaco\Compartida\Scila7\Scila7\bin\Debug\Interop.MapWinGIS.dll
+D:\Juaco\Compartida\Scila7\Scila7\bin\Debug\C1.C1Report.2.xml
+D:\Juaco\Compartida\Scila7\Scila7\bin\Debug\C1.Win.C1Command.4.xml
+D:\Juaco\Compartida\Scila7\Scila7\bin\Debug\C1.Win.C1FlexGrid.2.xml
+D:\Juaco\Compartida\Scila7\Scila7\bin\Debug\C1.Win.C1GanttView.2.xml
+D:\Juaco\Compartida\Scila7\Scila7\bin\Debug\C1.Win.C1Gauge.2.xml
+D:\Juaco\Compartida\Scila7\Scila7\bin\Debug\C1.Win.C1Input.4.xml
+D:\Juaco\Compartida\Scila7\Scila7\bin\Debug\C1.Win.C1InputPanel.2.xml
+D:\Juaco\Compartida\Scila7\Scila7\bin\Debug\C1.Win.C1List.2.xml
+D:\Juaco\Compartida\Scila7\Scila7\bin\Debug\C1.Win.C1Report.2.xml
+D:\Juaco\Compartida\Scila7\Scila7\bin\Debug\C1.Win.C1Sizer.4.xml
+D:\Juaco\Compartida\Scila7\Scila7\bin\Debug\C1.Win.C1SplitContainer.4.xml
+D:\Juaco\Compartida\Scila7\Scila7\bin\Debug\C1.Win.C1TileControl.2.xml
+D:\Juaco\Compartida\Scila7\Scila7\bin\Debug\C1.Win.C1TrueDBGrid.4.xml
+D:\Juaco\Compartida\Scila7\Scila7\bin\Debug\C1.Win.C1Win7Pack.2.xml
+D:\Juaco\Compartida\Scila7\Scila7\obj\Debug\Scila7.vbprojResolveAssemblyReference.cache
+D:\Juaco\Compartida\Scila7\Scila7\obj\Debug\Scila7.frmHabitat.resources
+D:\Juaco\Compartida\Scila7\Scila7\obj\Debug\Scila7.frmFQ.resources
+D:\Juaco\Compartida\Scila7\Scila7\obj\Debug\Scila7.frmConfigModulos.resources
+D:\Juaco\Compartida\Scila7\Scila7\obj\Debug\Scila7.frmImportar.resources
+D:\Juaco\Compartida\Scila7\Scila7\obj\Debug\Scila7.frmPrincipal.resources
+D:\Juaco\Compartida\Scila7\Scila7\obj\Debug\Scila7.frmDBDiatomeas.resources
+D:\Juaco\Compartida\Scila7\Scila7\obj\Debug\Scila7.frmDBMacroInvertebrados.resources
+D:\Juaco\Compartida\Scila7\Scila7\obj\Debug\Scila7.frmExport.resources
+D:\Juaco\Compartida\Scila7\Scila7\obj\Debug\Scila7.frmWorkingDialog.resources
+D:\Juaco\Compartida\Scila7\Scila7\obj\Debug\Scila7.frmDiatomeas.resources
+D:\Juaco\Compartida\Scila7\Scila7\obj\Debug\Scila7.frmAPampeano.resources
+D:\Juaco\Compartida\Scila7\Scila7\obj\Debug\Scila7.frmMacroinvertebrados.resources
+D:\Juaco\Compartida\Scila7\Scila7\obj\Debug\Scila7.frmConfigPerfil.resources
+D:\Juaco\Compartida\Scila7\Scila7\obj\Debug\Scila7.frmProyectos.resources
+D:\Juaco\Compartida\Scila7\Scila7\obj\Debug\Scila7.frmSitios.resources
+D:\Juaco\Compartida\Scila7\Scila7\obj\Debug\Scila7.frmEnciclopedia.resources
+D:\Juaco\Compartida\Scila7\Scila7\obj\Debug\Scila7.frmIDP.resources
+D:\Juaco\Compartida\Scila7\Scila7\obj\Debug\Scila7.frmIDP1m.resources
+D:\Juaco\Compartida\Scila7\Scila7\obj\Debug\Scila7.frmIERPlata1m.resources
+D:\Juaco\Compartida\Scila7\Scila7\obj\Debug\Scila7.frmMain.resources
+D:\Juaco\Compartida\Scila7\Scila7\obj\Debug\Scila7.frmMuestrasRLP.resources
+D:\Juaco\Compartida\Scila7\Scila7\obj\Debug\Scila7.frmRLP.resources
+D:\Juaco\Compartida\Scila7\Scila7\obj\Debug\Scila7.Resources.resources
+D:\Juaco\Compartida\Scila7\Scila7\obj\Debug\Scila7.SplashScreen.resources
+D:\Juaco\Compartida\Scila7\Scila7\obj\Debug\Scila7.vbproj.GenerateResource.Cache
+D:\Juaco\Compartida\Scila7\Scila7\obj\Debug\Karku.exe.licenses
+D:\Juaco\Compartida\Scila7\Scila7\obj\Debug\Karku.exe.manifest
+D:\Juaco\Compartida\Scila7\Scila7\obj\Debug\Karku.application
+D:\Juaco\Compartida\Scila7\Scila7\bin\Debug\C1.Win.C1Gauge.4.dll
+D:\Juaco\Compartida\Scila7\Scila7\bin\Debug\C1.Win.C1Gauge.4.xml
+D:\Juaco\Compartida\Scila7\Scila7\obj\Debug\Scila7.frmDBParametros.resources
+D:\Juaco\Compartida\Scila7\Scila7\obj\Debug\Scila7.frmImportar1.resources
+C:\Users\algas\Desktop\Scila7\Scila7\bin\Debug\C1.Win.C1Command.4.dll
+C:\Users\algas\Desktop\Scila7\Scila7\bin\Debug\C1.Win.C1Input.4.dll
+C:\Users\algas\Desktop\Scila7\Scila7\bin\Debug\C1.Win.C1SplitContainer.4.Design.dll
+C:\Users\algas\Desktop\Scila7\Scila7\bin\Debug\C1.Win.C1SplitContainer.4.dll
+C:\Users\algas\Desktop\Scila7\Scila7\bin\Debug\C1.Win.C1TrueDBGrid.4.dll
+C:\Users\algas\Desktop\Scila7\Scila7\bin\Debug\C1.C1Report.2.xml
+C:\Users\algas\Desktop\Scila7\Scila7\bin\Debug\C1.Win.C1Command.4.xml
+C:\Users\algas\Desktop\Scila7\Scila7\bin\Debug\C1.Win.C1FlexGrid.2.xml
+C:\Users\algas\Desktop\Scila7\Scila7\bin\Debug\C1.Win.C1GanttView.2.xml
+C:\Users\algas\Desktop\Scila7\Scila7\bin\Debug\C1.Win.C1Gauge.4.xml
+C:\Users\algas\Desktop\Scila7\Scila7\bin\Debug\C1.Win.C1Input.4.xml
+C:\Users\algas\Desktop\Scila7\Scila7\bin\Debug\C1.Win.C1InputPanel.2.xml
+C:\Users\algas\Desktop\Scila7\Scila7\bin\Debug\C1.Win.C1List.2.xml
+C:\Users\algas\Desktop\Scila7\Scila7\bin\Debug\C1.Win.C1Report.2.xml
+C:\Users\algas\Desktop\Scila7\Scila7\bin\Debug\C1.Win.C1SplitContainer.4.xml
+C:\Users\algas\Desktop\Scila7\Scila7\bin\Debug\C1.Win.C1TrueDBGrid.4.xml
+C:\Users\algas\Desktop\Scila7\Scila7\bin\Debug\C1.Win.C1Win7Pack.2.xml
+C:\Users\algas\Desktop\Scila7\Scila7\obj\Debug\Scila7.vbprojResolveAssemblyReference.cache
+C:\Users\algas\Desktop\Scila7\Scila7\obj\Debug\Scila7.frmDBParametros.resources
+C:\Users\algas\Desktop\Scila7\Scila7\obj\Debug\Scila7.frmFQ.resources
+C:\Users\algas\Desktop\Scila7\Scila7\obj\Debug\Scila7.frmImportar.resources
+C:\Users\algas\Desktop\Scila7\Scila7\obj\Debug\Scila7.frmHabitat.resources
+C:\Users\algas\Desktop\Scila7\Scila7\obj\Debug\Scila7.frmDatosSimple.resources
+C:\Users\Juaco\Desktop\Scila7\Scila7\bin\Debug\Karku.exe.config
+C:\Users\Juaco\Desktop\Scila7\Scila7\obj\Debug\Scila7.vbproj.ResolveComReference.cache
+C:\Users\Juaco\Desktop\Scila7\Scila7\obj\Debug\Karku.exe
+C:\Users\Juaco\Desktop\Scila7\Scila7\obj\Debug\Karku.xml
+C:\Users\Juaco\Desktop\Scila7\Scila7\obj\Debug\Karku.pdb
+C:\Users\Juaco\Desktop\Scila7\Scila7\bin\Debug\Config.mdb
+C:\Users\Juaco\Desktop\Scila7\Scila7\bin\Debug\cauce.mdb
+C:\Users\Juaco\Desktop\Scila7\Scila7\bin\Debug\diatomeas.mdb
+C:\Users\Juaco\Desktop\Scila7\Scila7\bin\Debug\fq.mdb
+C:\Users\Juaco\Desktop\Scila7\Scila7\bin\Debug\habitat.mdb
+C:\Users\Juaco\Desktop\Scila7\Scila7\bin\Debug\ibpamp.mdb
+C:\Users\Juaco\Desktop\Scila7\Scila7\bin\Debug\idp.mdb
+C:\Users\Juaco\Desktop\Scila7\Scila7\bin\Debug\imrp.mdb
+C:\Users\Juaco\Desktop\Scila7\Scila7\bin\Debug\Indices.mdb
+C:\Users\Juaco\Desktop\Scila7\Scila7\bin\Debug\macroinvertebrados.mdb
+C:\Users\Juaco\Desktop\Scila7\Scila7\bin\Debug\otros.mdb
+C:\Users\Juaco\Desktop\Scila7\Scila7\bin\Debug\sitios.mdb
+C:\Users\Juaco\Desktop\Scila7\Scila7\bin\Debug\taxonesmuestras.mdb
+C:\Users\Juaco\Desktop\Scila7\Scila7\bin\Debug\Scilla10.mdb
+C:\Users\Juaco\Desktop\Scila7\Scila7\bin\Debug\Resources\logoKerku.jpg
+C:\Users\Juaco\Desktop\Scila7\Scila7\bin\Debug\bmps.mdb
+C:\Users\Juaco\Desktop\Scila7\Scila7\bin\Debug\Karku.exe.manifest
+C:\Users\Juaco\Desktop\Scila7\Scila7\bin\Debug\Karku.application
+C:\Users\Juaco\Desktop\Scila7\Scila7\bin\Debug\Karku.exe
+C:\Users\Juaco\Desktop\Scila7\Scila7\bin\Debug\Karku.pdb
+C:\Users\Juaco\Desktop\Scila7\Scila7\bin\Debug\Karku.xml
+C:\Users\Juaco\Desktop\Scila7\Scila7\bin\Debug\C1.C1Report.2.dll
+C:\Users\Juaco\Desktop\Scila7\Scila7\bin\Debug\C1.Win.C1Command.4.dll
+C:\Users\Juaco\Desktop\Scila7\Scila7\bin\Debug\C1.Win.C1FlexGrid.2.dll
+C:\Users\Juaco\Desktop\Scila7\Scila7\bin\Debug\C1.Win.C1FlexGrid.Classic.2.dll
+C:\Users\Juaco\Desktop\Scila7\Scila7\bin\Debug\C1.Win.C1GanttView.2.dll
+C:\Users\Juaco\Desktop\Scila7\Scila7\bin\Debug\C1.Win.C1Gauge.4.dll
+C:\Users\Juaco\Desktop\Scila7\Scila7\bin\Debug\C1.Win.C1Input.4.dll
+C:\Users\Juaco\Desktop\Scila7\Scila7\bin\Debug\C1.Win.C1InputPanel.2.dll
+C:\Users\Juaco\Desktop\Scila7\Scila7\bin\Debug\C1.Win.C1List.2.dll
+C:\Users\Juaco\Desktop\Scila7\Scila7\bin\Debug\C1.Win.C1Report.2.dll
+C:\Users\Juaco\Desktop\Scila7\Scila7\bin\Debug\C1.Win.C1SplitContainer.4.Design.dll
+C:\Users\Juaco\Desktop\Scila7\Scila7\bin\Debug\C1.Win.C1SplitContainer.4.dll
+C:\Users\Juaco\Desktop\Scila7\Scila7\bin\Debug\C1.Win.C1TrueDBGrid.4.dll
+C:\Users\Juaco\Desktop\Scila7\Scila7\bin\Debug\C1.Win.C1Win7Pack.2.dll
+C:\Users\Juaco\Desktop\Scila7\Scila7\bin\Debug\C1.C1Report.2.xml
+C:\Users\Juaco\Desktop\Scila7\Scila7\bin\Debug\C1.Win.C1Command.4.xml
+C:\Users\Juaco\Desktop\Scila7\Scila7\bin\Debug\C1.Win.C1FlexGrid.2.xml
+C:\Users\Juaco\Desktop\Scila7\Scila7\bin\Debug\C1.Win.C1GanttView.2.xml
+C:\Users\Juaco\Desktop\Scila7\Scila7\bin\Debug\C1.Win.C1Gauge.4.xml
+C:\Users\Juaco\Desktop\Scila7\Scila7\bin\Debug\C1.Win.C1Input.4.xml
+C:\Users\Juaco\Desktop\Scila7\Scila7\bin\Debug\C1.Win.C1InputPanel.2.xml
+C:\Users\Juaco\Desktop\Scila7\Scila7\bin\Debug\C1.Win.C1List.2.xml
+C:\Users\Juaco\Desktop\Scila7\Scila7\bin\Debug\C1.Win.C1Report.2.xml
+C:\Users\Juaco\Desktop\Scila7\Scila7\bin\Debug\C1.Win.C1SplitContainer.4.xml
+C:\Users\Juaco\Desktop\Scila7\Scila7\bin\Debug\C1.Win.C1TrueDBGrid.4.xml
+C:\Users\Juaco\Desktop\Scila7\Scila7\bin\Debug\C1.Win.C1Win7Pack.2.xml
+C:\Users\Juaco\Desktop\Scila7\Scila7\obj\Debug\Scila7.vbprojResolveAssemblyReference.cache
+C:\Users\Juaco\Desktop\Scila7\Scila7\obj\Debug\Scila7.frmDatosSimple.resources
+C:\Users\Juaco\Desktop\Scila7\Scila7\obj\Debug\Scila7.frmHabitat.resources
+C:\Users\Juaco\Desktop\Scila7\Scila7\obj\Debug\Scila7.frmDBParametros.resources
+C:\Users\Juaco\Desktop\Scila7\Scila7\obj\Debug\Scila7.frmFQ.resources
+C:\Users\Juaco\Desktop\Scila7\Scila7\obj\Debug\Scila7.frmConfigModulos.resources
+C:\Users\Juaco\Desktop\Scila7\Scila7\obj\Debug\Scila7.frmImportar.resources
+C:\Users\Juaco\Desktop\Scila7\Scila7\obj\Debug\Scila7.frmPrincipal.resources
+C:\Users\Juaco\Desktop\Scila7\Scila7\obj\Debug\Scila7.frmDBDiatomeas.resources
+C:\Users\Juaco\Desktop\Scila7\Scila7\obj\Debug\Scila7.frmDBMacroInvertebrados.resources
+C:\Users\Juaco\Desktop\Scila7\Scila7\obj\Debug\Scila7.frmExport.resources
+C:\Users\Juaco\Desktop\Scila7\Scila7\obj\Debug\Scila7.frmWorkingDialog.resources
+C:\Users\Juaco\Desktop\Scila7\Scila7\obj\Debug\Scila7.frmDiatomeas.resources
+C:\Users\Juaco\Desktop\Scila7\Scila7\obj\Debug\Scila7.frmAPampeano.resources
+C:\Users\Juaco\Desktop\Scila7\Scila7\obj\Debug\Scila7.frmMacroinvertebrados.resources
+C:\Users\Juaco\Desktop\Scila7\Scila7\obj\Debug\Scila7.frmConfigPerfil.resources
+C:\Users\Juaco\Desktop\Scila7\Scila7\obj\Debug\Scila7.frmProyectos.resources
+C:\Users\Juaco\Desktop\Scila7\Scila7\obj\Debug\Scila7.frmSitios.resources
+C:\Users\Juaco\Desktop\Scila7\Scila7\obj\Debug\Scila7.frmEnciclopedia.resources
+C:\Users\Juaco\Desktop\Scila7\Scila7\obj\Debug\Scila7.frmIDP.resources
+C:\Users\Juaco\Desktop\Scila7\Scila7\obj\Debug\Scila7.frmIDP1m.resources
+C:\Users\Juaco\Desktop\Scila7\Scila7\obj\Debug\Scila7.frmIERPlata1m.resources
+C:\Users\Juaco\Desktop\Scila7\Scila7\obj\Debug\Scila7.frmMain.resources
+C:\Users\Juaco\Desktop\Scila7\Scila7\obj\Debug\Scila7.frmMuestrasRLP.resources
+C:\Users\Juaco\Desktop\Scila7\Scila7\obj\Debug\Scila7.frmRLP.resources
+C:\Users\Juaco\Desktop\Scila7\Scila7\obj\Debug\Scila7.Resources.resources
+C:\Users\Juaco\Desktop\Scila7\Scila7\obj\Debug\Scila7.SplashScreen.resources
+C:\Users\Juaco\Desktop\Scila7\Scila7\obj\Debug\Scila7.vbproj.GenerateResource.Cache
+C:\Users\Juaco\Desktop\Scila7\Scila7\obj\Debug\Karku.exe.licenses
+C:\Users\Juaco\Desktop\Scila7\Scila7\obj\Debug\Karku.exe.manifest
+C:\Users\Juaco\Desktop\Scila7\Scila7\obj\Debug\Karku.application
+C:\Users\algas\Desktop\Scila7\Scila7\bin\Debug\C1.Win.C1Themes.4.dll
+C:\Users\algas\Desktop\Scila7\Scila7\bin\Debug\C1.Win.C1Themes.4.xml
+C:\Users\algas\Desktop\Scila7\Scila7\bin\Debug\C1.Win.C1TileControl.4.dll
+C:\Users\algas\Desktop\Scila7\Scila7\bin\Debug\C1.Win.C1TileControl.4.xml
+C:\Users\algas\Desktop\Scila7\Scila7\obj\Debug\Interop.MapWinGIS.dll
+C:\Users\algas\Desktop\Scila7\Scila7\obj\Debug\Scila7.frmConversor.resources
+C:\Users\Juaco\Desktop\Scila7\Scila7\obj\Debug\Scila7.frmConversor.resources
+C:\Users\Juaco\Desktop\Scila7\Scila7\bin\Debug\C1.Win.C1Themes.4.xml
+C:\Users\Juaco\Desktop\Scila7\Scila7\bin\Debug\C1.Win.C1TileControl.4.xml
+C:\Users\Juaco\Desktop\Scila7\Scila7\obj\Debug\Interop.MapWinGIS.dll
+C:\Users\Juaco\Desktop\Scila7\Scila7\bin\Debug\factoresconversion.txt
+C:\Users\algas\Desktop\Scila7\Scila7\bin\Debug\factoresconversion.txt
+C:\Users\algas\Desktop\Scila7\Scila7\bin\Debug\dbcalculos\bmps.mdb
+C:\Users\algas\Desktop\Scila7\Scila7\bin\Debug\dbcalculos\ibpamp.mdb
+C:\Users\algas\Desktop\Scila7\Scila7\bin\Debug\dbcalculos\idp.mdb
+C:\Users\algas\Desktop\Scila7\Scila7\bin\Debug\dbcalculos\imrp.mdb
+C:\Users\algas\Desktop\Scila7\Scila7\bin\Debug\dbcalculos\pbmwp.mdb
+C:\Users\algas\Desktop\Scila7\Scila7\bin\Debug\dbcalculos\qbrp.mdb
+C:\Users\algas\Desktop\Scila7\Scila7\bin\Debug\dbcalculos\cbr.mdb
+C:\Users\algas\Desktop\Scila7\Scila7\bin\Debug\dbcalculos\densidad.mdb
+C:\Users\algas\Desktop\Scila7\Scila7\bin\Debug\dbcalculos\hshannon.mdb
+C:\Users\algas\Desktop\Scila7\Scila7\bin\Debug\dbcalculos\ibirp.mdb
+C:\Users\algas\Desktop\Scila7\Scila7\bin\Debug\dbcalculos\ihrplata.mdb
+C:\Users\algas\Desktop\Scila7\Scila7\bin\Debug\dbcalculos\jpielou.mdb
+C:\Users\algas\Desktop\Scila7\Scila7\obj\Debug\Scila7.frmOptimosyTols.resources
+C:\Users\algas\Desktop\Scila7\Scila7\obj\Debug\Scila7.frmGraficar.resources
+C:\Users\algas\Desktop\Scila7\Scila7\obj\Debug\RdlCompile.cache
+C:\Users\algas\Desktop\Scila7\Scila7\obj\Debug\RdlCompile.compiled
+C:\Users\algas\Desktop\Scila7\Scila7\obj\Debug\Scila7.frmDatosTaxones.resources
+C:\Users\algas\Desktop\Scila7\Scila7\obj\Debug\Scila7.frmDBParametrosOLD.resources
+C:\Users\algas\Desktop\Scila7\Scila7\obj\Debug\Scila7.frmDBIndices.resources
+C:\Users\algas\Desktop\Scila7\Scila7\bin\Debug\dbcalculos\saprobiedaddiats.mdb
+C:\Users\algas\Desktop\Scila7\Scila7\bin\Debug\dbcalculos\eutrofizaciondiats.mdb
+C:\Users\algas\Desktop\Scila7\Scila7\bin\Debug\C1.Win.C1Chart.2.dll
+C:\Users\algas\Desktop\Scila7\Scila7\bin\Debug\C1.Win.C1Chart.2.xml
+C:\Users\algas\Desktop\Scila7\Scila7\obj\Debug\Scila7.frmResultadosCalcular.resources
+C:\Users\algas\Desktop\Scila7\Scila7\obj\Debug\Scila7.frmMuestrasRapidas.resources
+C:\Users\algas\Desktop\Scila7\Scila7\obj\Debug\Scila7.frmBuscarEspecie.resources
+C:\Users\algas\Desktop\Scila7\Scila7\bin\Debug\Newtonsoft.Json.dll
+C:\Users\algas\Desktop\Scila7\Scila7\bin\Debug\GoogleSearchAPI.pdb
+C:\Users\algas\Desktop\Scila7\Scila7\bin\Debug\GoogleSearchAPI.xml
+C:\Users\algas\Desktop\Scila7\Scila7\bin\Debug\Newtonsoft.Json.xml
+C:\Users\algas\Desktop\Scila7\Scila7\obj\Debug\Scila7.frmInterpretacion.resources
+C:\Users\algas\Google Drive\Scila7\Scila7\bin\Debug\dbcalculos\bmps.mdb
+C:\Users\algas\Google Drive\Scila7\Scila7\bin\Debug\dbcalculos\cbr.mdb
+C:\Users\algas\Google Drive\Scila7\Scila7\bin\Debug\Config.mdb
+C:\Users\algas\Google Drive\Scila7\Scila7\bin\Debug\cauce.mdb
+C:\Users\algas\Google Drive\Scila7\Scila7\bin\Debug\dbcalculos\densidad.mdb
+C:\Users\algas\Google Drive\Scila7\Scila7\bin\Debug\dbcalculos\hshannon.mdb
+C:\Users\algas\Google Drive\Scila7\Scila7\bin\Debug\dbcalculos\ibirp.mdb
+C:\Users\algas\Google Drive\Scila7\Scila7\bin\Debug\dbcalculos\ihrplata.mdb
+C:\Users\algas\Google Drive\Scila7\Scila7\bin\Debug\dbcalculos\jpielou.mdb
+C:\Users\algas\Google Drive\Scila7\Scila7\bin\Debug\dbcalculos\saprobiedaddiats.mdb
+C:\Users\algas\Google Drive\Scila7\Scila7\bin\Debug\diatomeas.mdb
+C:\Users\algas\Google Drive\Scila7\Scila7\bin\Debug\factoresconversion.txt
+C:\Users\algas\Google Drive\Scila7\Scila7\bin\Debug\fq.mdb
+C:\Users\algas\Google Drive\Scila7\Scila7\bin\Debug\habitat.mdb
+C:\Users\algas\Google Drive\Scila7\Scila7\bin\Debug\dbcalculos\ibpamp.mdb
+C:\Users\algas\Google Drive\Scila7\Scila7\bin\Debug\dbcalculos\idp.mdb
+C:\Users\algas\Google Drive\Scila7\Scila7\bin\Debug\dbcalculos\imrp.mdb
+C:\Users\algas\Google Drive\Scila7\Scila7\bin\Debug\Indices.mdb
+C:\Users\algas\Google Drive\Scila7\Scila7\bin\Debug\macroinvertebrados.mdb
+C:\Users\algas\Google Drive\Scila7\Scila7\bin\Debug\otros.mdb
+C:\Users\algas\Google Drive\Scila7\Scila7\bin\Debug\dbcalculos\pbmwp.mdb
+C:\Users\algas\Google Drive\Scila7\Scila7\bin\Debug\dbcalculos\qbrp.mdb
+C:\Users\algas\Google Drive\Scila7\Scila7\bin\Debug\sitios.mdb
+C:\Users\algas\Google Drive\Scila7\Scila7\bin\Debug\taxonesmuestras.mdb
+C:\Users\algas\Google Drive\Scila7\Scila7\bin\Debug\Scilla10.mdb
+C:\Users\algas\Google Drive\Scila7\Scila7\bin\Debug\Resources\logoKerku.jpg
+C:\Users\algas\Google Drive\Scila7\Scila7\bin\Debug\dbcalculos\eutrofizaciondiats.mdb
+C:\Users\algas\Google Drive\Scila7\Scila7\bin\Debug\Karku.exe.config
+C:\Users\algas\Google Drive\Scila7\Scila7\bin\Debug\Karku.exe.manifest
+C:\Users\algas\Google Drive\Scila7\Scila7\bin\Debug\Karku.application
+C:\Users\algas\Google Drive\Scila7\Scila7\bin\Debug\Karku.exe
+C:\Users\algas\Google Drive\Scila7\Scila7\bin\Debug\Karku.pdb
+C:\Users\algas\Google Drive\Scila7\Scila7\bin\Debug\Karku.xml
+C:\Users\algas\Google Drive\Scila7\Scila7\bin\Debug\Karku.exe.CodeAnalysisLog.xml
+C:\Users\algas\Google Drive\Scila7\Scila7\bin\Debug\Karku.exe.lastcodeanalysissucceeded
+C:\Users\algas\Google Drive\Scila7\Scila7\bin\Debug\C1.Win.C1Chart.2.dll
+C:\Users\algas\Google Drive\Scila7\Scila7\bin\Debug\C1.Win.C1Command.4.dll
+C:\Users\algas\Google Drive\Scila7\Scila7\bin\Debug\C1.Win.C1Input.4.dll
+C:\Users\algas\Google Drive\Scila7\Scila7\bin\Debug\C1.Win.C1SplitContainer.4.Design.dll
+C:\Users\algas\Google Drive\Scila7\Scila7\bin\Debug\C1.Win.C1SplitContainer.4.dll
+C:\Users\algas\Google Drive\Scila7\Scila7\bin\Debug\C1.Win.C1Themes.4.dll
+C:\Users\algas\Google Drive\Scila7\Scila7\bin\Debug\C1.Win.C1TileControl.4.dll
+C:\Users\algas\Google Drive\Scila7\Scila7\bin\Debug\C1.Win.C1TrueDBGrid.4.dll
+C:\Users\algas\Google Drive\Scila7\Scila7\bin\Debug\C1.Win.C1Chart.2.xml
+C:\Users\algas\Google Drive\Scila7\Scila7\bin\Debug\C1.Win.C1Command.4.xml
+C:\Users\algas\Google Drive\Scila7\Scila7\bin\Debug\C1.Win.C1Input.4.xml
+C:\Users\algas\Google Drive\Scila7\Scila7\bin\Debug\C1.Win.C1SplitContainer.4.xml
+C:\Users\algas\Google Drive\Scila7\Scila7\bin\Debug\C1.Win.C1Themes.4.xml
+C:\Users\algas\Google Drive\Scila7\Scila7\bin\Debug\C1.Win.C1TileControl.4.xml
+C:\Users\algas\Google Drive\Scila7\Scila7\bin\Debug\C1.Win.C1TrueDBGrid.4.xml
+C:\Users\algas\Google Drive\Scila7\Scila7\obj\Debug\Scila7.vbprojResolveAssemblyReference.cache
+C:\Users\algas\Google Drive\Scila7\Scila7\obj\Debug\Interop.MapWinGIS.dll
+C:\Users\algas\Google Drive\Scila7\Scila7\obj\Debug\Scila7.vbproj.ResolveComReference.cache
+C:\Users\algas\Google Drive\Scila7\Scila7\obj\Debug\Scila7.frmDBIndices.resources
+C:\Users\algas\Google Drive\Scila7\Scila7\obj\Debug\Scila7.frmDBParametros.resources
+C:\Users\algas\Google Drive\Scila7\Scila7\obj\Debug\Scila7.frmBuscarEspecie.resources
+C:\Users\algas\Google Drive\Scila7\Scila7\obj\Debug\Scila7.frmConversor.resources
+C:\Users\algas\Google Drive\Scila7\Scila7\obj\Debug\Scila7.frmDatosSimple.resources
+C:\Users\algas\Google Drive\Scila7\Scila7\obj\Debug\Scila7.frmDatosTaxones.resources
+C:\Users\algas\Google Drive\Scila7\Scila7\obj\Debug\Scila7.frmGraficar.resources
+C:\Users\algas\Google Drive\Scila7\Scila7\obj\Debug\Scila7.frmInterpretacion.resources
+C:\Users\algas\Google Drive\Scila7\Scila7\obj\Debug\Scila7.frmInterpretacionOLD.resources
+C:\Users\algas\Google Drive\Scila7\Scila7\obj\Debug\Scila7.frmMuestrasRapidas.resources
+C:\Users\algas\Google Drive\Scila7\Scila7\obj\Debug\Scila7.frmOptimosyTols.resources
+C:\Users\algas\Google Drive\Scila7\Scila7\obj\Debug\Scila7.frmResultadosCalcular.resources
+C:\Users\algas\Google Drive\Scila7\Scila7\obj\Debug\Scila7.frmHabitat.resources
+C:\Users\algas\Google Drive\Scila7\Scila7\obj\Debug\Scila7.frmDBParametrosOLD.resources
+C:\Users\algas\Google Drive\Scila7\Scila7\obj\Debug\Scila7.frmFQ.resources
+C:\Users\algas\Google Drive\Scila7\Scila7\obj\Debug\Scila7.frmConfigModulos.resources
+C:\Users\algas\Google Drive\Scila7\Scila7\obj\Debug\Scila7.frmImportar.resources
+C:\Users\algas\Google Drive\Scila7\Scila7\obj\Debug\Scila7.frmPrincipal.resources
+C:\Users\algas\Google Drive\Scila7\Scila7\obj\Debug\Scila7.frmDBDiatomeas.resources
+C:\Users\algas\Google Drive\Scila7\Scila7\obj\Debug\Scila7.frmDBMacroInvertebrados.resources
+C:\Users\algas\Google Drive\Scila7\Scila7\obj\Debug\Scila7.frmExport.resources
+C:\Users\algas\Google Drive\Scila7\Scila7\obj\Debug\Scila7.frmWorkingDialog.resources
+C:\Users\algas\Google Drive\Scila7\Scila7\obj\Debug\Scila7.frmDiatomeas.resources
+C:\Users\algas\Google Drive\Scila7\Scila7\obj\Debug\Scila7.frmAPampeano.resources
+C:\Users\algas\Google Drive\Scila7\Scila7\obj\Debug\Scila7.frmMacroinvertebrados.resources
+C:\Users\algas\Google Drive\Scila7\Scila7\obj\Debug\Scila7.frmConfigPerfil.resources
+C:\Users\algas\Google Drive\Scila7\Scila7\obj\Debug\Scila7.frmProyectos.resources
+C:\Users\algas\Google Drive\Scila7\Scila7\obj\Debug\Scila7.frmSitios.resources
+C:\Users\algas\Google Drive\Scila7\Scila7\obj\Debug\Scila7.frmEnciclopedia.resources
+C:\Users\algas\Google Drive\Scila7\Scila7\obj\Debug\Scila7.frmIDP.resources
+C:\Users\algas\Google Drive\Scila7\Scila7\obj\Debug\Scila7.frmIERPlata1m.resources
+C:\Users\algas\Google Drive\Scila7\Scila7\obj\Debug\Scila7.frmMain.resources
+C:\Users\algas\Google Drive\Scila7\Scila7\obj\Debug\Scila7.frmMuestrasRLP.resources
+C:\Users\algas\Google Drive\Scila7\Scila7\obj\Debug\Scila7.frmRLP.resources
+C:\Users\algas\Google Drive\Scila7\Scila7\obj\Debug\Scila7.Resources.resources
+C:\Users\algas\Google Drive\Scila7\Scila7\obj\Debug\Scila7.SplashScreen.resources
+C:\Users\algas\Google Drive\Scila7\Scila7\obj\Debug\Scila7.vbproj.GenerateResource.Cache
+C:\Users\algas\Google Drive\Scila7\Scila7\obj\Debug\Karku.exe.licenses
+C:\Users\algas\Google Drive\Scila7\Scila7\obj\Debug\RdlCompile.cache
+C:\Users\algas\Google Drive\Scila7\Scila7\obj\Debug\RdlCompile.compiled
+C:\Users\algas\Google Drive\Scila7\Scila7\obj\Debug\Karku.exe.manifest
+C:\Users\algas\Google Drive\Scila7\Scila7\obj\Debug\Karku.application
+C:\Users\algas\Google Drive\Scila7\Scila7\obj\Debug\Karku.exe
+C:\Users\algas\Google Drive\Scila7\Scila7\obj\Debug\Karku.xml
+C:\Users\algas\Google Drive\Scila7\Scila7\obj\Debug\Karku.pdb
+C:\Users\algas\Google Drive\Documentos\Scila7\Scila7\bin\Debug\dbcalculos\bmps.mdb
+C:\Users\algas\Google Drive\Documentos\Scila7\Scila7\bin\Debug\dbcalculos\cbr.mdb
+C:\Users\algas\Google Drive\Documentos\Scila7\Scila7\bin\Debug\Config.mdb
+C:\Users\algas\Google Drive\Documentos\Scila7\Scila7\bin\Debug\cauce.mdb
+C:\Users\algas\Google Drive\Documentos\Scila7\Scila7\bin\Debug\dbcalculos\densidad.mdb
+C:\Users\algas\Google Drive\Documentos\Scila7\Scila7\bin\Debug\dbcalculos\hshannon.mdb
+C:\Users\algas\Google Drive\Documentos\Scila7\Scila7\bin\Debug\dbcalculos\ibirp.mdb
+C:\Users\algas\Google Drive\Documentos\Scila7\Scila7\bin\Debug\dbcalculos\ihrplata.mdb
+C:\Users\algas\Google Drive\Documentos\Scila7\Scila7\bin\Debug\dbcalculos\jpielou.mdb
+C:\Users\algas\Google Drive\Documentos\Scila7\Scila7\bin\Debug\dbcalculos\saprobiedaddiats.mdb
+C:\Users\algas\Google Drive\Documentos\Scila7\Scila7\bin\Debug\diatomeas.mdb
+C:\Users\algas\Google Drive\Documentos\Scila7\Scila7\bin\Debug\factoresconversion.txt
+C:\Users\algas\Google Drive\Documentos\Scila7\Scila7\bin\Debug\fq.mdb
+C:\Users\algas\Google Drive\Documentos\Scila7\Scila7\bin\Debug\habitat.mdb
+C:\Users\algas\Google Drive\Documentos\Scila7\Scila7\bin\Debug\dbcalculos\ibpamp.mdb
+C:\Users\algas\Google Drive\Documentos\Scila7\Scila7\bin\Debug\dbcalculos\idp.mdb
+C:\Users\algas\Google Drive\Documentos\Scila7\Scila7\bin\Debug\dbcalculos\imrp.mdb
+C:\Users\algas\Google Drive\Documentos\Scila7\Scila7\bin\Debug\Indices.mdb
+C:\Users\algas\Google Drive\Documentos\Scila7\Scila7\bin\Debug\macroinvertebrados.mdb
+C:\Users\algas\Google Drive\Documentos\Scila7\Scila7\bin\Debug\otros.mdb
+C:\Users\algas\Google Drive\Documentos\Scila7\Scila7\bin\Debug\dbcalculos\pbmwp.mdb
+C:\Users\algas\Google Drive\Documentos\Scila7\Scila7\bin\Debug\dbcalculos\qbrp.mdb
+C:\Users\algas\Google Drive\Documentos\Scila7\Scila7\bin\Debug\sitios.mdb
+C:\Users\algas\Google Drive\Documentos\Scila7\Scila7\bin\Debug\taxonesmuestras.mdb
+C:\Users\algas\Google Drive\Documentos\Scila7\Scila7\bin\Debug\Scilla10.mdb
+C:\Users\algas\Google Drive\Documentos\Scila7\Scila7\bin\Debug\Resources\logoKerku.jpg
+C:\Users\algas\Google Drive\Documentos\Scila7\Scila7\bin\Debug\dbcalculos\eutrofizaciondiats.mdb
+C:\Users\algas\Google Drive\Documentos\Scila7\Scila7\bin\Debug\Karku.exe.config
+C:\Users\algas\Google Drive\Documentos\Scila7\Scila7\bin\Debug\Karku.exe.manifest
+C:\Users\algas\Google Drive\Documentos\Scila7\Scila7\bin\Debug\Karku.application
+C:\Users\algas\Google Drive\Documentos\Scila7\Scila7\bin\Debug\Karku.exe
+C:\Users\algas\Google Drive\Documentos\Scila7\Scila7\bin\Debug\Karku.pdb
+C:\Users\algas\Google Drive\Documentos\Scila7\Scila7\bin\Debug\Karku.xml
+C:\Users\algas\Google Drive\Documentos\Scila7\Scila7\bin\Debug\C1.Win.C1Chart.2.dll
+C:\Users\algas\Google Drive\Documentos\Scila7\Scila7\bin\Debug\C1.Win.C1Command.4.dll
+C:\Users\algas\Google Drive\Documentos\Scila7\Scila7\bin\Debug\C1.Win.C1Input.4.dll
+C:\Users\algas\Google Drive\Documentos\Scila7\Scila7\bin\Debug\C1.Win.C1SplitContainer.4.Design.dll
+C:\Users\algas\Google Drive\Documentos\Scila7\Scila7\bin\Debug\C1.Win.C1SplitContainer.4.dll
+C:\Users\algas\Google Drive\Documentos\Scila7\Scila7\bin\Debug\C1.Win.C1Themes.4.dll
+C:\Users\algas\Google Drive\Documentos\Scila7\Scila7\bin\Debug\C1.Win.C1TileControl.4.dll
+C:\Users\algas\Google Drive\Documentos\Scila7\Scila7\bin\Debug\C1.Win.C1TrueDBGrid.4.dll
+C:\Users\algas\Google Drive\Documentos\Scila7\Scila7\bin\Debug\C1.Win.C1Chart.2.xml
+C:\Users\algas\Google Drive\Documentos\Scila7\Scila7\bin\Debug\C1.Win.C1Command.4.xml
+C:\Users\algas\Google Drive\Documentos\Scila7\Scila7\bin\Debug\C1.Win.C1Input.4.xml
+C:\Users\algas\Google Drive\Documentos\Scila7\Scila7\bin\Debug\C1.Win.C1SplitContainer.4.xml
+C:\Users\algas\Google Drive\Documentos\Scila7\Scila7\bin\Debug\C1.Win.C1Themes.4.xml
+C:\Users\algas\Google Drive\Documentos\Scila7\Scila7\bin\Debug\C1.Win.C1TileControl.4.xml
+C:\Users\algas\Google Drive\Documentos\Scila7\Scila7\bin\Debug\C1.Win.C1TrueDBGrid.4.xml
+C:\Users\algas\Google Drive\Documentos\Scila7\Scila7\obj\Debug\Scila7.vbprojResolveAssemblyReference.cache
+C:\Users\algas\Google Drive\Documentos\Scila7\Scila7\obj\Debug\Interop.MapWinGIS.dll
+C:\Users\algas\Google Drive\Documentos\Scila7\Scila7\obj\Debug\Scila7.vbproj.ResolveComReference.cache
+C:\Users\algas\Google Drive\Documentos\Scila7\Scila7\obj\Debug\Scila7.frmDBIndices.resources
+C:\Users\algas\Google Drive\Documentos\Scila7\Scila7\obj\Debug\Scila7.frmDBParametros.resources
+C:\Users\algas\Google Drive\Documentos\Scila7\Scila7\obj\Debug\Scila7.frmBuscarEspecie.resources
+C:\Users\algas\Google Drive\Documentos\Scila7\Scila7\obj\Debug\Scila7.frmConversor.resources
+C:\Users\algas\Google Drive\Documentos\Scila7\Scila7\obj\Debug\Scila7.frmDatosSimple.resources
+C:\Users\algas\Google Drive\Documentos\Scila7\Scila7\obj\Debug\Scila7.frmDatosTaxones.resources
+C:\Users\algas\Google Drive\Documentos\Scila7\Scila7\obj\Debug\Scila7.frmGraficar.resources
+C:\Users\algas\Google Drive\Documentos\Scila7\Scila7\obj\Debug\Scila7.frmInterpretacion.resources
+C:\Users\algas\Google Drive\Documentos\Scila7\Scila7\obj\Debug\Scila7.frmInterpretacionOLD.resources
+C:\Users\algas\Google Drive\Documentos\Scila7\Scila7\obj\Debug\Scila7.frmMuestrasRapidas.resources
+C:\Users\algas\Google Drive\Documentos\Scila7\Scila7\obj\Debug\Scila7.frmOptimosyTols.resources
+C:\Users\algas\Google Drive\Documentos\Scila7\Scila7\obj\Debug\Scila7.frmResultadosCalcular.resources
+C:\Users\algas\Google Drive\Documentos\Scila7\Scila7\obj\Debug\Scila7.frmHabitat.resources
+C:\Users\algas\Google Drive\Documentos\Scila7\Scila7\obj\Debug\Scila7.frmDBParametrosOLD.resources
+C:\Users\algas\Google Drive\Documentos\Scila7\Scila7\obj\Debug\Scila7.frmFQ.resources
+C:\Users\algas\Google Drive\Documentos\Scila7\Scila7\obj\Debug\Scila7.frmConfigModulos.resources
+C:\Users\algas\Google Drive\Documentos\Scila7\Scila7\obj\Debug\Scila7.frmImportar.resources
+C:\Users\algas\Google Drive\Documentos\Scila7\Scila7\obj\Debug\Scila7.frmPrincipal.resources
+C:\Users\algas\Google Drive\Documentos\Scila7\Scila7\obj\Debug\Scila7.frmDBDiatomeas.resources
+C:\Users\algas\Google Drive\Documentos\Scila7\Scila7\obj\Debug\Scila7.frmDBMacroInvertebrados.resources
+C:\Users\algas\Google Drive\Documentos\Scila7\Scila7\obj\Debug\Scila7.frmExport.resources
+C:\Users\algas\Google Drive\Documentos\Scila7\Scila7\obj\Debug\Scila7.frmWorkingDialog.resources
+C:\Users\algas\Google Drive\Documentos\Scila7\Scila7\obj\Debug\Scila7.frmDiatomeas.resources
+C:\Users\algas\Google Drive\Documentos\Scila7\Scila7\obj\Debug\Scila7.frmAPampeano.resources
+C:\Users\algas\Google Drive\Documentos\Scila7\Scila7\obj\Debug\Scila7.frmMacroinvertebrados.resources
+C:\Users\algas\Google Drive\Documentos\Scila7\Scila7\obj\Debug\Scila7.frmConfigPerfil.resources
+C:\Users\algas\Google Drive\Documentos\Scila7\Scila7\obj\Debug\Scila7.frmProyectos.resources
+C:\Users\algas\Google Drive\Documentos\Scila7\Scila7\obj\Debug\Scila7.frmSitios.resources
+C:\Users\algas\Google Drive\Documentos\Scila7\Scila7\obj\Debug\Scila7.frmEnciclopedia.resources
+C:\Users\algas\Google Drive\Documentos\Scila7\Scila7\obj\Debug\Scila7.frmIDP.resources
+C:\Users\algas\Google Drive\Documentos\Scila7\Scila7\obj\Debug\Scila7.frmIERPlata1m.resources
+C:\Users\algas\Google Drive\Documentos\Scila7\Scila7\obj\Debug\Scila7.frmMain.resources
+C:\Users\algas\Google Drive\Documentos\Scila7\Scila7\obj\Debug\Scila7.frmMuestrasRLP.resources
+C:\Users\algas\Google Drive\Documentos\Scila7\Scila7\obj\Debug\Scila7.frmRLP.resources
+C:\Users\algas\Google Drive\Documentos\Scila7\Scila7\obj\Debug\Scila7.Resources.resources
+C:\Users\algas\Google Drive\Documentos\Scila7\Scila7\obj\Debug\Scila7.SplashScreen.resources
+C:\Users\algas\Google Drive\Documentos\Scila7\Scila7\obj\Debug\Scila7.vbproj.GenerateResource.Cache
+C:\Users\algas\Google Drive\Documentos\Scila7\Scila7\obj\Debug\Karku.exe.licenses
+C:\Users\algas\Google Drive\Documentos\Scila7\Scila7\obj\Debug\Karku.exe.manifest
+C:\Users\algas\Google Drive\Documentos\Scila7\Scila7\obj\Debug\Karku.application
+C:\Users\algas\Google Drive\Documentos\Scila7\Scila7\obj\Debug\Karku.exe
+C:\Users\algas\Google Drive\Documentos\Scila7\Scila7\obj\Debug\Karku.xml
+C:\Users\algas\Google Drive\Documentos\Scila7\Scila7\obj\Debug\Karku.pdb
+C:\Users\algas\Google Drive\Documentos\Scila7\Scila7\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+C:\Users\algas\Google Drive\Documentos\Scila7\Scila7\bin\Debug\Microsoft.VisualBasic.PowerPacks.Vs.dll
+C:\Users\algas\Google Drive\Documentos\Scila7\Scila7\bin\Debug\Microsoft.VisualBasic.PowerPacks.Vs.xml
+C:\Users\algas\Google Drive\Documentos\Scila7\Scila7\bin\Debug\de\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\algas\Google Drive\Documentos\Scila7\Scila7\bin\Debug\es\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\algas\Google Drive\Documentos\Scila7\Scila7\bin\Debug\fr\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\algas\Google Drive\Documentos\Scila7\Scila7\bin\Debug\it\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\algas\Google Drive\Documentos\Scila7\Scila7\bin\Debug\ja\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\algas\Google Drive\Documentos\Scila7\Scila7\bin\Debug\ko\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\algas\Google Drive\Documentos\Scila7\Scila7\bin\Debug\pt\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\algas\Google Drive\Documentos\Scila7\Scila7\bin\Debug\ru\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\algas\Google Drive\Documentos\Scila7\Scila7\bin\Debug\zh-CHS\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\algas\Google Drive\Documentos\Scila7\Scila7\bin\Debug\zh-CHT\Microsoft.ReportViewer.WinForms.resources.dll
+D:\Users\Juaco\Google Drive\Documentos\Scila7\Scila7\bin\Debug\Karku.exe.config
+D:\Users\Juaco\Google Drive\Documentos\Scila7\Scila7\obj\Debug\Scila7.vbproj.ResolveComReference.cache
+D:\Users\Juaco\Google Drive\Documentos\Scila7\Scila7\obj\Debug\Karku.exe
+D:\Users\Juaco\Google Drive\Documentos\Scila7\Scila7\obj\Debug\Karku.xml
+D:\Users\Juaco\Google Drive\Documentos\Scila7\Scila7\obj\Debug\Karku.pdb
+D:\Users\Juaco\Google Drive\Documentos\Scila7\Scila7\obj\Debug\Scila7.vbprojResolveAssemblyReference.cache
+D:\Users\Juaco\Google Drive\Documentos\Scila7\Scila7\obj\Debug\Scila7.frmDBIndices.resources
+D:\Users\Juaco\Google Drive\Documentos\Scila7\Scila7\obj\Debug\Scila7.frmDBParametros.resources
+D:\Users\Juaco\Google Drive\Documentos\Scila7\Scila7\obj\Debug\Scila7.frmBuscarEspecie.resources
+D:\Users\Juaco\Google Drive\Documentos\Scila7\Scila7\obj\Debug\Scila7.frmConversor.resources
+D:\Users\Juaco\Google Drive\Documentos\Scila7\Scila7\obj\Debug\Scila7.frmDatosSimple.resources
+D:\Users\Juaco\Google Drive\Documentos\Scila7\Scila7\obj\Debug\Scila7.frmDatosTaxones.resources
+D:\Users\Juaco\Google Drive\Documentos\Scila7\Scila7\obj\Debug\Scila7.frmGraficar.resources
+D:\Users\Juaco\Google Drive\Documentos\Scila7\Scila7\obj\Debug\Scila7.frmInterpretacion.resources
+D:\Users\Juaco\Google Drive\Documentos\Scila7\Scila7\obj\Debug\Scila7.frmInterpretacionOLD.resources
+D:\Users\Juaco\Google Drive\Documentos\Scila7\Scila7\obj\Debug\Scila7.frmMuestrasRapidas.resources
+D:\Users\Juaco\Google Drive\Documentos\Scila7\Scila7\obj\Debug\Scila7.frmOptimosyTols.resources
+D:\Users\Juaco\Google Drive\Documentos\Scila7\Scila7\obj\Debug\Scila7.frmResultadosCalcular.resources
+D:\Users\Juaco\Google Drive\Documentos\Scila7\Scila7\obj\Debug\Scila7.frmHabitat.resources
+D:\Users\Juaco\Google Drive\Documentos\Scila7\Scila7\obj\Debug\Scila7.frmDBParametrosOLD.resources
+D:\Users\Juaco\Google Drive\Documentos\Scila7\Scila7\obj\Debug\Scila7.frmFQ.resources
+D:\Users\Juaco\Google Drive\Documentos\Scila7\Scila7\obj\Debug\Scila7.frmConfigModulos.resources
+D:\Users\Juaco\Google Drive\Documentos\Scila7\Scila7\obj\Debug\Scila7.frmImportar.resources
+D:\Users\Juaco\Google Drive\Documentos\Scila7\Scila7\obj\Debug\Scila7.frmPrincipal.resources
+D:\Users\Juaco\Google Drive\Documentos\Scila7\Scila7\obj\Debug\Scila7.frmDBDiatomeas.resources
+D:\Users\Juaco\Google Drive\Documentos\Scila7\Scila7\obj\Debug\Scila7.frmDBMacroInvertebrados.resources
+D:\Users\Juaco\Google Drive\Documentos\Scila7\Scila7\obj\Debug\Scila7.frmExport.resources
+D:\Users\Juaco\Google Drive\Documentos\Scila7\Scila7\obj\Debug\Scila7.frmWorkingDialog.resources
+D:\Users\Juaco\Google Drive\Documentos\Scila7\Scila7\obj\Debug\Scila7.frmDiatomeas.resources
+D:\Users\Juaco\Google Drive\Documentos\Scila7\Scila7\obj\Debug\Scila7.frmAPampeano.resources
+D:\Users\Juaco\Google Drive\Documentos\Scila7\Scila7\obj\Debug\Scila7.frmMacroinvertebrados.resources
+D:\Users\Juaco\Google Drive\Documentos\Scila7\Scila7\obj\Debug\Scila7.frmConfigPerfil.resources
+D:\Users\Juaco\Google Drive\Documentos\Scila7\Scila7\obj\Debug\Scila7.frmProyectos.resources
+D:\Users\Juaco\Google Drive\Documentos\Scila7\Scila7\obj\Debug\Scila7.frmSitios.resources
+D:\Users\Juaco\Google Drive\Documentos\Scila7\Scila7\obj\Debug\Scila7.frmEnciclopedia.resources
+D:\Users\Juaco\Google Drive\Documentos\Scila7\Scila7\obj\Debug\Scila7.frmIDP.resources
+D:\Users\Juaco\Google Drive\Documentos\Scila7\Scila7\obj\Debug\Scila7.frmIERPlata1m.resources
+D:\Users\Juaco\Google Drive\Documentos\Scila7\Scila7\obj\Debug\Scila7.frmMain.resources
+D:\Users\Juaco\Google Drive\Documentos\Scila7\Scila7\obj\Debug\Scila7.frmMuestrasRLP.resources
+D:\Users\Juaco\Google Drive\Documentos\Scila7\Scila7\obj\Debug\Scila7.frmRLP.resources
+D:\Users\Juaco\Google Drive\Documentos\Scila7\Scila7\obj\Debug\Scila7.Resources.resources
+D:\Users\Juaco\Google Drive\Documentos\Scila7\Scila7\obj\Debug\Scila7.SplashScreen.resources
+D:\Users\Juaco\Google Drive\Documentos\Scila7\Scila7\obj\Debug\Scila7.vbproj.GenerateResource.Cache
+D:\Users\Juaco\Google Drive\Documentos\Scila7\Scila7\obj\Debug\Karku.exe.licenses
+D:\Users\Juaco\Google Drive\Documentos\Scila7\Scila7\bin\Debug\dbcalculos\bmps.mdb
+D:\Users\Juaco\Google Drive\Documentos\Scila7\Scila7\bin\Debug\dbcalculos\cbr.mdb
+D:\Users\Juaco\Google Drive\Documentos\Scila7\Scila7\bin\Debug\Config.mdb
+D:\Users\Juaco\Google Drive\Documentos\Scila7\Scila7\bin\Debug\cauce.mdb
+D:\Users\Juaco\Google Drive\Documentos\Scila7\Scila7\bin\Debug\dbcalculos\densidad.mdb
+D:\Users\Juaco\Google Drive\Documentos\Scila7\Scila7\bin\Debug\dbcalculos\hshannon.mdb
+D:\Users\Juaco\Google Drive\Documentos\Scila7\Scila7\bin\Debug\dbcalculos\ibirp.mdb
+D:\Users\Juaco\Google Drive\Documentos\Scila7\Scila7\bin\Debug\dbcalculos\ihrplata.mdb
+D:\Users\Juaco\Google Drive\Documentos\Scila7\Scila7\bin\Debug\dbcalculos\jpielou.mdb
+D:\Users\Juaco\Google Drive\Documentos\Scila7\Scila7\bin\Debug\dbcalculos\saprobiedaddiats.mdb
+D:\Users\Juaco\Google Drive\Documentos\Scila7\Scila7\bin\Debug\diatomeas.mdb
+D:\Users\Juaco\Google Drive\Documentos\Scila7\Scila7\bin\Debug\factoresconversion.txt
+D:\Users\Juaco\Google Drive\Documentos\Scila7\Scila7\bin\Debug\fq.mdb
+D:\Users\Juaco\Google Drive\Documentos\Scila7\Scila7\bin\Debug\habitat.mdb
+D:\Users\Juaco\Google Drive\Documentos\Scila7\Scila7\bin\Debug\dbcalculos\ibpamp.mdb
+D:\Users\Juaco\Google Drive\Documentos\Scila7\Scila7\bin\Debug\dbcalculos\idp.mdb
+D:\Users\Juaco\Google Drive\Documentos\Scila7\Scila7\bin\Debug\dbcalculos\imrp.mdb
+D:\Users\Juaco\Google Drive\Documentos\Scila7\Scila7\bin\Debug\Indices.mdb
+D:\Users\Juaco\Google Drive\Documentos\Scila7\Scila7\bin\Debug\macroinvertebrados.mdb
+D:\Users\Juaco\Google Drive\Documentos\Scila7\Scila7\bin\Debug\otros.mdb
+D:\Users\Juaco\Google Drive\Documentos\Scila7\Scila7\bin\Debug\dbcalculos\pbmwp.mdb
+D:\Users\Juaco\Google Drive\Documentos\Scila7\Scila7\bin\Debug\dbcalculos\qbrp.mdb
+D:\Users\Juaco\Google Drive\Documentos\Scila7\Scila7\bin\Debug\sitios.mdb
+D:\Users\Juaco\Google Drive\Documentos\Scila7\Scila7\bin\Debug\taxonesmuestras.mdb
+D:\Users\Juaco\Google Drive\Documentos\Scila7\Scila7\bin\Debug\Scilla10.mdb
+D:\Users\Juaco\Google Drive\Documentos\Scila7\Scila7\bin\Debug\Resources\logoKerku.jpg
+D:\Users\Juaco\Google Drive\Documentos\Scila7\Scila7\bin\Debug\dbcalculos\eutrofizaciondiats.mdb
+D:\Users\Juaco\Google Drive\Documentos\Scila7\Scila7\bin\Debug\Karku.exe.manifest
+D:\Users\Juaco\Google Drive\Documentos\Scila7\Scila7\bin\Debug\Karku.application
+D:\Users\Juaco\Google Drive\Documentos\Scila7\Scila7\bin\Debug\Karku.exe
+D:\Users\Juaco\Google Drive\Documentos\Scila7\Scila7\bin\Debug\Karku.pdb
+D:\Users\Juaco\Google Drive\Documentos\Scila7\Scila7\bin\Debug\Karku.xml
+D:\Users\Juaco\Google Drive\Documentos\Scila7\Scila7\bin\Debug\C1.C1Report.2.dll
+D:\Users\Juaco\Google Drive\Documentos\Scila7\Scila7\bin\Debug\C1.Win.C1Command.4.dll
+D:\Users\Juaco\Google Drive\Documentos\Scila7\Scila7\bin\Debug\C1.Win.C1FlexGrid.2.dll
+D:\Users\Juaco\Google Drive\Documentos\Scila7\Scila7\bin\Debug\C1.Win.C1FlexGrid.Classic.2.dll
+D:\Users\Juaco\Google Drive\Documentos\Scila7\Scila7\bin\Debug\C1.Win.C1GanttView.2.dll
+D:\Users\Juaco\Google Drive\Documentos\Scila7\Scila7\bin\Debug\C1.Win.C1Gauge.4.dll
+D:\Users\Juaco\Google Drive\Documentos\Scila7\Scila7\bin\Debug\C1.Win.C1Input.4.dll
+D:\Users\Juaco\Google Drive\Documentos\Scila7\Scila7\bin\Debug\C1.Win.C1InputPanel.2.dll
+D:\Users\Juaco\Google Drive\Documentos\Scila7\Scila7\bin\Debug\C1.Win.C1List.2.dll
+D:\Users\Juaco\Google Drive\Documentos\Scila7\Scila7\bin\Debug\C1.Win.C1Report.2.dll
+D:\Users\Juaco\Google Drive\Documentos\Scila7\Scila7\bin\Debug\C1.Win.C1SplitContainer.4.Design.dll
+D:\Users\Juaco\Google Drive\Documentos\Scila7\Scila7\bin\Debug\C1.Win.C1SplitContainer.4.dll
+D:\Users\Juaco\Google Drive\Documentos\Scila7\Scila7\bin\Debug\C1.Win.C1TrueDBGrid.4.dll
+D:\Users\Juaco\Google Drive\Documentos\Scila7\Scila7\bin\Debug\C1.Win.C1Win7Pack.2.dll
+D:\Users\Juaco\Google Drive\Documentos\Scila7\Scila7\bin\Debug\C1.C1Report.2.xml
+D:\Users\Juaco\Google Drive\Documentos\Scila7\Scila7\bin\Debug\C1.Win.C1Chart.2.xml
+D:\Users\Juaco\Google Drive\Documentos\Scila7\Scila7\bin\Debug\C1.Win.C1Command.4.xml
+D:\Users\Juaco\Google Drive\Documentos\Scila7\Scila7\bin\Debug\C1.Win.C1FlexGrid.2.xml
+D:\Users\Juaco\Google Drive\Documentos\Scila7\Scila7\bin\Debug\C1.Win.C1GanttView.2.xml
+D:\Users\Juaco\Google Drive\Documentos\Scila7\Scila7\bin\Debug\C1.Win.C1Gauge.4.xml
+D:\Users\Juaco\Google Drive\Documentos\Scila7\Scila7\bin\Debug\C1.Win.C1Input.4.xml
+D:\Users\Juaco\Google Drive\Documentos\Scila7\Scila7\bin\Debug\C1.Win.C1InputPanel.2.xml
+D:\Users\Juaco\Google Drive\Documentos\Scila7\Scila7\bin\Debug\C1.Win.C1List.2.xml
+D:\Users\Juaco\Google Drive\Documentos\Scila7\Scila7\bin\Debug\C1.Win.C1Report.2.xml
+D:\Users\Juaco\Google Drive\Documentos\Scila7\Scila7\bin\Debug\C1.Win.C1SplitContainer.4.xml
+D:\Users\Juaco\Google Drive\Documentos\Scila7\Scila7\bin\Debug\C1.Win.C1Themes.4.xml
+D:\Users\Juaco\Google Drive\Documentos\Scila7\Scila7\bin\Debug\C1.Win.C1TileControl.4.xml
+D:\Users\Juaco\Google Drive\Documentos\Scila7\Scila7\bin\Debug\C1.Win.C1TrueDBGrid.4.xml
+D:\Users\Juaco\Google Drive\Documentos\Scila7\Scila7\bin\Debug\C1.Win.C1Win7Pack.2.xml
+D:\Users\Juaco\Google Drive\Documentos\Scila7\Scila7\obj\Debug\Karku.exe.manifest
+D:\Users\Juaco\Google Drive\Documentos\Scila7\Scila7\obj\Debug\Karku.application
+D:\Users\Juaco\Google Drive\Documentos\Scila7\Scila7\obj\Debug\RdlCompile.cache
+D:\Users\Juaco\Google Drive\Documentos\Scila7\Scila7\obj\Debug\RdlCompile.compiled
+C:\Users\algas\Google Drive\Documentos\Scila7\Scila7\obj\Debug\RdlCompile.cache
+C:\Users\algas\Google Drive\Documentos\Scila7\Scila7\obj\Debug\RdlCompile.compiled

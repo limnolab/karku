@@ -1,0 +1,531 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <metadata name="Label8.GenerateMember" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="Label7.GenerateMember" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="Label6.GenerateMember" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="AmbienteLabel.GenerateMember" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="DescripcionLabel.GenerateMember" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="AutorLabel.GenerateMember" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="NombreLabel.GenerateMember" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="AmbienteLabel1.GenerateMember" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="C1CommandHolder1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>94</value>
+  </metadata>
+  <metadata name="ConfigBindingSource.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>313, 17</value>
+  </metadata>
+  <metadata name="MenuStrip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>178, 56</value>
+  </metadata>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAABAAMAEBAAAAAAIABoBAAANgAAACAgAAAAACAAqBAAAJ4EAAAwMAAAAAAgAKglAABGFQAAKAAAABAA
+        AAAgAAAAAQAgAAAAAABABAAAAAAAAAAAAAAAAAAAAAAAAP///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH+/v7P/v7+z/v9/s/7+vHP8ubMz+vY
+        ss/p1qjP7Nyxz/XozM/58uXP/v36z/38/s/////P////z////8/////P/v7+//39/f/07dr/2sea/+DE
+        iP/jyYr/6M6P/+7Slv/w2qX/8uK5//Xq0//8+vL///////////////////////z9/f/v59P/0rV0/9a3
+        b//dt2P/475v/+/Sk//z26L/9t+j//LXl//23KX/8+nJ//v58//+/v7//v7+///////29O3/zq1q/82r
+        Wv/RqlT/38yT//Lq1//Dr4L/rJBK/7afXv/JuIH/4M6Y//fcof/16sv//v35//7+/v//////4c2h/8ah
+        TP/BnkT/3seS//n28P/Htob/n3oj/8CdW//Xwpf/4dGz/8uwd//OtXX/8d2o//j05//+/v7//////8qp
+        YP+7lTz/x6df//Do1v/7/P3/wq16/8axfP/p4cn/4NO0//Lk0f/Su43/t5VP/9a6ev/w5sv//v7+////
+        //+5jzT/sYwr/8+3gP/8+/b/+fz8/+7q3P+zoGf/49e8/9C5if/UvIn/xKZp/7WOQ/+1kUb/69uy///+
+        /P//////to0y/6uIMP/Yv4z//f3+//v8/P/6/P7/7evb/7abX/+2kkf/upVN/7SOQf+jfCr/nnUf/+nY
+        sf/+/v7//////7yYQ/+nhCz/0LaD//39/f/8/f3//v79//z9/v/39fD/vaVs/6R5Kf+hdSH/m28Z/594
+        Jf/p27b//v79///////Os3z/m3oa/7yfXf/6+vb/+f78//7+/v/+/v3//f37//r49P+ullz/nW8W/59u
+        Gf+ykUv/5uDG//7+/f//////7+vY/599Jf+ogjX/4da4//39/f////////////38/f/9/fz/5dzG/5tu
+        Gv+acxz/0b6P//n37//+/v7///////38/P/axp3/lXMf/66RSP/y7eH//v7///7+/f/8/P3//f39/+zl
+        1f+gdSL/wq58/+rk0P/9/Pv//v7+///////8/f3/+vz3/9bJov+aeCv/q4hD/+PVvP/5+Pf/+/z8//v+
+        /P/r5dT/0MWg/+nh0P/8/Pz//v7+//7+/v//////+/79//z9/v/8/Pr/7ubX/7yqdf+jhTr/qo5I/72o
+        cP/KtYj/08Ch/+vq2v/8/Pn//v7+//7+/v/+/v7///////r+/B3//Pwd/vz8Hff7/h37//sd5M+mHZ13
+        MB2YeSQd18eZHfr99h37+v4d9fv3Hf7+/h39/f0d/f39Hf///x0AAP//AAD//wAA//8AAP//AAD//wAA
+        //8AAP//AAD//wAA//8AAP//AAD//wAA//8AAP//AAD//wAA//8AAP//KAAAACAAAABAAAAAAQAgAAAA
+        AACAEAAAAAAAAAAAAAAAAAAAAAAAAP///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH+/v6h/v7+of7+/qH+/v6h/f7/ofn9
+        /qH6+/uh+vv4of7++aH9++yh+/DWofPkxKHq2rKh6diqoejcrqHt5Lyh+e/Uof336KH+/fWh/v38of7+
+        /qH+/f6h+/3+of3+/6H///+h////of///6H///+h////of///6H///+h////of39/f/9/f3//v7+//39
+        /f/8/v7/+P3+//399//69eH/7+DB/+XPqP/jzJ//5c+i/+fSo//p16b/7der/+/bs//y373/8eLF//Pm
+        zP/38eT//vry///+/P/++////vz//////////////////////////////////////////////v7+//7+
+        /v/+/v7//Pz8//7++//7+en/6N7C/9jFmv/ewov/4caM/+HJkv/izJb/5dGd/+nXo//t1qf/8Nms/+/c
+        sv/t37f/7+K8//Hmyf/16tT/+/To//78+f///f3/////////////////////////////////////////
+        ///+/v7//f39//39/f/9/f3/9O/j/+PPn//Su4f/172E/93Bg//lyIT/5smC/+XFfv/oxn3/68l//+zL
+        gf/uz4b/8dSQ//PZm//336T/8uG6//Hiwf/x583/9/Pf//798v//////////////////////////////
+        //////////////z+///+/vv//v79//Pu3v/Xw5X/07Nv/9G1dP/bvnv/4L1z/+C6aP/iumP/57xh/+m9
+        Yv/ov2j/68Rs/+vFbP/wyXH/9M11//bPef/22JD/9+Kv//Xlvv/y58f/9PDc//389//+/v7//v7+//79
+        /f////7/////////////////+fv+//37+v/69Ob/0ryL/9CwZf/QsGb/1rZs/9azYv/Zslj/3bRX/9+8
+        bP/jx4z/8t+2//jtyv/68Nf/+/Pb//z32f/67sz/7d+6/+/Wmf/1z4j/9tmf//PlvP/06Mb/9u/h//38
+        9v/9/v7//v7+//79/f/////////////////5+/z/9/j1/+DLpf/JpFn/zKtg/9OwYv/SqlL/0atR/8+x
+        Xv/hyYP/8N+1//fy5P/28ur/29G1/7+tfP+wnGb/qphj/7+uef/XxpP/7+HH//forf/02Yb/9tmY//bi
+        vf/y5sn/+fTk//7++v/+/v7//v39//////////////////39+f/p4cn/waJe/8+kS//Nq1v/yKVM/86m
+        S//Rr2H/4M6W/+7o1P/5+Pf/59/N/6iPWv+TaxD/nHUZ/6eDK/+1lkX/u59V/7ifWf+nmVP/t6V8/+DQ
+        sf/226H/+NqP//fktf/z6cz//frv///9/P///v//////////////////+/jv/9O4gP/Dnkr/y6hU/8Sg
+        SP/DoD//zata/+bNmf/06dP/+fv6//jz4P+slVD/j2wN/6R9Jf+0kUr/vp9g/8uxf//UwJj/2cin/9rB
+        m//OsXX/tpxZ/8q3ff/w15//89uf//Hkvv/18OD//v37//7+/v/////////////////w5cn/xJ9M/8Of
+        SP/GoEr/vJk8/8KhTP/YxIn/6+DO//769//4+/v/5Nu8/5Z0Kv+Ydhj/sYlC/8CZWP/Nqmv/2sCQ/+TX
+        tv/o48z/6te9/9nDnP/Nr3P/t5ZP/8iuaf/t1Zj/89+s//PpzP/7+vT//f3+/////////////////+LN
+        nv+8lj3/wZ5I/7uSOP+4lT7/0rJs/9nKoP/79/L//vv9//n+/f/i2Lz/lXMh/519Jf/ZwZr/3s+q/9LB
+        lP/Xx5//7eHL//nx7f/z5c3/3Mml/8uxfP+/nlj/sY5F/9W5ev/v157/7eC7//f16f/+/v7/////////
+        ////////zatn/7yVPf+4lz//uI8v/7ubTf/Xu4X/7uPL//37+//9+/7/9/38//Do2P+fgzL/qI9C//v3
+        8P/7+/z/+ffq/9jRr//i1Lf/8+DQ/+nauf/ZxZv/ya94/7ubWP+xjkb/qIZA/+zRkP/s26//8erY///+
+        /P/////////////////Alz7/t5A4/7CQNv+3jSn/x6pl/9C6jf/99uv/+vz8//b5+//8/f3//fn1/8m8
+        kP+MdzX/4ta6//v18v///O//3s+n/9fElP/gyp7/2saX/861gf/DpWj/upZQ/7KLQP+lfzP/0LFq/+/b
+        qP/s4sn///75/////////////////7iJIf+2jjj/p4cs/7WLJP/MsXD/2cid///99v/6/vz/9/38//z8
+        /f/6/Pz/+fbv/7+wdf+dgTf/xK+B/8+8jv/FqHT/x6t0/8qxev/Kr3T/wqRl/76cVv+5kUb/r4U2/594
+        J/+/nVH/6NGa/+jdv/////j/////////////////toMj/7eTQv+oiB3/rog//8WmX//n1bX//f7///z8
+        ///5+/7//P76//j9/f/4+v///vz0/7+4kf+jhD//tY1I/7mVS/+7nU//vJ1a/8CdUv+9mE3/to9D/6uF
+        Nv+jfCn/onEb/6SCKf/o0KT/59y4//79/v////////////////+0iCn/t5Q7/6WCGv+zjkf/yKZk/+va
+        uf/9/v7//Pz+//n8/v/+/fr//v3+//v8/f/+/vv/+vnt/93Prv+ijkn/rIo6/7iLSP+4jUb/to9D/7KL
+        Pf+rhDX/o3oq/5x0If+dbhb/lnQg/+7brP/m2rr//v7+/////////////////7yYQv+1kjL/o34b/7CQ
+        RP/DnmD/6Ni1//3+/f/8/P7/+fz+///9/P///f3//v37//3+/f/6/P7/+vv5/+rjy/+liUn/p4Au/7KD
+        M/+ofy7/pnwq/6J3JP+ccB3/mW4a/51wFv+YdSj/7t+u/+rdw//+/v3/////////////////0rFx/62G
+        Jf+ieRv/pIs0/7uXUv/ZyKT//f79//39/f/6/v7//f/7//3//f///v7///3+//n9/f/7/f3//Pn+//Tu
+        2/+znF3/l3Ik/59zHv+ecRz/nW8Z/51uFv+abRj/mnAT/62JQ//cy5X/8ubR//3+/P//////////////
+        ///hzaP/qoEm/554Gf+Yfh//tJNH/8y4i//9/fr/+vz8//j+/P/6//r/+//9///8/v///f3//f77//7+
+        +P/8/fr//Pv9//Lp2v+qlV7/mW4W/59vFf+bbhf/oG8X/51tGv+ZcBX/xKRm/9HEkf/18OH//f/7////
+        //////////////nt4P+0kEX/n38b/5d0FP+2lEX/vJxb//z05v/1/P3/9v38//3//v//////////////
+        /////////v7+//z8+//+/v3//f37/93d1/+YdiX/pXMS/5ZrGf+gbhj/nW0c/5dwIf/Vv4//2NGz//v6
+        8//9/vv//////////////////P37/9XDjv+kexf/jHAQ/6mCLv+uikv/29Cp//78+//6+v3//f/8////
+        ///////////////////8/P3//f39//7+/v/7/Pr//Pz4/8SteP+Zahb/nHAb/55uD/+Ybxr/qYlJ/+XY
+        q//v6Nr//f3y//79///////////////////5/f3/9O7b/7uaTv+RcR7/mnQX/66IQv+0nV7/9vDe//78
+        /f/9/v3///////////////////////79/v/9/P7//Pz8//7+/f/+/vz/2Mqq/5xwIv+ZbRb/m3IW/5h8
+        MP/cx6D/2c+o//z69f/9/fn//f3+//////////////////39/P/9+/r/5da3/6qENf+PbBD/o34s/6B+
+        Nv/Nu4r//Pns//79/////////////////////////Pz+//z7/f/+/f7//fz9//z8+//g1LX/pHgn/5xw
+        Gf+VciT/yLeC/9fGo//x7dn//vz3//z6/f/9/v7///////////////////36//z8///8+vn/3sSO/5d6
+        Mv+MZw//rYcr/6CFNf/RwZ///vz7//79///8/P///Pz+//79+v/8/f3//P3+//39/f/+/v7//v38/9XH
+        p/+fcRn/oXwt/9rEm//Syqz/4d3K///+/f/+/vr//Pz///7+/////////////////////vv/+fz+//v9
+        /v/69uf/2syi/56GOP+NaBf/pXws/6J/N//Hs4j/9/Hi//z8+f/6/f7/+vz9//38+v/+/vz//f78//z9
+        /f/7/Pv/z7mO/7qsgv/j2sP/0sSi/+rkzf/7+/v//f39//39/f/9/f3//v7+//////////////////79
+        /v/7/v7/+P79//v9/P/7+fL/5du8/6aQUP+Rbhj/o3kf/592Lf+1lWP/49Gz//Xw5//89/n/+vv9//n7
+        /f/5/f3/+P77//X79v/s5dH/49at/8G5j//p4dr//vv4//39/f/8/Pz//v7+//7+/v/+/v7/////////
+        /////////P39//z+/f/6/v3/+Pz+//n7/P/8/Pb/9vHb/8y2iP+ZfDf/lHIa/596H/+adyX/pYlH/76t
+        ev/RxaX/4dS3/+LTsv/SwJr/wauB/7ugdv/JwZf/9e7o//379//9/vv//f39//7+/v/+/v7//f39//7+
+        /v/////////////////5/vv//P7+//79/v/+/v3//v78//38+//69/7/+vr6//Pz4v/OyaL/rZti/6WJ
+        Qf+kgjH/oX8u/55/Kv+khzn/sJZY/8Osff/WxKH/+fLs//T79v/4/fX/+vn5//n9+//9/f3//v7+//39
+        /f/+/v7//f39//////////////////j/+zn8/v45//v9Of/9+jn//fo5/vv/Ofn6/zn1+/05+v//Of3/
+        +Dn158o507aDOaiDPjmSayE5knEXOZ6CMDnEsHY56t67Of7+7jn3/P85+vj/Ofz7/Tnz/PE5+Pr+Of39
+        /Tn+/v45/Pz8Of39/Tn7+/s5////Of///zn///85////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wEAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACgAAAAwAAAAYAAAAAEA
+        IAAAAAAAgCUAAAAAAAAAAAAAAAAAAAAAAAD///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///9x////cf///3H///9x/v7+cf7+/nH///9x+Pv/cfv+/3H7/f1x+Pj4cfv8+XH///tx//75cf/9
+        63H/9d9x+evOcfLjwnHs3LVx6NiscenZq3Hn26xx6d+0ce/mwHH47tFx/PXgcf/67nH//vZx//77cf/+
+        /nH///9x////cf39/nH7/f5x/P7/cf3//3H///9x////cf///3H///9x////cf///3H///9x////cf//
+        /3H///9x////cf///3H+/v7//v7+//7+/v///////v7+//7+/v//////+Pz///n8/v/7/Pv//Pz3//39
+        9f/9+uz/9+/f//Hkyf/v377/7dq3/+vYsf/p1qv/6NWo/+rYqP/q2ar/69yw/+/guv/15sb/9uvQ//ju
+        2//58eH/+vXs//369f/+/fr///79//79/v/9/P7//f3///7+////////////////////////////////
+        ///////////////////////////////////9/f3//Pz8//39/f///////v7+//39/f/+/v7/+P3+//r9
+        /f/9/ff//vvs//bs0v/r2rn/5tCq/+TMn//jy5z/482e/+bQof/n0qP/6NWl/+nXp//s16r/7tmv//Dc
+        tf/x3rr/8eC///DixP/y5Mj/8+nV//fx4f/99+z///31///+/v/+/P///vv////8////////////////
+        ///////////////////////////////////////////////////+/v7//v7+//7+/v/+/v7//Pz8//v7
+        +//+/v7//f75//399P/28Nv/5Ne4/9nGm//cwY//4cSL/+HHkf/hyZT/4cqX/+LNmv/j0J//5tSj/+fX
+        pv/r1qn/7tas/+/ZsP/t27X/7d23/+zfuv/t4b7/7+TF//Lozf/27Nb/+vPj///69P///Pv///z////9
+        //////////////////////////////////////////////////////////////////////////////7+
+        /v/9/f3//f39//7+/v/+/v7///7k/+/kxP/Wx6D/zbqM/9W9iP/gw4f/48OD/9/Gif/gyYz/4cqP/+PL
+        kP/n0JX/7NWa/+/Ynv/x2KD/8tmi//Lapf/y3Kr/8t6t//Hhsv/z47b/9OS8//Hjwf/v4sT/8eXO//jv
+        3v/++O3///73///+/P//////////////////////////////////////////////////////////////
+        ///+/v7//v7+//z8/P/9/f3///////z8/P/y8vL/5c+g/9W8hf/SuID/176D/9m+gf/ZvoD/4saH/+jJ
+        f//pyn3/6MZ6/+XBc//mwHH/6cFx/+nBcP/pxHD/6sd0/+zKef/vzoL/8dKK//TWk//425r/9d6q//Pg
+        uf/z4r7/8ePC/+/nyv/y7tX/+vfi//7+8v//////////////////////////////////////////////
+        ///////////////////9/v////7+//7+/f/+/v7///78//Dt5P/a0sH/07V3/9Ozcf/RtHP/1Lh3/9q+
+        ff/dwH3/3sF7/966aP/gu2X/5Lti/+e7YP/rvWD/7sBj/+/BZf/wxWb/8Mdo//DIa//yynD/88x1//TO
+        ev/30H//9dWQ//Tcpf/45LX/9ue+//Hlwf/v58b/8e3Q//j25v/9/fv///79//7+/v/+/v7//v7+//7+
+        /v////7////////////////////////////2/P///v79//78+P///vr/+fXm/97Nof/VtGn/07Jn/9Gz
+        bP/StnL/2rx3/968cP/ht2H/5bRW/+G2Xf/et1//4rhi/+fAbv/oxXj/5smE/+XOjv/q0Zf/69GY/+zT
+        lv/w15b/9NmT//XWi//v0IL/8c90//bSd//11Y7/99yn//rju//25MH/8eXG//Hp1P/48+n//vz2//3+
+        /P/9/v7//v7+//38/P///v3////////////////////////////5/P7/+fr8//38+v/79un/49Kw/8qv
+        dv/NrWL/07Jp/86tZP/UtGj/17Rl/9SwXP/VsFf/169U/923Wf/iv2v/4MOD/+TPov/05cT/+vDV//31
+        2//99+X//vjq///86v///un//vrk//ry2f/x6M3/7eG9//DXof/zzYX/+NGF//Pan//y47b/9ui///Xn
+        yP/069r/+fTo//79+P/9//3///////7+/v/+/fz////////////////////////////8/v7/8/f7//n6
+        9v/s3sL/zq92/8qnXv/Lql//zq5k/9ayZP/SrFb/06tR/9GsUf/NrVb/1Ldk/+LGe//r05j/9erK//Tv
+        5P/9+vX/9vPn/+Xeyf/SxqP/xriP/7yuhP+3qn//wLOJ/9DEmv/g1Kn/8+TK//rs1P/87LX/+N2I//HT
+        ef/33Jb/+OC1//Xkxf/x5sr/9OzX//z57P/+/vn////+//7+/v/+/Pz/////////////////////////
+        ///7+/j/+vz8/+/r3P/PuIn/yaJU/82kUP/NrF//z69h/8yoU//TqU7/0KZK/86rVf/Uum//3cuK/+zf
+        vf/y6db//vz1//fz7f/g1sL/uKV6/6KHSP+ZeCX/lXIY/5RyGv+WdyD/n4Et/6qNO/+ylkX/sJpV/7aq
+        eP/Vzaf/+fHI//nlqv/xyob/9NaU//jjrf/15bz/8+jJ//fx3f/+/PL///78//7+/v/+/v7/////////
+        ///////////////////9/fv/+vnt/93Qq/++oF7/yqFL/86lTf/Nq1v/yadQ/8ajR//Kokf/0apX/9S1
+        bv/hzZf/7OG5//Hw7P/39/r/+/ry/9TFpv+ghUz/kGsX/5lsB/+geB3/p4Qv/7CPP/+7nVL/w6di/8Sr
+        a//Cq27/uqtm/7KjX/+qlGD/qpRz/+XSt//67L7/+daL//jYjf/44q7/9eW8//LozP/79uf///76///9
+        /f///v/////////////////////////////9/fv/8+bL/8+0eP/Cnk3/yKNN/8+rVv/IpFD/wJ09/8aj
+        Q//JpU//1LNs/+fOm//s3b//+fTl//b6+//9/v7/7OC8/5mAO/+MaQ//l28O/6d8G/+vi0D/spRV/7me
+        Y//CqHf/ybOI/867l//RwaH/18Wl/9G4jP/KrW3/wqZh/56MUf/Juob//OKr//TUl//025//9OKx//Dl
+        w//07dr//fv0///+/v///v/////////////////////////////4+vf/69eu/7yWSf/CnEP/yKdT/8Oi
+        Uf+/mkX/wp46/8CeP//QsmL/4MeM/+7cuf/88+X///z6//r9/v/8+uX/zrp7/4ttD/+Rbgj/nXwj/6mJ
+        Rf+6lVD/xZ9W/82raf/XuoH/4MeX/+bRqP/p17T/6dKx/+bMqf/dw5j/1rZ5/8unWP+rj0X/vLB5/+nb
+        o//v1ZP/9N+p//Dkvf/u5tD/+/jw//7+/v/9/f7////////////////////////////69uD/zqxm/8CY
+        Of/Bnkb/yaNR/8SbQf+6mDf/vZdB/8apWf/dy4//2c6x//Lr6P/++/3//v73//T5/P/9/e7/oIRH/41k
+        G/+UcRj/qYgt/7mMS//Allj/xqFi/9Cuc//YvYz/386o/+bfxP/n6NX/6+XT/+jZwf/cyKn/0bqO/8qt
+        c//AnFf/sYs8/8eqYf/r1Jj/8tid//Leqf/15r//8uzZ//3++//7/f7/////////////////////////
+        ///37Mr/vptS/76XOf/Bnkb/wpxH/7yTOP+2lDf/vJZI/9m8dv/Vw5D/6uDK//76+P/++/3//v37//b9
+        /v/9/O3/qYtQ/41oD/+ZeBz/s5ZQ/8ywiP/PupH/zbmJ/8m2hf/Ww5j/49Sz/+7j0P/27+j/+e/h//Dh
+        yP/gzq7/0ryQ/8msc//BoFz/uZVJ/6+NRv/Stnj/6tCT//Dao//z47n/6eHL//399//9/v7/////////
+        ///////////////////r0qL/s49B/7yVOv+7mUL/upQ7/7qQNP+zkjv/yqZf/9/DiP/Zx6H/+PLk//79
+        /v/++////v3+//T+/f/9/fX/sZJc/41tCf+dgCP/1sCT//z05//+/fH/+fXg/+Tdv//Qx6P/3NCx//Lk
+        0v/77Of/+Onb/+/gxP/gzqv/0ryP/8esc/+/oF7/uZdO/62KQ/+wkE3/48WF//Tcof/q2Kr/7OPJ//j2
+        6/////3////////////////////////////Wt3T/tY05/7+ZQP+6mUL/t5Ez/7aNLv+xkT//1rZ3/9O7
+        i//p28H//vz1//z6/f/8+////Pv///X9+//9/vz/176T/4txFP+agSv/282q//z6+P/6+f7//f38//n3
+        6P/e2Lj/1sun/+TVtv/x3cj/7t3D/+XVsv/byJ//0LmI/8apcP+9nVv/tpRN/6+LQ/+gfTb/y6xm/+nO
+        jv/t2ab/7eHB//Lt3v///vr////////////////////////////Iok7/tYsx/7qUPv+2lz//tI4q/7SL
+        Kv+/n1T/0bZ7/864kP/679///P36//r7/P/3+fz/+fn9//z+/P/9+vr/9ezW/6aUU/+FcCf/vqyA//fx
+        4v/8+Pv//vz+///+8P/o3br/1ceZ/9zJnP/jzaT/4s2j/9zInP/TvYz/yrB5/8KjZf+8mVX/t5JK/6+J
+        Pv+lfzT/qYY9/+bIhf/236f/5ti0//Hp1v///vf///////////////////////////+9ky//tokr/7GM
+        OP+qizP/sIoi/7aNKv/Ss23/xrB2/9nHpP///PD//f79//r+/f/2+/v/+Pv9//7+/f/5+Pj//fz4/+HX
+        u/+di1H/k308/8Cre//x4sr///vn///11f/axJj/xa16/9C4g//Zwo3/17+K/9C5gv/Jr3X/wqVn/7+c
+        Wf+7lk7/t49E/7OKPP+nfzH/lnIk/+bIgP/w15z/5dat/+riy/////b/////////////////////////
+        //+zhRj/vo4u/7WPPf+khS7/r4og/7SLJ//Nrmr/w7B1/+nZt////vX//fz7//j//P/4/vv/+fz+//36
+        /P/8/f3/9/z+//359P/g16r/ooo1/518Mf+qkVr/sJxo/7qha/+/oWv/w6Vu/8apcv/EqXP/xqty/8aq
+        bf/Ao2P/v55a/72aUf+6kkf/s4k7/6qAMP+geCf/lnAg/82sYv/mzI7/6des/+ngx/////T/////////
+        //////////////////+1gx//vIg0/7SWRv+liCH/r4Yj/6yJRv/DpVj/yKZt//br1v/9/v////7///v7
+        ///5+////f7+//v++f/5/v3/9Pr///r7///+/Pf/4dzC/5uUZf+bfjX/sIY9/76TU/++l1P/upxL/76j
+        Uv+8oFv/vp1Z/8GeVP+/m1H/u5ZL/7WOQ/+uiDr/qII0/6R9J/+kdB3/oXEX/6qNN//jy53/6tas/+jg
+        v//+/f7///////////////////////////+zhSL/uYgv/7SWQv+ihR3/rYMi/7SSUP/HqF//x6Vs//vx
+        2//9/v////3///v7///4+v///f78//z9+P/8/v3/+fv+//j6/v/+/vv/+/np/+rlx/+6pXT/pYhG/6WH
+        OP+ykD//tpBG/7qTUP+8l1P/u5ZP/7yXTP+5lUn/to9E/6+JO/+pgTP/o3wt/512If+dbhf/nm4V/56B
+        Lf/u16n/6dSq/+Tcvv/+/P3///////////////////////////+2jzL/togp/7aWPf+ggBv/qH8g/7qY
+        WP/JpmL/xaRq//734P/9/v7///3+//v7///4+////f78///8+////v7//v3+//z8/f/9/vz//v75//39
+        9v/37tv/xreL/5qHPv+khjL/totE/7iIR/+2iEH/toxB/7OMP/+xijv/rYY3/6d/L/+ieSn/nnUj/5ty
+        Hv+dbxf/nW8U/5ByI//y4rD/59Kp/+bew////v7////////////////////////////CoE7/sogl/7WV
+        N/+gfRz/pX0f/7qbVv/FoGD/wZ9l//323v/9/v7///39//v8///4/P///f77///8/f///f7///39//79
+        +//9/fz//P3+//r7/f/7/Pv/+vfp/9LHof+hh0f/oHou/6+DM/+0hDX/roEy/6mAMf+ofy7/pXwq/6J2
+        JP+dch//m28b/5lvG/+dcBf/nnEW/5N1LP/y57P/5tKq/+vhzf/+/v3/////////////////////////
+        ///UtXX/rIQi/7GOLf+hex3/onwe/7OYTP/BnFj/u5pe//bt1P/9/v3///79//z9/v/5/f///f77///+
+        /f///v7///38///+/P/+/v7//P7///n8///5/f7//Pz+//769v/bz6//rZNO/5t7Jf+nfCr/p3oq/6N3
+        Jf+hdiP/oHMg/55xHP+cbhn/m20X/5htGf+abxX/m28V/6aGQ//t3aX/49Co//Ln1//9/vr/////////
+        ///////////////////t0qP/qoEj/6uEJP+heB3/n3sa/6aPO/+7l03/tpVY/+jfxf/9/vz///79//z9
+        /f/6/v///f/7//v/+//8//z///7+///+/v///f7//f39//j9/f/6/vz//fz+//r3/f/8+PL/5du5/6+W
+        V/+RbyP/m3Ee/59yHP+dcRv/nW8Z/51vF/+ebhb/nW4U/5puG/+acBX/lm0R/76eYP/Xx4v/386l//vy
+        6P/9/vr////////////////////////////168n/rIMp/6d/H/+gdhz/m3kU/5mFKf+ykED/spJT/93U
+        u//8//v///38//38/P/6/v///f/7//b/+f/4//v///7+///6/f//+/3//v78//v++v/9/fX//v73//r9
+        +v/6+/3//ff1/+jYvf+uklH/lW4Z/5xuGP+cbhf/nG4W/55vFf+fbxX/oW8V/5ttG/+YcBT/lm0R/9m3
+        ff/Ju33/4NKo//779P/9//v////////////////////////////58Oz/xaFe/6d8Jv+hgiP/knUK/5t1
+        Hf+4mU7/tpU9/860g//++e//+vz+//L9/f/y/Pj/+f37//3//v/+//7///7+///+/v///v7////+//7/
+        /v/+/v3///79//v8+v/+/v3//P37//r58//Lyb7/k4FO/5VsDv+pdQ7/nW4U/5VsHf+gbhz/om4c/5tr
+        G/+bcBz/k3Ej/+XWr//OxJ7/4N7B//75+v/9//X/////////////////////////////+fn/6tSu/6iE
+        L/+ohSD/lHIP/5Z1Ff+2lEb/rog5/72eZ//67Nb/+/r3//X8/v/2/P7/+/7+//7//v//////////////
+        ///////////////////+/v7//f3+//r6+v////7//v79//7++//09fH/v7KL/5t2JP+ndRT/mm0T/5Vr
+        G/+fbRf/oG0X/5xuHf+RaRn/sJFQ/+jSp//Ivpz///zx//7++v/9/vv/////////////////////////
+        ///9/fr/9O/h/8CnXf+geRH/nXgZ/4luDP+ngiv/toxH/6uKTv/Tw5r///7w//38/v/6+/7/+v76//7/
+        /f/////////////////////////////////9/P3//Pv8//39/f/+/v7//v79//v8+f/9/fr/7uXL/62P
+        UP+XZxL/nG8Y/5xxHf+fbxH/nG0Q/5lwHv+Wcyz/3MaT/9zOn//h17///vv7//7+7//9/P//////////
+        ///////////////////5/Pz/+Pv1/+DQn/+thiz/nHcb/4xwFv+WcA7/u49N/6WEQP+0oWb/9e/S///8
+        +//8+P3/+/z7//7//v/////////////////////////////////9/f7//fz9//7+/v/8/Pz//f79//z9
+        +//7/Pr///zt/7ujdf+Yax//nnAc/5hsFv+fcRH/m3IV/5BwIP+1mmP/5dOo/9LJnf/58uj//fn2//3+
+        8//9/P/////////////////////////////7/P7/9/75//bt2v/KrnD/oIAq/49uH/+SbQj/qH43/7CM
+        Qf+mi0X/0b+S//v15v///Pz//f39//7+/v///////////////////////////////////v//+/r8//79
+        /v/9/P3//f39//7+/v/+/v3////2/8i1jv+gdSv/l2cT/5twGf+dcxj/j20Y/6SLRf/hy6T/1seg/+Tb
+        vP/8+fn//f71//z8/P/8/f7////////////////////////////9/f3//P76//369//o2r3/uZtZ/6B6
+        Kv+Qbgz/kmwY/7KMPP+ffTP/rZJV/+TVr///++3//f39//7+////////////////////////////////
+        ///+/f//+Pf7//79/v/+/v7//v3+//z8/P/8/Pz//v73/9HAmf+nfTH/nGwU/55zHf+Raxj/mX85/8+9
+        iP/fzKj/1cmn//fz4v/++/f//v76//v5/v/8/v7//////////////////////////////vn//vr9//z8
+        /v/59e//6c6i/7mSN/+ObRX/jGsM/5x2Iv+wi0D/m302/7SjaP/r5sr//fv6//79////////////////
+        ///////////////////8/P7//Pv9//79/v/8+/3//v3+//39/f/9/f3//P7z/8u7j/+keSn/nm4T/5lt
+        Gv+hfTL/0b+I/9zRsP/NwJj/7OfP//389v/+/fL//fv+//r5///9/v//////////////////////////
+        /////vn//v3///v8///8/P3//fLj/9jDl/+hiVH/jmoa/4ljCf+mgBv/r4wo/56AL/+3nm//7ubU//78
+        /P///f//+/z///n7///5+/7//fv6///9+P/8/vz/+/7+//z9/v/8/f3//v7+///+/f///fz//v33/72l
+        gP+dbxr/oXcP/6eLTf/j0LX/5Nm6/8bApv/g3tX/+vn0///+/v/+/vv//v7///39///+/v//////////
+        /////////////////////fj//f3+//j7///7/P///v74//Xs1f/ZyKP/s5pM/4VmEP+OaBD/pn0o/6Z9
+        MP+beDb/tJhf//Do0P///vL/+ffz//v9/v/5/v7/+/7+//z9+//9/Pj//v76//7++//+/vr///78///9
+        /P///f3//eva/6ePW/+HeDP/w62J//Xu5v/u28H/yL2P/+jjx//4+Pj//v7+//39/f/8/Pz//v7+//39
+        /f/9/f3//////////////////////////////v7//f7///n9/v/5/v7//P77//7+9////O//29Kg/6+c
+        YP+EZiP/jGYa/6N4Jf+qgSr/mnMZ/5p8Sf/awp//+PTg///89P/8/Pz/+Pr+//f5///7+v3//fz+//79
+        ///8/v//+f3///f9///2/f7/6ObK/+/jxP/98+r/9vLd/8fEl/+0q4T/7ePU///9/f/+/v7//v7+//v7
+        +//8/Pz///////7+/v/+/v7////////////////////////////+/P7//f7+//r//v/4//3/9/78//v9
+        /v/9/f///v74//Hnzf/Dsnz/knor/41qEP+edBn/qnsk/55zKv+aczT/tpVk/+XQr//v6Nj/+vHt//74
+        +P/7/P3/9fj9//j8/f/5/vz/+P37//n++f/3/PX/8fLt/+vk0v/n2an/s6Nj/764mf/27/L//vn5//79
+        +f/9/f3/+/v7//z8/P/+/v7//v7+//7+/v/9/f3////////////////////////////9/P3//P38//z/
+        /f/6//3/+P39//f7/v/5+///+vr5///+9v/489j/2cqd/7OaXf+Wdi7/jmsb/6J7IP+geB7/m3Yi/5Jw
+        KP+qjVH/zLeH/9nNp//h2sL/6uHP/+7m0f/t5c3/6+LG/+HWtf/Zy6f/z7ia/7Ogc/+upGj/08Sm///4
+        +//++vn//Pz2//7++v/9/f3//f39//7+/v/+/v7//f39//39/f/9/f3/////////////////////////
+        ///7/vz/+/78//z//f/9//7//P////z+///8/f//9/ry//3++//++/z/+/Py//Hk0v/RxJ3/q59l/5iD
+        M/+OdB//m34k/5Z2HP+VdR3/mHoo/5yBM/+ljEj/tZtd/7ugZP+4nGP/uJpj/6mKVv+jhFH/wqJ3/9rF
+        p//r7dr/8f3u//769P//+Pj//fz7//z//P/+/v7//v7+///////9/f3//v7+////////////////////
+        ///////////////////5//v/+//8//3+/v///f7///z9///+/P////v///37//38/f/7+P7/+Pj+//r8
+        /P/6+/P/7e7d/9fTsv/GuIz/t6Bn/7CRTP+nhDj/on0u/515Kv+aeSP/m3wm/6SIO/+ymFj/v6l1/9TB
+        mf/h1bX/8Oja//v59//3+vv/9Pv0//z9+f/3+fX/+fv7//n8/P/9/f3//v7+//7+/v/8/Pz///////7+
+        /v/8/Pz////////////////////////////4/vtV+v78Vf3+/lX++/5V/vv7Vf79+lX+/vlV/vv+Vf77
+        /lX5+f5V9/z+Vfb8/VX6/v5V+v7+Vf7+9FX88tlV5M6nVcysdFWtiEZVmnQrVY9oHlWRbxdVknQZVaSK
+        O1XBq2xV08KUVfLoyVX+/uxV+Pz4Vfj9/lX4+P5V/vj+Vfv8/FXx++1V9/z6Vfn7/lX9/f1V/v7+Vf7+
+        /lX7+/tV/v7+Vf39/VX6+vpV/v7+Vf7+/lX+/v5V/v7+Vf7+/lX///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wEAAAAAAAD//wAAAAAAAP//AAAAAAAA//8AAAAAAAD//wAAAAAAAP//AAAAAAAA//8AAAAAAAD//wAA
+        AAAAAP//AAAAAAAA//8AAAAAAAD//wAAAAAAAP//AAAAAAAA//8AAAAAAAD//wAAAAAAAP//AAAAAAAA
+        //8AAAAAAAD//wAAAAAAAP//AAAAAAAA//8AAAAAAAD//wAAAAAAAP//AAAAAAAA//8AAAAAAAD//wAA
+        AAAAAP//AAAAAAAA//8AAAAAAAD//wAAAAAAAP//AAAAAAAA//8AAAAAAAD//wAAAAAAAP//AAAAAAAA
+        //8AAAAAAAD//wAAAAAAAP//AAAAAAAA//8AAAAAAAD//wAAAAAAAP//AAAAAAAA//8AAAAAAAD//wAA
+        AAAAAP//AAAAAAAA//8AAAAAAAD//wAAAAAAAP//AAAAAAAA//8AAAAAAAD//wAAAAAAAP//AAAAAAAA
+        //8AAAAAAAD//wAAAAAAAP//AAAAAAAA//8=
+</value>
+  </data>
+  <metadata name="ConfigBindingSource.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>313, 17</value>
+  </metadata>
+  <metadata name="ConfigDataSet.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>183, 17</value>
+  </metadata>
+  <metadata name="ConfigDataSet.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>183, 17</value>
+  </metadata>
+  <metadata name="ConfigTableAdapter.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 56</value>
+  </metadata>
+  <metadata name="Scilla10DataSet.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>293, 56</value>
+  </metadata>
+  <metadata name="ProyectosBindingSource.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>428, 56</value>
+  </metadata>
+  <metadata name="Scilla10DataSet.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>293, 56</value>
+  </metadata>
+  <metadata name="ProyectosTableAdapter.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 95</value>
+  </metadata>
+  <metadata name="MuestrasTableAdapter.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>197, 95</value>
+  </metadata>
+  <metadata name="SitiosBindingSource.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>313, 134</value>
+  </metadata>
+  <metadata name="SitiosDataSet.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>190, 134</value>
+  </metadata>
+  <metadata name="SitiosDataSet.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>190, 134</value>
+  </metadata>
+  <metadata name="TableAdapterManager.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 134</value>
+  </metadata>
+  <metadata name="SitiosTableAdapter.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 173</value>
+  </metadata>
+  <metadata name="MuestrasBindingSource.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>372, 95</value>
+  </metadata>
+  <data name="dgvMultiplesMuestras.Images" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAAAkAAAAJCAYAAADgkQYQAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAA3SURBVChTY2DABP+xiIGFkCVwsVEUwhThNREkiaEAJoiP
+        RnEmskKs7kd3C1YrYTrx+g6bIrAYAKCqHOQvFu6BAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="dgvMultiplesMuestras.PrintInfo.PageSettings" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>
+        AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0
+        dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAACRTeXN0ZW0uRHJh
+        d2luZy5QcmludGluZy5QYWdlU2V0dGluZ3MHAAAAD3ByaW50ZXJTZXR0aW5ncwVjb2xvcglwYXBlclNp
+        emULcGFwZXJTb3VyY2URcHJpbnRlclJlc29sdXRpb24JbGFuZHNjYXBlB21hcmdpbnMEBAQEBAQEJ1N5
+        c3RlbS5EcmF3aW5nLlByaW50aW5nLlByaW50ZXJTZXR0aW5ncwIAAAAgU3lzdGVtLkRyYXdpbmcuUHJp
+        bnRpbmcuVHJpU3RhdGUCAAAAIVN5c3RlbS5EcmF3aW5nLlByaW50aW5nLlBhcGVyU2l6ZQIAAAAjU3lz
+        dGVtLkRyYXdpbmcuUHJpbnRpbmcuUGFwZXJTb3VyY2UCAAAAKVN5c3RlbS5EcmF3aW5nLlByaW50aW5n
+        LlByaW50ZXJSZXNvbHV0aW9uAgAAACBTeXN0ZW0uRHJhd2luZy5QcmludGluZy5UcmlTdGF0ZQIAAAAf
+        U3lzdGVtLkRyYXdpbmcuUHJpbnRpbmcuTWFyZ2lucwIAAAACAAAACQMAAAAF/P///yBTeXN0ZW0uRHJh
+        d2luZy5QcmludGluZy5UcmlTdGF0ZQEAAAAFdmFsdWUAAgIAAAAACgoKAfv////8////AAkGAAAABQMA
+        AAAnU3lzdGVtLkRyYXdpbmcuUHJpbnRpbmcuUHJpbnRlclNldHRpbmdzEgAAAAtwcmludGVyTmFtZQpk
+        cml2ZXJOYW1lCm91dHB1dFBvcnQLcHJpbnRUb0ZpbGUUcHJpbnREaWFsb2dEaXNwbGF5ZWQKZXh0cmFi
+        eXRlcwlleHRyYWluZm8GY29waWVzBmR1cGxleAdjb2xsYXRlE2RlZmF1bHRQYWdlU2V0dGluZ3MIZnJv
+        bVBhZ2UGdG9QYWdlB21heFBhZ2UHbWluUGFnZQpwcmludFJhbmdlDGRldm1vZGVieXRlcw1jYWNoZWRE
+        ZXZtb2RlAQEBAAAABwAEBAQAAAAABAAHAQEHAgceU3lzdGVtLkRyYXdpbmcuUHJpbnRpbmcuRHVwbGV4
+        AgAAACBTeXN0ZW0uRHJhd2luZy5QcmludGluZy5UcmlTdGF0ZQIAAAAkU3lzdGVtLkRyYXdpbmcuUHJp
+        bnRpbmcuUGFnZVNldHRpbmdzAgAAAAgICAgiU3lzdGVtLkRyYXdpbmcuUHJpbnRpbmcuUHJpbnRSYW5n
+        ZQIAAAAHAgIAAAAKBgcAAAAACQcAAAAAAAAACv//Bfj///8eU3lzdGVtLkRyYXdpbmcuUHJpbnRpbmcu
+        RHVwbGV4AQAAAAd2YWx1ZV9fAAgCAAAA/////wH3/////P///wAJCgAAAAAAAAAAAAAADycAAAAAAAAF
+        9f///yJTeXN0ZW0uRHJhd2luZy5QcmludGluZy5QcmludFJhbmdlAQAAAAd2YWx1ZV9fAAgCAAAAAAAA
+        AAAACgUGAAAAH1N5c3RlbS5EcmF3aW5nLlByaW50aW5nLk1hcmdpbnMIAAAABGxlZnQFcmlnaHQDdG9w
+        BmJvdHRvbQpkb3VibGVMZWZ0C2RvdWJsZVJpZ2h0CWRvdWJsZVRvcAxkb3VibGVCb3R0b20AAAAAAAAA
+        AAgICAgGBgYGAgAAAGQAAABkAAAAZAAAAGQAAAAAAAAAAABZQAAAAAAAAFlAAAAAAAAAWUAAAAAAAABZ
+        QAEKAAAAAQAAAAkDAAAAAfP////8////AAoKCgHy/////P///wAJDwAAAAEPAAAABgAAAGQAAABkAAAA
+        ZAAAAGQAAAAAAAAAAABZQAAAAAAAAFlAAAAAAAAAWUAAAAAAAABZQAs=
+</value>
+  </data>
+  <data name="dgvMultiplesMuestras.PropBag" xml:space="preserve">
+    <value>&lt;?xml version="1.0"?&gt;&lt;Blob&gt;&lt;DataCols&gt;&lt;C1DataColumn Caption="Nombre" DataField=""&gt;&lt;FilterCancelText&gt;&amp;amp;Close&lt;/FilterCancelText&gt;&lt;FilterClearText&gt;C&amp;amp;lear&lt;/FilterClearText&gt;&lt;ValueItems /&gt;&lt;GroupInfo /&gt;&lt;/C1DataColumn&gt;&lt;C1DataColumn Caption="Fecha" DataField="" DataTypeInternal="System.DateTime" DataWidth="10" DefaultValue="Today"&gt;&lt;FilterCancelText&gt;&amp;amp;Close&lt;/FilterCancelText&gt;&lt;FilterClearText&gt;C&amp;amp;lear&lt;/FilterClearText&gt;&lt;ValueItems /&gt;&lt;GroupInfo /&gt;&lt;/C1DataColumn&gt;&lt;C1DataColumn Caption="Sitio" DataField="" DropDownCtl="DDSitios"&gt;&lt;FilterCancelText&gt;&amp;amp;Close&lt;/FilterCancelText&gt;&lt;FilterClearText&gt;C&amp;amp;lear&lt;/FilterClearText&gt;&lt;ValueItems /&gt;&lt;GroupInfo /&gt;&lt;/C1DataColumn&gt;&lt;/DataCols&gt;&lt;Styles type="C1.Win.C1TrueDBGrid.Design.ContextWrapper"&gt;&lt;Data&gt;HighlightRow{ForeColor:HighlightText;BackColor:Highlight;}Style34{}Style19{}Style8{}Style7{}Style29{AlignHorz:Near;ForeColor:White;Font:Calibri, 11.25pt, style=Bold;BackColor:4, 52, 79;}Style32{}Style28{}EvenRow{BackColor:Aqua;}Normal{Font:Calibri, 9.75pt;}Style30{AlignHorz:Near;Font:Calibri, 11.25pt;}RecordSelector{AlignImage:Center;}Style9{}OddRow{}Style14{}Footer{}Selected{ForeColor:HighlightText;BackColor:Highlight;}Style33{}FilterBar{}Heading{AlignVert:Center;Border:Flat,ControlDark,0, 1, 1, 1;Wrap:True;BackColor:Control;ForeColor:ControlText;}Style31{}Style5{}Editor{}Style10{Font:Calibri, 11.25pt;}Style17{AlignHorz:Near;Border:Flat,ControlDark,1, 1, 1, 1;ForeColor:White;Font:Calibri, 11.25pt, style=Bold;BackColor:4, 52, 79;}Style16{}Style15{}Style20{}Style27{}Style18{Trimming:Character;GradientMode:None;Alpha:255;ForegroundImagePos:LeftOfText;AlignImage:Stretch;AlignVert:Top;AlignHorz:Near;Border:Flat,ControlDark,1, 0, 0, 0;Font:Calibri, 11.25pt;}Style26{}Style25{}Style6{}Style13{}Style12{}Style11{}Style4{}Style23{AlignHorz:Near;ForeColor:White;Font:Calibri, 11.25pt, style=Bold;BackColor:4, 52, 79;}FilterWatermark{ForeColor:InfoText;BackColor:Info;}Style22{}Group{Border:None,,0, 0, 0, 0;AlignVert:Center;BackColor:ControlDark;}Style21{}Style1{Font:Calibri, 11.25pt;Border:None,,0, 0, 0, 0;}Style24{AlignHorz:Near;Font:Calibri, 11.25pt;}Caption{AlignHorz:Center;}Style2{}Inactive{ForeColor:InactiveCaptionText;BackColor:InactiveCaption;}Style3{}&lt;/Data&gt;&lt;/Styles&gt;&lt;Splits&gt;&lt;C1.Win.C1TrueDBGrid.MergeView Name="" CaptionHeight="17" ColumnCaptionHeight="25" ColumnFooterHeight="17" MarqueeStyle="DottedCellBorder" RecordSelectorWidth="17" DefRecSelWidth="17" VerticalScrollGroup="1" HorizontalScrollGroup="1" RecordSelectors="False"&gt;&lt;CaptionStyle parent="Style2" me="Style10" /&gt;&lt;EditorStyle parent="Editor" me="Style5" /&gt;&lt;EvenRowStyle parent="EvenRow" me="Style8" /&gt;&lt;FilterBarStyle parent="FilterBar" me="Style13" /&gt;&lt;FooterStyle parent="Footer" me="Style3" /&gt;&lt;GroupStyle parent="Group" me="Style12" /&gt;&lt;HeadingStyle parent="Heading" me="Style2" /&gt;&lt;HighLightRowStyle parent="HighlightRow" me="Style7" /&gt;&lt;InactiveStyle parent="Inactive" me="Style4" /&gt;&lt;OddRowStyle parent="OddRow" me="Style9" /&gt;&lt;RecordSelectorStyle parent="RecordSelector" me="Style11" /&gt;&lt;SelectedStyle parent="Selected" me="Style6" /&gt;&lt;Style parent="Normal" me="Style1" /&gt;&lt;ClientRect&gt;0, 0, 281, 344&lt;/ClientRect&gt;&lt;BorderSide&gt;0&lt;/BorderSide&gt;&lt;FilterWatermarkStyle parent="FilterWatermark" me="Style14" /&gt;&lt;internalCols&gt;&lt;C1DisplayColumn&gt;&lt;HeadingStyle parent="Style2" me="Style17" /&gt;&lt;Style parent="Style1" me="Style18" /&gt;&lt;FooterStyle parent="Style3" me="Style19" /&gt;&lt;EditorStyle parent="Style5" me="Style20" /&gt;&lt;GroupHeaderStyle parent="Style1" me="Style22" /&gt;&lt;GroupFooterStyle parent="Style1" me="Style21" /&gt;&lt;Visible&gt;True&lt;/Visible&gt;&lt;ColumnDivider&gt;DarkGray,Single&lt;/ColumnDivider&gt;&lt;Height&gt;15&lt;/Height&gt;&lt;DCIdx&gt;0&lt;/DCIdx&gt;&lt;/C1DisplayColumn&gt;&lt;C1DisplayColumn&gt;&lt;HeadingStyle parent="Style2" me="Style23" /&gt;&lt;Style parent="Style1" me="Style24" /&gt;&lt;FooterStyle parent="Style3" me="Style25" /&gt;&lt;EditorStyle parent="Style5" me="Style26" /&gt;&lt;GroupHeaderStyle parent="Style1" me="Style28" /&gt;&lt;GroupFooterStyle parent="Style1" me="Style27" /&gt;&lt;Visible&gt;True&lt;/Visible&gt;&lt;ColumnDivider&gt;DarkGray,Single&lt;/ColumnDivider&gt;&lt;Height&gt;15&lt;/Height&gt;&lt;DCIdx&gt;1&lt;/DCIdx&gt;&lt;/C1DisplayColumn&gt;&lt;C1DisplayColumn&gt;&lt;HeadingStyle parent="Style2" me="Style29" /&gt;&lt;Style parent="Style1" me="Style30" /&gt;&lt;FooterStyle parent="Style3" me="Style31" /&gt;&lt;EditorStyle parent="Style5" me="Style32" /&gt;&lt;GroupHeaderStyle parent="Style1" me="Style34" /&gt;&lt;GroupFooterStyle parent="Style1" me="Style33" /&gt;&lt;Visible&gt;True&lt;/Visible&gt;&lt;ColumnDivider&gt;DarkGray,Single&lt;/ColumnDivider&gt;&lt;Height&gt;15&lt;/Height&gt;&lt;Button&gt;True&lt;/Button&gt;&lt;DCIdx&gt;2&lt;/DCIdx&gt;&lt;/C1DisplayColumn&gt;&lt;/internalCols&gt;&lt;/C1.Win.C1TrueDBGrid.MergeView&gt;&lt;/Splits&gt;&lt;NamedStyles&gt;&lt;Style parent="" me="Normal" /&gt;&lt;Style parent="Normal" me="Heading" /&gt;&lt;Style parent="Heading" me="Footer" /&gt;&lt;Style parent="Heading" me="Caption" /&gt;&lt;Style parent="Heading" me="Inactive" /&gt;&lt;Style parent="Normal" me="Selected" /&gt;&lt;Style parent="Normal" me="Editor" /&gt;&lt;Style parent="Normal" me="HighlightRow" /&gt;&lt;Style parent="Normal" me="EvenRow" /&gt;&lt;Style parent="Normal" me="OddRow" /&gt;&lt;Style parent="Heading" me="RecordSelector" /&gt;&lt;Style parent="Normal" me="FilterBar" /&gt;&lt;Style parent="FilterBar" me="FilterWatermark" /&gt;&lt;Style parent="Caption" me="Group" /&gt;&lt;/NamedStyles&gt;&lt;vertSplits&gt;1&lt;/vertSplits&gt;&lt;horzSplits&gt;1&lt;/horzSplits&gt;&lt;Layout&gt;Modified&lt;/Layout&gt;&lt;DefaultRecSelWidth&gt;17&lt;/DefaultRecSelWidth&gt;&lt;ClientArea&gt;0, 0, 281, 344&lt;/ClientArea&gt;&lt;PrintPageHeaderStyle parent="" me="Style15" /&gt;&lt;PrintPageFooterStyle parent="" me="Style16" /&gt;&lt;/Blob&gt;</value>
+  </data>
+  <metadata name="SitiosBindingSource.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>313, 134</value>
+  </metadata>
+  <data name="DDSitios.Images" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAAAkAAAAJCAYAAADgkQYQAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAA3SURBVChTY2DABP+xiIGFkCVwsVEUwhThNREkiaEAJoiP
+        RnEmskKs7kd3C1YrYTrx+g6bIrAYAKCqHOQvFu6BAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="DDSitios.PropBag" xml:space="preserve">
+    <value>&lt;?xml version="1.0"?&gt;&lt;Blob&gt;&lt;DataCols&gt;&lt;C1DataColumn Caption="Id" DataField="Id" DataTypeInternal="System.Int32"&gt;&lt;FilterCancelText&gt;&amp;amp;Close&lt;/FilterCancelText&gt;&lt;FilterClearText&gt;C&amp;amp;lear&lt;/FilterClearText&gt;&lt;ValueItems /&gt;&lt;GroupInfo /&gt;&lt;/C1DataColumn&gt;&lt;C1DataColumn Caption="CodigoSitio" DataField="CodigoSitio"&gt;&lt;FilterCancelText&gt;&amp;amp;Close&lt;/FilterCancelText&gt;&lt;FilterClearText&gt;C&amp;amp;lear&lt;/FilterClearText&gt;&lt;ValueItems /&gt;&lt;GroupInfo /&gt;&lt;/C1DataColumn&gt;&lt;C1DataColumn Caption="Nombre" DataField="Nombre"&gt;&lt;FilterCancelText&gt;&amp;amp;Close&lt;/FilterCancelText&gt;&lt;FilterClearText&gt;C&amp;amp;lear&lt;/FilterClearText&gt;&lt;ValueItems /&gt;&lt;GroupInfo /&gt;&lt;/C1DataColumn&gt;&lt;C1DataColumn Caption="CoordLAT" DataField="CoordLAT"&gt;&lt;FilterCancelText&gt;&amp;amp;Close&lt;/FilterCancelText&gt;&lt;FilterClearText&gt;C&amp;amp;lear&lt;/FilterClearText&gt;&lt;ValueItems /&gt;&lt;GroupInfo /&gt;&lt;/C1DataColumn&gt;&lt;C1DataColumn Caption="CoordLONG" DataField="CoordLONG"&gt;&lt;FilterCancelText&gt;&amp;amp;Close&lt;/FilterCancelText&gt;&lt;FilterClearText&gt;C&amp;amp;lear&lt;/FilterClearText&gt;&lt;ValueItems /&gt;&lt;GroupInfo /&gt;&lt;/C1DataColumn&gt;&lt;/DataCols&gt;&lt;Styles type="C1.Win.C1TrueDBGrid.Design.ContextWrapper"&gt;&lt;Data&gt;Style48{}HighlightRow{ForeColor:HighlightText;BackColor:Highlight;}Style8{}Style57{AlignHorz:Near;}Style7{}Style55{}Style60{}Style67{}EvenRow{BackColor:Aqua;}Normal{Font:Calibri, 9.75pt;}Style65{}RecordSelector{AlignImage:Center;}Style53{}Style52{AlignHorz:Near;}Style51{AlignHorz:Near;}OddRow{}Style63{AlignHorz:Near;}Style14{}Style58{AlignHorz:Near;}Style61{}Style54{}Footer{}FilterBar{}Heading{AlignVert:Center;Border:Flat,ControlDark,0, 1, 0, 1;Wrap:True;BackColor:Control;ForeColor:ControlText;}Style47{}Style71{}Style46{AlignHorz:Far;}Editor{}Style56{}Style5{}Selected{ForeColor:HighlightText;BackColor:Highlight;}Style64{AlignHorz:Near;}Style59{}Style74{}Style73{}Style72{}Style69{AlignHorz:Near;}Style62{}Style12{}Style1{}Style11{}Style3{}Style4{}Style9{}FilterWatermark{ForeColor:InfoText;BackColor:Info;}Style70{AlignHorz:Near;}Group{Border:None,,0, 0, 0, 0;AlignVert:Center;BackColor:ControlDark;}Style68{}Style10{}Caption{AlignHorz:Center;}Style50{}Style45{AlignHorz:Far;}Style6{}Inactive{ForeColor:InactiveCaptionText;BackColor:InactiveCaption;}Style13{}Style2{}Style66{}Style49{}&lt;/Data&gt;&lt;/Styles&gt;&lt;Splits&gt;&lt;C1.Win.C1TrueDBGrid.DropdownView Name="" CaptionHeight="17" ColumnCaptionHeight="17" ColumnFooterHeight="17" MarqueeStyle="DottedCellBorder" RecordSelectorWidth="17" DefRecSelWidth="17" RecordSelectors="False" VerticalScrollGroup="1" HorizontalScrollGroup="1"&gt;&lt;CaptionStyle parent="Style2" me="Style10" /&gt;&lt;EditorStyle parent="Editor" me="Style5" /&gt;&lt;EvenRowStyle parent="EvenRow" me="Style8" /&gt;&lt;FilterBarStyle parent="FilterBar" me="Style13" /&gt;&lt;FilterWatermarkStyle parent="FilterWatermark" me="Style14" /&gt;&lt;FooterStyle parent="Footer" me="Style3" /&gt;&lt;GroupStyle parent="Group" me="Style12" /&gt;&lt;HeadingStyle parent="Heading" me="Style2" /&gt;&lt;HighLightRowStyle parent="HighlightRow" me="Style7" /&gt;&lt;InactiveStyle parent="Inactive" me="Style4" /&gt;&lt;OddRowStyle parent="OddRow" me="Style9" /&gt;&lt;RecordSelectorStyle parent="RecordSelector" me="Style11" /&gt;&lt;SelectedStyle parent="Selected" me="Style6" /&gt;&lt;Style parent="Normal" me="Style1" /&gt;&lt;internalCols&gt;&lt;C1DisplayColumn&gt;&lt;HeadingStyle parent="Style2" me="Style45" /&gt;&lt;Style parent="Style1" me="Style46" /&gt;&lt;FooterStyle parent="Style3" me="Style47" /&gt;&lt;EditorStyle parent="Style5" me="Style48" /&gt;&lt;GroupHeaderStyle parent="Style1" me="Style50" /&gt;&lt;GroupFooterStyle parent="Style1" me="Style49" /&gt;&lt;ColumnDivider&gt;DarkGray,Single&lt;/ColumnDivider&gt;&lt;Height&gt;15&lt;/Height&gt;&lt;DCIdx&gt;0&lt;/DCIdx&gt;&lt;/C1DisplayColumn&gt;&lt;C1DisplayColumn&gt;&lt;HeadingStyle parent="Style2" me="Style51" /&gt;&lt;Style parent="Style1" me="Style52" /&gt;&lt;FooterStyle parent="Style3" me="Style53" /&gt;&lt;EditorStyle parent="Style5" me="Style54" /&gt;&lt;GroupHeaderStyle parent="Style1" me="Style56" /&gt;&lt;GroupFooterStyle parent="Style1" me="Style55" /&gt;&lt;Visible&gt;True&lt;/Visible&gt;&lt;ColumnDivider&gt;DarkGray,Single&lt;/ColumnDivider&gt;&lt;Height&gt;15&lt;/Height&gt;&lt;DCIdx&gt;1&lt;/DCIdx&gt;&lt;/C1DisplayColumn&gt;&lt;C1DisplayColumn&gt;&lt;HeadingStyle parent="Style2" me="Style57" /&gt;&lt;Style parent="Style1" me="Style58" /&gt;&lt;FooterStyle parent="Style3" me="Style59" /&gt;&lt;EditorStyle parent="Style5" me="Style60" /&gt;&lt;GroupHeaderStyle parent="Style1" me="Style62" /&gt;&lt;GroupFooterStyle parent="Style1" me="Style61" /&gt;&lt;Visible&gt;True&lt;/Visible&gt;&lt;ColumnDivider&gt;DarkGray,Single&lt;/ColumnDivider&gt;&lt;Height&gt;15&lt;/Height&gt;&lt;DCIdx&gt;2&lt;/DCIdx&gt;&lt;/C1DisplayColumn&gt;&lt;C1DisplayColumn&gt;&lt;HeadingStyle parent="Style2" me="Style63" /&gt;&lt;Style parent="Style1" me="Style64" /&gt;&lt;FooterStyle parent="Style3" me="Style65" /&gt;&lt;EditorStyle parent="Style5" me="Style66" /&gt;&lt;GroupHeaderStyle parent="Style1" me="Style68" /&gt;&lt;GroupFooterStyle parent="Style1" me="Style67" /&gt;&lt;ColumnDivider&gt;DarkGray,Single&lt;/ColumnDivider&gt;&lt;Height&gt;15&lt;/Height&gt;&lt;DCIdx&gt;3&lt;/DCIdx&gt;&lt;/C1DisplayColumn&gt;&lt;C1DisplayColumn&gt;&lt;HeadingStyle parent="Style2" me="Style69" /&gt;&lt;Style parent="Style1" me="Style70" /&gt;&lt;FooterStyle parent="Style3" me="Style71" /&gt;&lt;EditorStyle parent="Style5" me="Style72" /&gt;&lt;GroupHeaderStyle parent="Style1" me="Style74" /&gt;&lt;GroupFooterStyle parent="Style1" me="Style73" /&gt;&lt;ColumnDivider&gt;DarkGray,Single&lt;/ColumnDivider&gt;&lt;Height&gt;15&lt;/Height&gt;&lt;DCIdx&gt;4&lt;/DCIdx&gt;&lt;/C1DisplayColumn&gt;&lt;/internalCols&gt;&lt;ClientRect&gt;0, 0, 181, 91&lt;/ClientRect&gt;&lt;BorderSide&gt;0&lt;/BorderSide&gt;&lt;/C1.Win.C1TrueDBGrid.DropdownView&gt;&lt;/Splits&gt;&lt;NamedStyles&gt;&lt;Style parent="" me="Normal" /&gt;&lt;Style parent="Normal" me="Heading" /&gt;&lt;Style parent="Heading" me="Footer" /&gt;&lt;Style parent="Heading" me="Caption" /&gt;&lt;Style parent="Heading" me="Inactive" /&gt;&lt;Style parent="Normal" me="Selected" /&gt;&lt;Style parent="Normal" me="Editor" /&gt;&lt;Style parent="Normal" me="HighlightRow" /&gt;&lt;Style parent="Normal" me="EvenRow" /&gt;&lt;Style parent="Normal" me="OddRow" /&gt;&lt;Style parent="Heading" me="RecordSelector" /&gt;&lt;Style parent="Normal" me="FilterBar" /&gt;&lt;Style parent="FilterBar" me="FilterWatermark" /&gt;&lt;Style parent="Caption" me="Group" /&gt;&lt;/NamedStyles&gt;&lt;vertSplits&gt;1&lt;/vertSplits&gt;&lt;horzSplits&gt;1&lt;/horzSplits&gt;&lt;Layout&gt;Modified&lt;/Layout&gt;&lt;DefaultRecSelWidth&gt;17&lt;/DefaultRecSelWidth&gt;&lt;ClientArea&gt;0, 0, 181, 91&lt;/ClientArea&gt;&lt;/Blob&gt;</value>
+  </data>
+  <metadata name="colModulo.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="colHabilitado.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="colModulo.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="colHabilitado.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="DataGridViewTextBoxColumn5.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="DataGridViewTextBoxColumn5.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="ProyectosBindingSource.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>428, 56</value>
+  </metadata>
+</root>

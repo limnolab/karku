@@ -1,0 +1,33 @@
+Categoria;Distancia
+Categoria;Superficie
+Categoria;Peso
+Categoria;Volúmen
+Distancia;Pulgadas a metros;0,0254
+Distancia;Metro a centímetro;100
+Distancia;Metro a milímetro;1000
+Distancia;Metro a micrómetro;1000000
+Distancia;Centímetro a metro;0,01
+Distancia;Centímetro a milímetro;10
+Distancia;Centímetro a micrómetro;10000
+Distancia;Milímetro a metro;0,001
+Distancia;Milímetro a centímetro;0,1
+Distancia;Milímetro a micrómetro;1000
+Distancia;Milímetro a nanometro;1000000
+Distancia;micrómetro a metro;0,000001
+Distancia;micrómetro a centímetro;0,00001
+Distancia;micrómetro a milímetro;0,001
+Distancia;micrómetro a nanometro;1000
+Distancia;nanómetro a metro;0,000000001
+Distancia;nanómetro a centímetro;0,0000001
+Distancia;nanómetro a milímetro;0,000001
+Distancia;nanómetro a micrómetro;0,001
+Superficie;mm2 a m2;0,000001
+Superficie;mm2 a cm2;0,01
+Superficie;m2 a cm2;10000
+Superficie;m2 a mm2;100000
+Superficie;m2 a um2;1000000000000
+Superficie;cm2 a mm2;100
+Superficie;cm2 a m2;0,0001
+Peso;cm2 a m2;0,0001
+Volúmen;Litros a m3;0,001
+Volúmen;m3 a litros;1000
